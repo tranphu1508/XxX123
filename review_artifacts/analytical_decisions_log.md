@@ -44,3 +44,10 @@
 - Lý do: null TRỐNG THẬT trong API; giá trị ở văn bản pháp lý.
 - Hệ quả: worklist (thực tế **420** ca dưới phương pháp toàn-bộ-bản-ghi; 43 current) + ledger; panel ship với cờ pending.
 - Trạng thái: ĐÃ CHỐT
+
+## 2026-06-26 — [Concordance Phase 3] FINALIZE lát VN (VN-first, giữ ASEAN) + one-to-many + RAC
+- Quyết định: Hoàn thiện concordance EU→HS6 cho **LÁT VN** (14 mã EU, 25 dòng eu×hs6 con, `status=finalized_vn`, có trích dẫn neo loài/heading); residual ASEAN gắn `parked_asean` (KHÔNG xóa/ép/gọi verified). Sửa lỗi phổ quát cả 2 nhánh: **Melons 0233010→080719**, Watermelons 0233030→080711; **Wheat 0500090→toàn bộ 1001.xx**, Barley 0500010→100310+100390.
+- Lý do: VN-first nhưng **CỘNG-THÊM**, không phá pipeline ASEAN.
+- Quy tắc: (1) **ONE-TO-MANY** (giữ tất cả con: gạo 4, wheat 4, citrus theo loài). (2) **RAC** — ớt khô (0904)/cà phê nhân (0901)/chè (0902) GIỮ mẫu chính, KHÔNG processed; chỉ processed cho đông/đóng hộp (0710-0712, 0811-0813).
+- Hệ quả: 03_ final_vn + full_with_parked; cờ HS-revision ĐÓNG cho lát VN. 2 cờ VN mở: thanh long + longan/rambutan không có mã EU riêng → Others/081090.
+- Trạng thái: ĐÃ CHỐT (lát VN — chờ Claude verify); residual parked.
