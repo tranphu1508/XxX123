@@ -51,3 +51,9 @@
 - Quy tắc: (1) **ONE-TO-MANY** (giữ tất cả con: gạo 4, wheat 4, citrus theo loài). (2) **RAC** — ớt khô (0904)/cà phê nhân (0901)/chè (0902) GIỮ mẫu chính, KHÔNG processed; chỉ processed cho đông/đóng hộp (0710-0712, 0811-0813).
 - Hệ quả: 03_ final_vn + full_with_parked; cờ HS-revision ĐÓNG cho lát VN. 2 cờ VN mở: thanh long + longan/rambutan không có mã EU riêng → Others/081090.
 - Trạng thái: ĐÃ CHỐT (lát VN — chờ Claude verify); residual parked.
+
+## 2026-06-26 — [Concordance Phase 3b] GIẢI 2 cờ VN + FINAL lát VN
+- Quyết định: **GỌI FINAL lát VN** (15 mã EU, 26 dòng). Giải 2 cờ qua synonyms: ớt cay = 0231020 (chung ớt ngọt, "Chili peppers"; MRL Capsicum chung); thanh long = 0162040 cactus ("Pitayas/dragon fruits", MRL từ 0162040); nhãn/longan = 0162020 ("Longans"). Cà phê rang 090121/22 → processed (nhân xanh 090111/12 = RAC mẫu chính).
+- Lý do: MRL-coverage (đọc 04_): ớt cay #1 đầy đủ panel (489 chất); thanh long #2 có MRL snapshot (691 chất). KHÔNG cờ ĐỎ → final.
+- Hệ quả: final_vn cập nhật; HS-revision ĐÓNG cho lát VN. ⚠ CỜ VÀNG: 6 mã VN có MRL snapshot nhưng chưa vào A_k/panel → mở rộng A_k ở bước chỉ số (issues_log).
+- Trạng thái: ĐÃ CHỐT (FINAL lát VN); A_k extension chờ sau.

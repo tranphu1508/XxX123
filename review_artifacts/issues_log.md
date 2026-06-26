@@ -81,3 +81,10 @@
 - Mức nghiêm trọng: TRUNG BÌNH (ảnh hưởng thiết kế A_k + ước lượng).
 - Hành động: khi thiết kế chỉ số/panel — neo A_k theo hoạt chất VN; đưa cờ enhanced-control làm offset; RASFF = trụ bổ trợ (không phải minh hoạ suông).
 - Trạng thái: ĐANG XỬ LÝ (chờ Claude xác nhận trước khi thiết kế panel)
+
+## 2026-06-26 — [Concordance/Index] CỜ VÀNG: 6 mã VN có MRL nhưng chưa vào A_k/panel
+- File liên quan: 03_/outputs/vn_product_x_mrl_coverage_2026-06-26.csv; concordance_phase3b_resolve_2026-06-26.md
+- Mô tả: Đối chiếu panel MRL (04_): 6 mã EU lát VN — thanh long 0162040, vải/nhãn 0162020, chanh leo 0162030, đậu bắp 0231040, parsley 0256040, basil 0256080 — CÓ MRL trong snapshot đóng băng (~691 chất) NHƯNG KHÔNG nằm trong A_k/panel (04_). Index sẽ rỗng MRL ở các sản phẩm này (gồm thanh long #2 RASFF) cho tới khi A_k mở rộng. Ớt cay 0231020 (#1) đầy đủ — KHÔNG đỏ.
+- Mức nghiêm trọng: TRUNG BÌNH (ảnh hưởng độ phủ chỉ số ở sản phẩm VN nóng).
+- Hành động: Bước thiết kế chỉ số/dựng panel — MỞ RỘNG A_k để gồm 6 mã VN này. KHÔNG đụng 05_/04_ ở task concordance.
+- Trạng thái: ĐANG XỬ LÝ (chờ bước A_k/index)
