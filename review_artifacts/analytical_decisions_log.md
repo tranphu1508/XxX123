@@ -26,3 +26,21 @@
 - Năm 2024: GIỮ robustness-only (mẫu chính 2015–2023) VÀ chạy thêm **sensitivity cả hai cách** (có/không 2024) ở bước ước lượng (07/08) để bổ sung thông tin. (Trước đây chỉ robustness-only.)
 - HS revision concordance EU: người dùng chọn **"tính sau"** → giữ cờ trong `11_/issues_log.md` (TRUNG BÌNH), quyết khi dựng folder 03.
 - Đóng băng: người dùng chọn **Cowork chép qua cầu nối** → copy zip canonical (1.27 GB) vào `01_/trade_data_baci/` + verify SHA-256 khớp manifest.
+
+## 2026-06-26 — [Apply] EU MRL quy tắc (a): MRL ràng buộc theo HÀM BẬC THANG trên TOÀN BỘ bản ghi
+- Quyết định: MRL ràng buộc của (chất, sản phẩm) tại năm t = bản ghi có `application_date` mới nhất ≤ **1/1 năm t**, dựng từ **TOÀN BỘ bản ghi** sắp theo application_date (hàm bậc thang). Biến thể robustness: mốc **31/12 năm t**.
+- Lý do: **KHÔNG lọc trước theo nhãn `applicability`** — nhãn phản ánh trạng thái tại NGÀY SNAPSHOT 2026, không phải tại năm t; lọc theo nhãn sẽ **mất lịch sử ở đúng các chất có MRL thay đổi** (treatment).
+- Hệ quả: 04 dựng panel theo bậc thang; 1/1 = chính, 31/12 = robustness; 2015–2024, 2024 gắn cờ robustness.
+- Trạng thái: ĐÃ CHỐT
+
+## 2026-06-26 — [Apply] EU MRL quy tắc (b): phá hòa khi cùng application_date
+- Quyết định: dedup theo `mrl_value`; nếu còn >1 → ưu tiên **Annex II > III > V**, phụ: regulation mới nhất. 1 dòng/(chất,sp,năm).
+- Lý do: in-scope ~0 xung đột giá trị ở dòng ràng buộc → quy tắc vô hại, để khóa duy nhất.
+- Hệ quả: khóa (chất, sản phẩm, năm) duy nhất (đã verify trùng=0).
+- Trạng thái: ĐÃ CHỐT
+
+## 2026-06-26 — [Apply] EU MRL quy tắc (c): xử lý null ràng buộc
+- Quyết định: khôi phục từ **CELEX + sổ điền tay**; **KHÔNG carry**, **KHÔNG impute 0,01**; drop+cờ chỉ khi không khôi phục. Panel để cờ `mrl_status=pending_celex_recovery`, không chặn.
+- Lý do: null TRỐNG THẬT trong API; giá trị ở văn bản pháp lý.
+- Hệ quả: worklist (thực tế **420** ca dưới phương pháp toàn-bộ-bản-ghi; 43 current) + ledger; panel ship với cờ pending.
+- Trạng thái: ĐÃ CHỐT

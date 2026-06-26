@@ -52,3 +52,11 @@
 - Mức nghiêm trọng: cập nhật — tie hạ THẤP (không xung đột giá trị); null 40 ca TRUNG BÌNH.
 - Hành động: đã đề xuất 3 quy tắc (a)(b)(c) trong proposal; CHỜ chốt trước khi dựng panel.
 - Trạng thái: ĐANG XỬ LÝ (chờ chốt quy tắc)
+
+## 2026-06-26 — [Apply] EU MRL: panel ràng buộc dựng xong (cập nhật cờ tie/null)
+- File liên quan: 04_maximum_residue_level_panel/eu_mrl_apply_report_2026-06-26.md
+- Mô tả: Áp rule a (bậc thang toàn-bộ-bản-ghi) + b + c. Khóa (chất,sp,năm) DUY NHẤT (trùng=0). Kiểm chứng: bậc thang đổi đúng năm, không mất lịch sử (vd Fenamidone rớt 60→0.01). Cập nhật: tie-break (b) xử 909 cell (93 ngày xung đột across-annex) — đã giải quyết. Null pending = 420 bản ghi (43 current ≈ ước lượng 40 cũ, 377 historical) — phương pháp toàn-bộ-bản-ghi lộ thêm null lịch sử.
+- PHÁT HIỆN MỚI: not_yet_set = 24,2% cell (139.699) — tổ hợp chưa liệt kê → cần fill default 0,01 (Art 18 Reg 396/2005) ở bước treatment. Không phải lỗi panel.
+- Mức nghiêm trọng: tie THẤP (đã xử); null pending TRUNG BÌNH (worklist 420, ưu tiên 43 current); default-0.01 fill = cờ cho bước treatment.
+- Hành động: tra CELEX 420 ca (ưu tiên 43 current) → ledger; bước treatment fill default 0,01 cho not_yet_set.
+- Trạng thái: ĐANG XỬ LÝ (panel ship được; pending 420 + default-fill chờ bước sau)
