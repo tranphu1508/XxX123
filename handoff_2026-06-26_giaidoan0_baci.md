@@ -40,3 +40,8 @@
 - Checksums/đóng băng: `01_/trade_data_baci/checksums_2026-06-26.txt`, `_freeze_status_2026-06-26.md`
 - Script: `02_/scripts/download_baci.py`, `freeze_baci_to_frozen.bat`; `02_/readme_data_collection.md`
 - Phát hiện: `11_/issues_log.md`
+
+## 8. Cập nhật sau Bước 6 (2026-06-26, người dùng đã quyết)
+- Năm 2024: GIỮ robustness-only (mẫu chính 2015–2023) + chạy thêm **sensitivity cả hai cách** (có/không 2024) ở bước 07/08.
+- HS revision concordance EU: người dùng chọn **"tính sau"** → giữ cờ `11_/issues_log.md` (TRUNG BÌNH), quyết khi dựng folder 03.
+- Đóng băng: người dùng chọn Cowork chép qua cầu nối → **ĐÃ copy zip canonical (1.27 GB) vào `01_/trade_data_baci/` và VERIFY SHA-256 KHỚP** (`2dd0dd61…b75bf9`). CSV theo năm nằm trong zip đã đóng băng (giải nén ra thư mục làm việc khi cần); bản validated vẫn ở Version 1. `01_` giờ là CHỈ ĐỌC.
