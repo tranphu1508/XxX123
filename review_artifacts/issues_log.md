@@ -60,3 +60,10 @@
 - Mức nghiêm trọng: tie THẤP (đã xử); null pending TRUNG BÌNH (worklist 420, ưu tiên 43 current); default-0.01 fill = cờ cho bước treatment.
 - Hành động: tra CELEX 420 ca (ưu tiên 43 current) → ledger; bước treatment fill default 0,01 cho not_yet_set.
 - Trạng thái: ĐANG XỬ LÝ (panel ship được; pending 420 + default-fill chờ bước sau)
+
+## 2026-06-26 — [Concordance] HS revision MEDIUM flag → ĐANG GỠ
+- File liên quan: 03_concordance_product_code_to_harmonized_system_six_digit/concordance_rebuild_phase1_report_2026-06-26.md
+- Mô tả: Rebuild concordance EU→HS6 neo HS2012 qua metadata BACI HS12 đóng băng; referential 0 lỗi (mọi HS6 ứng viên ∈ BACI). Cờ MEDIUM "HS revision concordance" (mở từ task BACI) ĐANG GỠ. Phase 1: auto_accept 59, needs_review 96 (21 OLD_DISAGREE), nhóm 62, n.e.c. 47, ngoài-scope 88, không-khớp 29.
+- Mức nghiêm trọng: HẠ TRUNG BÌNH → THẤP (đã neo HS2012).
+- Hành động: duyệt decision_table (Phase 2) → chốt concordance + ĐÓNG cờ.
+- Trạng thái: ĐANG XỬ LÝ (Phase 1 xong, chờ duyệt)
