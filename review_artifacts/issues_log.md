@@ -74,3 +74,10 @@
 - Mức nghiêm trọng: THẤP (đã neo HS2012 chắc; chờ duyệt residual + finalize).
 - Hành động: duyệt residual + quyết phạm vi tươi/chế biến → finalize concordance → ĐÓNG cờ HS revision.
 - Trạng thái: ĐANG XỬ LÝ (Phase 2 xong, chờ duyệt)
+
+## 2026-06-26 — [RASFF] Mật độ VN crop-pesticide ĐỦ (gộp) + 2 phát hiện thiết kế
+- File liên quan: 02_data_collection_and_api_scripts/rasff_feasibility_scan/rasff_vietnam_density_scan_2026-06-26.md
+- Mô tả: Reproduce KHỚP 328 vụ / 180 border (Route B, 2 file user). Verdict ĐỦ (gộp): chạy được mô hình đếm GỘP (product FE + year FE + offset enhanced-control); KHÔNG đủ product×year chi tiết (chỉ 1 ô ≥20). 2 phát hiện: (a) carbendazim DẪN ĐẦU hoạt chất gây rejection của VN (≠ bộ 5 chất nghiên cứu khác) → A_k & chỉ số MRL phải neo theo hoạt chất thực tế VN; (b) nội sinh cường-độ-kiểm-tra hiện rõ (ớt 2024, sầu riêng 2023–24 vọt trùng enhanced-control Reg 2019/1793) → bắt buộc offset.
+- Mức nghiêm trọng: TRUNG BÌNH (ảnh hưởng thiết kế A_k + ước lượng).
+- Hành động: khi thiết kế chỉ số/panel — neo A_k theo hoạt chất VN; đưa cờ enhanced-control làm offset; RASFF = trụ bổ trợ (không phải minh hoạ suông).
+- Trạng thái: ĐANG XỬ LÝ (chờ Claude xác nhận trước khi thiết kế panel)
