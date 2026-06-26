@@ -45,3 +45,10 @@
 - Mức nghiêm trọng: THẤP
 - Hành động: Ở bước dựng treatment (04), quyết định: loại / impute / coi là thiếu; ghi rõ.
 - Trạng thái: ĐANG XỬ LÝ
+
+## 2026-06-26 — [Giai đoạn 0] — EU MRL: chẩn đoán tie & null (in-scope) + đề xuất quy tắc
+- File liên quan: 04_maximum_residue_level_panel/eu_mrl_key_null_resolution_proposal_2026-06-26.md
+- Mô tả: Scoping HS07–10×A_k: tie in-scope 22.195 khóa, null in-scope 579. Sau lọc Applicable+latest-date: tie dư 11.726 cặp nhưng **0 xung đột giá trị MRL** (chỉ trùng across-annex cùng giá trị). Null ràng buộc thật = **40 (chất×sp)** có Applicable mới nhất null (TRỐNG THẬT trong API, không parse-error; giá trị ở CELEX). CELEX live không trích được ở môi trường này (EUR-Lex JS, không có Chrome).
+- Mức nghiêm trọng: cập nhật — tie hạ THẤP (không xung đột giá trị); null 40 ca TRUNG BÌNH.
+- Hành động: đã đề xuất 3 quy tắc (a)(b)(c) trong proposal; CHỜ chốt trước khi dựng panel.
+- Trạng thái: ĐANG XỬ LÝ (chờ chốt quy tắc)
