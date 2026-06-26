@@ -46,3 +46,6 @@ Cowork không tạo repo GitHub và không thể push. Người dùng tự thự
 
 ## Lưu ý môi trường (git qua cầu nối sandbox↔Windows)
 `git init` chạy trực tiếp trong thư mục này (qua cầu nối) có thể lỗi ghi `.git/config`. Repo hiện tại đã được khởi tạo bằng cách dựng trên ổ local của sandbox rồi sao chép `.git` vào. **Sau khi `.git` đã tồn tại, `git add` / `git commit` chạy bình thường** — nên quy tắc commit-sau-mỗi-task ở trên vẫn áp dụng được. Nếu cần khởi tạo lại từ đầu: đừng `git init` thẳng ở đây — dùng git bản gốc (native) trên Windows, hoặc build `.git` ở nơi khác rồi copy vào.
+
+## review_artifacts/ — bản sao .md cho Claude rà (refresh sau mỗi task)
+Thư mục `review_artifacts/` chứa bản sao chỉ-đọc của các file `.md` quan trọng trong dự án (validation reports, `issues_log.md`, `analytical_decisions_log.md`, `data_sources_and_provenance.md`) để Claude đọc qua raw URL. **Sau MỖI task:** nếu bất kỳ file nguồn nào đổi, hoặc có validation report mới → **refresh bản sao tương ứng** trong `review_artifacts/` (và thêm raw URL report mới vào khối "ARTIFACTS ĐỂ RÀ" ở `handoff_index.md`), rồi commit + nhắc push cùng handoff. Mục tiêu: `review_artifacts/` luôn phản ánh bản mới nhất để Claude không đọc nhầm bản cũ. (Copy bằng shell để git thấy đúng nội dung host mới nhất; nếu file nguồn vừa sửa bằng công cụ ghi-host, đọc lại bản host trước khi copy.)

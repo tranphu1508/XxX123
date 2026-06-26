@@ -1,0 +1,47 @@
+> Bản sao chỉ-đọc của eu_maximum_residue_level_asean_export_study/11_audit_findings_and_issues_log/issues_log.md, cập nhật 2026-06-26.
+
+# Nhật ký lỗi & phát hiện audit (append-only, ghi ngày bên trong mỗi mục)
+
+## YYYY-MM-DD — [Giai đoạn N] — <tiêu đề ngắn>
+- File liên quan: <đường dẫn>
+- Mô tả: <...>
+- Mức nghiêm trọng: CAO / TRUNG BÌNH / THẤP
+- Hành động: <...>
+- Trạng thái: ĐANG XỬ LÝ / ĐÃ XỬ LÝ
+
+## 2026-06-26 — [Tổ chức thư mục] — Gom 14 thư mục 00_–13_ vào thư mục chứa
+- File liên quan: eu_maximum_residue_level_asean_export_study/ (toàn bộ 14 thư mục 00_–13_)
+- Mô tả: Đã di chuyển (move, không copy) 14 thư mục đánh số 00_–13_ kèm toàn bộ nội dung vào một thư mục chứa duy nhất eu_maximum_residue_level_asean_export_study/ ngay trong thư mục gốc lớn. Thực hiện khi các thư mục còn rỗng dữ liệu (44 thư mục con, 18 file tài liệu), chưa có script/đường dẫn hard-code. Đối chiếu đếm trước/sau khớp: 00_=0 subdir/6 file, 07_=3/1, 11_=5/2; tổng 44 subdir/18 file không đổi.
+- Lý do: Tách khung dự án hiện hành khỏi các thư mục thử nghiệm cũ (Reading, Version 1, Version 2, Xây dựng biến, Ý tưởng ban đầu) cho gọn và khớp cấu trúc Phần 1 cẩm nang.
+- Cấu trúc trước → sau: [gốc]/00_…13_ nằm rời rạc, lẫn thư mục cũ  →  [gốc]/eu_maximum_residue_level_asean_export_study/00_…13_ gom một chỗ; 5 thư mục cũ giữ nguyên tại gốc.
+- Mức nghiêm trọng: THẤP
+- Hành động: Tạo container → move 14 thư mục → xác minh đếm trước/sau → cập nhật readme_project_overview.md và Phần 1 cẩm nang.
+- Trạng thái: ĐÃ XỬ LÝ
+
+## 2026-06-26 — [Giai đoạn 0] — BACI vintage diff: không có bản cũ để đối chiếu
+- File liên quan: 02_data_collection_and_api_scripts/validation_reports/baci_validation_2026-06-26.md
+- Mô tả: Bước 3 (diff vintage cũ↔mới) KHÔNG thực hiện được vì chỉ có một vintage BACI trên máy (HS12 V202601, tại Version 1 & Version 2); không có release cũ hơn (vd 202401/202501) để định lượng độ nhạy theo vintage. Bản gốc đã dùng cũng chính là 202601.
+- Mức nghiêm trọng: THẤP
+- Hành động: Nếu cần đánh giá độ nhạy vintage, cung cấp một release BACI cũ hơn để so trên phạm vi HS 07–10; nếu không, ghi giới hạn này vào mục Hạn chế.
+- Trạng thái: ĐANG XỬ LÝ
+
+## 2026-06-26 — [Giai đoạn 0] — Ràng buộc HS revision: BACI HS12 ↔ concordance EU (folder 03)
+- File liên quan: 03_concordance_product_code_to_harmonized_system_six_digit/ (chưa dựng); 00_project_documentation/analytical_decisions_log.md
+- Mô tả: BACI đóng băng theo HS12 (HS2012). Concordance product_code→HS6 phía EU phải dùng HS6 revision 2012 để khớp. Folder 03 chưa dựng trong khung mới; revision phía EU chưa xác nhận. Nếu EU dùng HS2017/HS2022 → cần bắc cầu revision, nếu không sẽ lệch mã khi merge (folder 06).
+- Mức nghiêm trọng: TRUNG BÌNH
+- Hành động: Khi dựng folder 03, xác nhận & ghi rõ HS revision; nếu lệch HS12 thì thêm bước concordance HS2012↔HS20xx. Cần người dùng xác nhận (Bước 6).
+- Trạng thái: ĐANG XỬ LÝ
+
+## 2026-06-26 — [Giai đoạn 0] — EU MRL: khóa (chất×sản phẩm×ngày áp dụng) KHÔNG duy nhất
+- File liên quan: 02_data_collection_and_api_scripts/validation_reports/eu_mrl_validation_2026-06-26.md
+- Mô tả: Trên snapshot 2026-05-27 (519.650 record), khóa (pesticide_residue_id, product_code, application_date) có 88.337 dòng trùng — cùng tổ hợp xuất hiện dưới nhiều regulation/Annex với applicability khác nhau (vd vừa "Applicable" Annex III vừa "No longer applicable" Annex II). KHÔNG phải hỏng dữ liệu.
+- Mức nghiêm trọng: TRUNG BÌNH
+- Hành động: Khi dựng EU MRL panel (folder 04), dùng khóa đầy đủ (thêm regulation_number + included_in_annex) và logic chọn dòng "đang áp dụng" theo thời điểm; không dedup ngây thơ.
+- Trạng thái: ĐANG XỬ LÝ
+
+## 2026-06-26 — [Giai đoạn 0] — EU MRL: 30.343 dòng MRL null
+- File liên quan: 02_data_collection_and_api_scripts/validation_reports/eu_mrl_validation_2026-06-26.md
+- Mô tả: 30.343 dòng có mrl_value/mrl_value_only = null (đa phần Annex II/III, applicability "Applicable"). Khác với 73.030 dòng "No MRL required" (=Annex IV, hợp lệ). Null cần quyết cách xử lý khi dựng biến treatment.
+- Mức nghiêm trọng: THẤP
+- Hành động: Ở bước dựng treatment (04), quyết định: loại / impute / coi là thiếu; ghi rõ.
+- Trạng thái: ĐANG XỬ LÝ
