@@ -67,3 +67,10 @@
 - Mức nghiêm trọng: HẠ TRUNG BÌNH → THẤP (đã neo HS2012).
 - Hành động: duyệt decision_table (Phase 2) → chốt concordance + ĐÓNG cờ.
 - Trạng thái: ĐANG XỬ LÝ (Phase 1 xong, chờ duyệt)
+
+## 2026-06-26 — [Concordance Phase 2] HS revision flag ĐANG GỠ (neo Codex + tên khoa học)
+- File liên quan: 03_concordance_product_code_to_harmonized_system_six_digit/concordance_rebuild_phase2_report_2026-06-26.md
+- Mô tả: Neo concordance vào tên khoa học + nhóm Codex CCPR → heading HS2012 (mỏ neo 60 dòng, verify 60/60) + đa-phiếu hội tụ. verified_high 84 (có trích dẫn), needs_confirm 30, arbitration 60, nhóm 85, ngoài-neo 75, n.e.c. 47. SỬA đúng lỗi fuzzy Phase 1 (wheat→1001, cassava→0714, spinaches→070970, melons→0807). Referential 0 lỗi; coverage in-scope 95%. Nguồn ngoài (Codex PDF/HS-EN/Fiankor) không kéo được → neo bằng loài + text heading HS2012 local.
+- Mức nghiêm trọng: THẤP (đã neo HS2012 chắc; chờ duyệt residual + finalize).
+- Hành động: duyệt residual + quyết phạm vi tươi/chế biến → finalize concordance → ĐÓNG cờ HS revision.
+- Trạng thái: ĐANG XỬ LÝ (Phase 2 xong, chờ duyệt)
