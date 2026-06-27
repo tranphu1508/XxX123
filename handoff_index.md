@@ -2,6 +2,8 @@
 
 Định dạng: `YYYY-MM-DD | <task> | <raw URL> | <tóm tắt 1 câu>`
 
+2026-06-26 | Kiểm toán tái lập (inventory + reproduce chéo) | https://raw.githubusercontent.com/tranphu1508/XxX123/main/handoff_2026-06-26_reproduce_audit.md | CỔNG inventory SẠCH (2 lệch=header off-by-1, null=cờ not_yet_set); 4 checkpoint KHỚP qua engine độc lập (DuckDB 328/180; coef +0,904 trùng tuyệt đối; ω gạo16/ớt2; pre-trends gạo τ=-2 +1,04); Stata vắng→.do cho user — DỪNG.
+
 2026-06-26 | Event-study BACI (chế độ 2: MRL→thương mại) | https://raw.githubusercontent.com/tranphu1508/XxX123/main/handoff_2026-06-26_eventstudy_baci.md | Tam-sai β=+23% (p=0,12, dấu ngược); PRE-TRENDS FAIL (gạo τ=-2 p=0,003) → KHÔNG nhận diện nhân quả; confounder EVFTA 2020 + durian boom 8× (control nhiễm); TWFE-ATT~0 nhạy đặc tả → đề xuất chuyển chế độ 1 — DỪNG (báo thẳng).
 
 2026-06-26 | Cắm ω vào chỉ số (weakest-link membership) + re-validate | https://raw.githubusercontent.com/tranphu1508/XxX123/main/handoff_2026-06-26_index_weighted.md | Bước0: bưởi/chanh lỗi-khớp-tên (thu hồi qua 'cây có múi'), đậu bắp/chanh leo/herbs gap-thật; carbendazim/acephate rớt ~2019, chlorpyrifos/fipronil ~2021; banned-but-used 0 suốt; ω-filter fit RASFF KÉM hơn đều (caveat double-dip, ω vẫn ngoại sinh sạch cho BACI) — DỪNG.
@@ -72,3 +74,7 @@ https://raw.githubusercontent.com/tranphu1508/XxX123/main/review_artifacts/index
 https://raw.githubusercontent.com/tranphu1508/XxX123/main/review_artifacts/vn_stringency_index_weighted_2026-06-26.md
 https://raw.githubusercontent.com/tranphu1508/XxX123/main/review_artifacts/eventstudy_baci_2026-06-26.md
 https://raw.githubusercontent.com/tranphu1508/XxX123/main/review_artifacts/baci_eventstudy_coefs_2026-06-26.md
+https://raw.githubusercontent.com/tranphu1508/XxX123/main/review_artifacts/reproduce_audit_2026-06-26.md
+https://raw.githubusercontent.com/tranphu1508/XxX123/main/review_artifacts/inventory_audit_2026-06-26.md
+https://raw.githubusercontent.com/tranphu1508/XxX123/main/review_artifacts/reproduce_crosscheck_2026-06-26.md
+https://raw.githubusercontent.com/tranphu1508/XxX123/main/review_artifacts/raw_evidence_crosstool_2026-06-26.md
