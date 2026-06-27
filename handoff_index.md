@@ -2,6 +2,8 @@
 
 Định dạng: `YYYY-MM-DD | <task> | <raw URL> | <tóm tắt 1 câu>`
 
+2026-06-26 | ASEAN Chặng 1: un-park + finalize concordance EU→HS6 | https://raw.githubusercontent.com/tranphu1508/XxX123/main/handoff_2026-06-26_concordance_asean_finalize.md | 304 mã thực-vật (loại 70 động vật+7 nec); 284 có HS6 + annex1_legal_ref 304/304; ca khả nghi verbatim (thanh long 081040→081090, dâu-tây LÁ 0632010≠quả 0152000); 59 HS6-lumped; 20 umbrella needs_review — DỪNG.
+
 2026-06-26 | Kiểm toán tái lập (inventory + reproduce chéo) | https://raw.githubusercontent.com/tranphu1508/XxX123/main/handoff_2026-06-26_reproduce_audit.md | CỔNG inventory SẠCH (2 lệch=header off-by-1, null=cờ not_yet_set); 4 checkpoint KHỚP qua engine độc lập (DuckDB 328/180; coef +0,904 trùng tuyệt đối; ω gạo16/ớt2; pre-trends gạo τ=-2 +1,04); Stata vắng→.do cho user — DỪNG.
 
 2026-06-26 | Event-study BACI (chế độ 2: MRL→thương mại) | https://raw.githubusercontent.com/tranphu1508/XxX123/main/handoff_2026-06-26_eventstudy_baci.md | Tam-sai β=+23% (p=0,12, dấu ngược); PRE-TRENDS FAIL (gạo τ=-2 p=0,003) → KHÔNG nhận diện nhân quả; confounder EVFTA 2020 + durian boom 8× (control nhiễm); TWFE-ATT~0 nhạy đặc tả → đề xuất chuyển chế độ 1 — DỪNG (báo thẳng).
@@ -78,3 +80,5 @@ https://raw.githubusercontent.com/tranphu1508/XxX123/main/review_artifacts/repro
 https://raw.githubusercontent.com/tranphu1508/XxX123/main/review_artifacts/inventory_audit_2026-06-26.md
 https://raw.githubusercontent.com/tranphu1508/XxX123/main/review_artifacts/reproduce_crosscheck_2026-06-26.md
 https://raw.githubusercontent.com/tranphu1508/XxX123/main/review_artifacts/raw_evidence_crosstool_2026-06-26.md
+https://raw.githubusercontent.com/tranphu1508/XxX123/main/review_artifacts/concordance_asean_finalize_2026-06-26.md
+https://raw.githubusercontent.com/tranphu1508/XxX123/main/review_artifacts/concordance_final_asean_2026-06-26.md
