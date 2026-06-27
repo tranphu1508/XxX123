@@ -2,6 +2,8 @@
 
 Định dạng: `YYYY-MM-DD | <task> | <raw URL> | <tóm tắt 1 câu>`
 
+2026-06-26 | Chẩn đoán sức nhận diện MRL (time-variation) | https://raw.githubusercontent.com/tranphu1508/XxX123/main/handoff_2026-06-26_mrl_identifying_power.md | 34% cặp có-bước-trong-cửa-sổ, 41% phẳng-ở-sàn; top-3 chất (carbendazim/permethrin/chlorfenapyr) KHÔNG biến thiên trong cửa sổ; cụm 2016 omnibus (FE hấp thụ); verdict giữ 2015-2023 + robustness 2011-2023 + cắt-ngang — DỪNG.
+
 2026-06-26 | Annex I PHÁP LÝ đóng băng + đối chiếu 15 mã VN | https://raw.githubusercontent.com/tranphu1508/XxX123/main/handoff_2026-06-26_annex1_groundtruth_crosscheck.md | Reg (EU) 2018/62 frozen; parse 381 nhóm+924 sub; 17/17 mã VN KHỚP ground truth (thanh long 0162040-001, rambutan 0163060-006, longan 0162020-001, ớt 0231020-001); +cột annex1_legal_ref — DỪNG.
 
 2026-06-26 | Mở rộng panel MRL lát VN + đối chiếu A_k×RASFF | https://raw.githubusercontent.com/tranphu1508/XxX123/main/handoff_2026-06-26_panel_extend_vn_ak_reconcile.md | 7 mã VN vào panel (489 chất×năm, thanh long ĐỦ); acetamiprid MISSING_FROM_A_k; rambutan→0163060; +quy tắc bằng chứng nguyên văn — DỪNG.
@@ -50,3 +52,5 @@ https://raw.githubusercontent.com/tranphu1508/XxX123/main/review_artifacts/panel
 https://raw.githubusercontent.com/tranphu1508/XxX123/main/review_artifacts/ak_rasff_reconciliation_2026-06-26.md
 https://raw.githubusercontent.com/tranphu1508/XxX123/main/review_artifacts/Cam_Nang_Quan_Tri_Du_An_Va_Checklist_Audit.md
 https://raw.githubusercontent.com/tranphu1508/XxX123/main/review_artifacts/annex1_groundtruth_crosscheck_2026-06-26.md
+https://raw.githubusercontent.com/tranphu1508/XxX123/main/review_artifacts/mrl_identifying_power_2026-06-26.md
+https://raw.githubusercontent.com/tranphu1508/XxX123/main/review_artifacts/mrl_time_variation_diagnostic_RASFF_2026-06-26.md
