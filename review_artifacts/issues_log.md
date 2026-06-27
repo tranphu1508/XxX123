@@ -88,3 +88,10 @@
 - Mức nghiêm trọng: TRUNG BÌNH (ảnh hưởng độ phủ chỉ số ở sản phẩm VN nóng).
 - Hành động: Bước thiết kế chỉ số/dựng panel — MỞ RỘNG A_k để gồm 6 mã VN này. KHÔNG đụng 05_/04_ ở task concordance.
 - Trạng thái: ĐANG XỬ LÝ (chờ bước A_k/index)
+
+## 2026-06-26 — [Concordance/Annex I] Rambutan XÉT LẠI: 0163060 (Cherimoyas) không 0162020
+- File liên quan: 03_/annex1_verification_2026-06-26.md; outputs/annex1_verify/grep_hits.txt
+- Mô tả: Verify Annex I (catalogue taxonomy): grep "rambutan" cho thấy rambutan là synonym của **0163060 'Cherimoyas'** (nhóm 0163 lớn-vỏ-không-ăn), KHÔNG phải 0162020 (litchi/longan). Phase 3b từng gộp longan+rambutan vào 0162020. HS6 cả hai = 081090 nhưng nguồn MRL khác (longan=0162020, rambutan=0163060). Thanh long (0162040), longan (0162020), ớt cay (0231020) XÁC NHẬN theo catalogue. Legal Annex I (EUR-Lex) CHƯA kiểm (bị chặn).
+- Mức nghiêm trọng: THẤP (rambutan không top-3 VN; HS6 081090 không đổi; chỉ khác nguồn MRL).
+- Hành động: Claude quyết rambutan → 0163060; legal text user mở tay nếu cần.
+- Trạng thái: ĐANG XỬ LÝ (chờ Claude)
