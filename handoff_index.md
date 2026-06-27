@@ -2,6 +2,8 @@
 
 Định dạng: `YYYY-MM-DD | <task> | <raw URL> | <tóm tắt 1 câu>`
 
+2026-06-26 | Cắm ω vào chỉ số (weakest-link membership) + re-validate | https://raw.githubusercontent.com/tranphu1508/XxX123/main/handoff_2026-06-26_index_weighted.md | Bước0: bưởi/chanh lỗi-khớp-tên (thu hồi qua 'cây có múi'), đậu bắp/chanh leo/herbs gap-thật; carbendazim/acephate rớt ~2019, chlorpyrifos/fipronil ~2021; banned-but-used 0 suốt; ω-filter fit RASFF KÉM hơn đều (caveat double-dip, ω vẫn ngoại sinh sạch cho BACI) — DỪNG.
+
 2026-06-26 | Rổ trọng số ω từ thông tư MARD (Danh mục BVTV) | https://raw.githubusercontent.com/tranphu1508/XxX123/main/handoff_2026-06-26_mard_omega.md | ω chính=03/2016 (Nguyen); granularity CROP-LEVEL; 16/18 RASFF có trong DM; carbofuran+methamidophos banned_but_rejected (25 vụ, ω=0); carbendazim/chlorpyrifos loại 2023; gap 6 mã→national fallback — DỪNG chờ quyết banned + granularity.
 
 2026-06-26 | Thiết kế chỉ số stringency (level/change) + validate RASFF | https://raw.githubusercontent.com/tranphu1508/XxX123/main/handoff_2026-06-26_index_design.md | Biến thể THẮNG = S_lvl_max_rasff (weakest-link×RASFF-18, coef+0,90 p=0,004); weakest-link>>mean, RASFF-18>A_k; level/change tách; ω(MARD)+Codex PENDING; CHƯA chạy BACI — DỪNG.
@@ -64,3 +66,5 @@ https://raw.githubusercontent.com/tranphu1508/XxX123/main/review_artifacts/vn_ch
 https://raw.githubusercontent.com/tranphu1508/XxX123/main/review_artifacts/mard_registration_omega_2026-06-26.md
 https://raw.githubusercontent.com/tranphu1508/XxX123/main/review_artifacts/omega_vn_registration_basket_2026-06-26.md
 https://raw.githubusercontent.com/tranphu1508/XxX123/main/review_artifacts/omega_vn_national_fallback_2026-06-26.md
+https://raw.githubusercontent.com/tranphu1508/XxX123/main/review_artifacts/index_weighted_2026-06-26.md
+https://raw.githubusercontent.com/tranphu1508/XxX123/main/review_artifacts/vn_stringency_index_weighted_2026-06-26.md
