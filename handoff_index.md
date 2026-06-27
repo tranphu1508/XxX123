@@ -2,6 +2,8 @@
 
 Định dạng: `YYYY-MM-DD | <task> | <raw URL> | <tóm tắt 1 câu>`
 
+2026-06-26 | ASEAN Chặng 2: panel MRL EU + chẩn đoán gộp + CỔNG hình-dạng-cong | https://raw.githubusercontent.com/tranphu1508/XxX123/main/handoff_2026-06-26_asean_mrl_panel_diag.md | 137 HS6 (77 sạch/60 gộp); 11 lump_divergent; CỔNG B KHÔNG ĐẠT — độ-ngặt bó cụm 100% gần-sàn (cấu trúc, weakest-link+mean đều bó) → bỏ cross-section-curvature, chuyển chiều thời gian — DỪNG.
+
 2026-06-26 | ASEAN Chặng 1: un-park + finalize concordance EU→HS6 | https://raw.githubusercontent.com/tranphu1508/XxX123/main/handoff_2026-06-26_concordance_asean_finalize.md | 304 mã thực-vật (loại 70 động vật+7 nec); 284 có HS6 + annex1_legal_ref 304/304; ca khả nghi verbatim (thanh long 081040→081090, dâu-tây LÁ 0632010≠quả 0152000); 59 HS6-lumped; 20 umbrella needs_review — DỪNG.
 
 2026-06-26 | Kiểm toán tái lập (inventory + reproduce chéo) | https://raw.githubusercontent.com/tranphu1508/XxX123/main/handoff_2026-06-26_reproduce_audit.md | CỔNG inventory SẠCH (2 lệch=header off-by-1, null=cờ not_yet_set); 4 checkpoint KHỚP qua engine độc lập (DuckDB 328/180; coef +0,904 trùng tuyệt đối; ω gạo16/ớt2; pre-trends gạo τ=-2 +1,04); Stata vắng→.do cho user — DỪNG.
@@ -82,3 +84,5 @@ https://raw.githubusercontent.com/tranphu1508/XxX123/main/review_artifacts/repro
 https://raw.githubusercontent.com/tranphu1508/XxX123/main/review_artifacts/raw_evidence_crosstool_2026-06-26.md
 https://raw.githubusercontent.com/tranphu1508/XxX123/main/review_artifacts/concordance_asean_finalize_2026-06-26.md
 https://raw.githubusercontent.com/tranphu1508/XxX123/main/review_artifacts/concordance_final_asean_2026-06-26.md
+https://raw.githubusercontent.com/tranphu1508/XxX123/main/review_artifacts/asean_mrl_panel_diag_2026-06-26.md
+https://raw.githubusercontent.com/tranphu1508/XxX123/main/review_artifacts/asean_mrl_panel_2026-06-26.md
