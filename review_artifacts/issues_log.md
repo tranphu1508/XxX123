@@ -1,5 +1,3 @@
-> Bản sao chỉ-đọc của eu_maximum_residue_level_asean_export_study/11_audit_findings_and_issues_log/issues_log.md, cập nhật 2026-06-26.
-
 # Nhật ký lỗi & phát hiện audit (append-only, ghi ngày bên trong mỗi mục)
 
 ## YYYY-MM-DD — [Giai đoạn N] — <tiêu đề ngắn>
@@ -95,3 +93,22 @@
 - Mức nghiêm trọng: THẤP (rambutan không top-3 VN; HS6 081090 không đổi; chỉ khác nguồn MRL).
 - Hành động: Claude quyết rambutan → 0163060; legal text user mở tay nếu cần.
 - Trạng thái: ĐANG XỬ LÝ (chờ Claude)
+
+## 2026-06-26 — [RESOLVED Bước 0] Rambutan tách 0162020 → 0163060 (đã sửa concordance)
+- File liên quan: 03_/outputs/concordance_final_vn_2026-06-26.csv (+ .bak_before_rambutan_2026-06-27)
+- Mô tả: Theo verify Annex I, đã SỬA: thêm dòng 0163060 'Cherimoyas' (chôm chôm/rambutan, synonym nguyên văn 'Rambutans/hairy litchis') → HS6 081090; note 0162020 chỉ còn longan/litchi. Lát VN nay 16 mã/27 dòng.
+- Mức nghiêm trọng: THẤP → ĐÃ ĐÓNG.
+- Trạng thái: ĐÃ XỬ LÝ (Bước 0 task panel-extend).
+
+## 2026-06-26 — [RESOLVED Phần A] 6 mã VN cờ VÀNG đã vào panel (mở rộng A_k 515 chất)
+- File liên quan: 04_/outputs/eu_mrl_binding_panel_vn_extended_{jan01,dec31}_2026-06-26.csv; vn_product_x_mrl_coverage (cập nhật)
+- Mô tả: 7 mã (gồm 6 cờ vàng + 0163060 mới) đã build panel = 489 chất×10 năm, ngang 9 mã OK; thanh long #2 ĐỦ phủ. Builder kiểm chứng 50.750 ô khớp 0 sai. Khóa duy nhất, referential sạch.
+- Mức nghiêm trọng: TRUNG BÌNH → cơ học ĐÃ ĐÓNG (độ phủ chất). A_k MEMBERSHIP vẫn chờ (xem dưới).
+- Trạng thái: ĐÃ XỬ LÝ phần panel; A_k membership chờ Claude.
+
+## 2026-06-26 — [PHÁT HIỆN Phần B] acetamiprid gây 21 rejection nhưng MISSING_FROM_A_k + không có MRL in-window
+- File liên quan: 05_/ak_rasff_reconciliation_2026-06-26.csv
+- Mô tả: acetamiprid (#6-7 RASFF, 21 vụ) KHÔNG trong A_k 515. Snapshot CHỈ có định nghĩa dư lượng REVISED 'Acetamiprid (R)' id=10, record sớm nhất 20/08/2025 (SAU cửa sổ 2015–2024) → 0 MRL ràng buộc in-window; định nghĩa CŨ không còn trong snapshot product records. dinotefuran trong A_k nhưng MRL null (pending_celex). 17/18 chất T5 trong A_k; 498/515 chất A_k không gây rejection VN.
+- Mức nghiêm trọng: CAO (ảnh hưởng định nghĩa A_k → chỉ số treatment cho VN).
+- Hành động: Claude quyết — (1) thêm acetamiprid vào A_k? (2) khôi phục MRL acetamiprid in-window từ định nghĩa cũ/CELEX. KHÔNG tự sửa A_k.
+- Trạng thái: CHỜ CLAUDE (đầu vào quyết định nghĩa A_k).

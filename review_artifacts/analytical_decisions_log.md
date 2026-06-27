@@ -1,59 +1,48 @@
-> Bản sao chỉ-đọc của eu_maximum_residue_level_asean_export_study/00_project_documentation/analytical_decisions_log.md, cập nhật 2026-06-26.
-
 # Nhật ký quyết định phân tích (analytical decisions log)
 
 Đây là nhật ký các **quyết định phương pháp / phân tích** của dự án (chốt cách làm, định nghĩa, phạm vi dữ liệu, đặc tả mô hình…). KHÁC với `issues_log.md` — vốn dành cho **lỗi & phát hiện audit**. Mỗi quyết định một mục, append-only, ghi ngày bên trong.
 
 ## 2026-06-26 — Cửa sổ mẫu: 2015–2023 (chính) + 2024 (chỉ robustness)
 - Quyết định: Mẫu chính (main sample) dùng giai đoạn **2015–2023**. Năm **2024 chỉ dùng làm kiểm định bền (robustness)**; KHÔNG để bất kỳ kết luận chính nào phụ thuộc vào năm 2024.
-- Lý do: Trong BACI release **202601**, năm cuối (2024) là **tạm/provisional** — CEPII tải nguồn COMTRADE vào tháng 1/2026 nên nhiều dòng năm 2024 chưa đầy đủ hoặc chỉ một chiều báo cáo, dễ tạo "số 0 giả" (false zeros) và giá trị hụt. Mà 2024 lại là năm **giàu cú sốc MRL nhất** → rủi ro nhầm "dữ liệu chưa về" thành "xuất khẩu giảm sau khi MRL siết", tức thổi phồng hiệu ứng rào cản một cách giả tạo. Trong bản 202601, năm 2023 đã được sửa ít nhất một lần nên ổn định hơn.
-- Hệ quả (ảnh hưởng bước/thư mục nào):
-  - `01_raw_data_frozen/` — vẫn TẢI và ĐÓNG BĂNG đủ cả 2024 (không bỏ dữ liệu), chỉ gắn cờ provisional/robustness, không đưa vào mẫu chính.
-  - `04_maximum_residue_level_panel/` — dựng panel theo cửa sổ 2015–2023; 2024 tách riêng, gắn cờ.
-  - `07_main_estimation_stata/` — ước lượng chính chạy trên 2015–2023.
-  - `08_robustness_checks/` — 2024 là một mục robustness riêng.
-  - `00_project_documentation/` — đã cập nhật `data_sources_and_provenance.md` (dòng BACI) và `audit_master_checklist.md` (Giai đoạn 0) theo quyết định này.
+- Lý do: Trong BACI release **202601**, năm cuối (2024) là **tạm/provisional** — dễ tạo "số 0 giả" và giá trị hụt; 2024 lại giàu cú sốc MRL nhất → rủi ro thổi phồng hiệu ứng rào cản giả tạo.
 - Trạng thái: ĐÃ CHỐT
 
 ## 2026-06-26 — BACI Giai đoạn 0: chốt release 202601 + HS revision = HS12
-- Quyết định: Đóng băng dữ liệu thương mại từ BACI (CEPII) **release 202601**, **HS revision = HS12** (phủ 2012–2024).
-- Lý do: HS12 phủ TRỌN cửa sổ 2015–2024 (HS17 chỉ từ 2017, mất 2015–2016); release 202601 là bản hiện hành (cập nhật 2026-01-22); bản đã tải sẵn trên máy (Version 1/Version 2) đúng release/revision này và đã qua kiểm định 3 nhóm (ĐẠT).
-- Hệ quả: 01 (đóng băng zip HS12 V202601 + CSV); 02 (script tải tái lập + báo cáo kiểm định `baci_validation_2026-06-26.md`); 03 concordance phải dùng HS6 theo **revision HS2012** để khớp BACI.
-- Chỗ chưa chắc / cần người dùng xác nhận (Bước 6): folder 03 (concordance product_code→HS6) chưa dựng trong khung mới; cần bảo đảm concordance phía EU dùng HS6 revision 2012 để khớp BACI HS12. Nếu phía EU dùng HS2017/HS2022 → phải bắc cầu revision. CHƯA phát hiện mâu thuẫn (chỉ HS12 hiện diện) nên đi tiếp + gắn cờ.
-- Trạng thái: ĐÃ CHỐT (release + HS12); CHỜ XÁC NHẬN ràng buộc revision phía concordance EU.
+- Quyết định: Đóng băng BACI (CEPII) **release 202601**, **HS revision = HS12** (phủ 2012–2024).
+- Lý do: HS12 phủ TRỌN 2015–2024; release 202601 hiện hành; bản đã tải sẵn đúng release/revision, kiểm định ĐẠT.
+- Trạng thái: ĐÃ CHỐT (release+HS12); CHỜ XÁC NHẬN ràng buộc revision phía concordance EU.
 
 ### Cập nhật Bước 6 (2026-06-26, sau xác nhận người dùng)
-- Năm 2024: GIỮ robustness-only (mẫu chính 2015–2023) VÀ chạy thêm **sensitivity cả hai cách** (có/không 2024) ở bước ước lượng (07/08) để bổ sung thông tin. (Trước đây chỉ robustness-only.)
-- HS revision concordance EU: người dùng chọn **"tính sau"** → giữ cờ trong `11_/issues_log.md` (TRUNG BÌNH), quyết khi dựng folder 03.
-- Đóng băng: người dùng chọn **Cowork chép qua cầu nối** → copy zip canonical (1.27 GB) vào `01_/trade_data_baci/` + verify SHA-256 khớp manifest.
+- 2024 robustness-only + sensitivity cả hai cách (07/08). HS revision concordance EU: "tính sau" (cờ issues_log). Đóng băng: Cowork chép qua cầu nối + verify SHA-256.
 
 ## 2026-06-26 — [Apply] EU MRL quy tắc (a): MRL ràng buộc theo HÀM BẬC THANG trên TOÀN BỘ bản ghi
-- Quyết định: MRL ràng buộc của (chất, sản phẩm) tại năm t = bản ghi có `application_date` mới nhất ≤ **1/1 năm t**, dựng từ **TOÀN BỘ bản ghi** sắp theo application_date (hàm bậc thang). Biến thể robustness: mốc **31/12 năm t**.
-- Lý do: **KHÔNG lọc trước theo nhãn `applicability`** — nhãn phản ánh trạng thái tại NGÀY SNAPSHOT 2026, không phải tại năm t; lọc theo nhãn sẽ **mất lịch sử ở đúng các chất có MRL thay đổi** (treatment).
-- Hệ quả: 04 dựng panel theo bậc thang; 1/1 = chính, 31/12 = robustness; 2015–2024, 2024 gắn cờ robustness.
+- Quyết định: MRL ràng buộc (chất, sản phẩm) năm t = bản ghi `application_date` mới nhất ≤ **1/1 năm t** từ TOÀN BỘ bản ghi (bậc thang); robustness mốc **31/12**.
+- Lý do: KHÔNG lọc trước theo nhãn `applicability` (phản ánh trạng thái NGÀY SNAPSHOT 2026, không phải năm t); lọc nhãn sẽ mất lịch sử ở đúng chất có MRL thay đổi.
 - Trạng thái: ĐÃ CHỐT
 
 ## 2026-06-26 — [Apply] EU MRL quy tắc (b): phá hòa khi cùng application_date
-- Quyết định: dedup theo `mrl_value`; nếu còn >1 → ưu tiên **Annex II > III > V**, phụ: regulation mới nhất. 1 dòng/(chất,sp,năm).
-- Lý do: in-scope ~0 xung đột giá trị ở dòng ràng buộc → quy tắc vô hại, để khóa duy nhất.
-- Hệ quả: khóa (chất, sản phẩm, năm) duy nhất (đã verify trùng=0).
+- Quyết định: dedup `mrl_value` trước; nếu còn >1 → **Annex II>III>V**, phụ regulation mới nhất. 1 dòng/(chất,sp,năm).
+- Lý do: 0 xung đột giá trị in-scope → quy tắc vô hại, chỉ để khóa duy nhất.
 - Trạng thái: ĐÃ CHỐT
 
-## 2026-06-26 — [Apply] EU MRL quy tắc (c): xử lý null ràng buộc
-- Quyết định: khôi phục từ **CELEX + sổ điền tay**; **KHÔNG carry**, **KHÔNG impute 0,01**; drop+cờ chỉ khi không khôi phục. Panel để cờ `mrl_status=pending_celex_recovery`, không chặn.
-- Lý do: null TRỐNG THẬT trong API; giá trị ở văn bản pháp lý.
-- Hệ quả: worklist (thực tế **420** ca dưới phương pháp toàn-bộ-bản-ghi; 43 current) + ledger; panel ship với cờ pending.
+## 2026-06-26 — [Apply] EU MRL quy tắc (c): xử lý 40 null ràng buộc
+- Quyết định: khôi phục từ CELEX + ghi sổ điền tay; KHÔNG carry; KHÔNG impute 0,01; cờ `mrl_status=pending_celex_recovery`, không chặn panel.
+- Lý do: null là TRỐNG THẬT trong API, giá trị nằm ở văn bản pháp lý.
 - Trạng thái: ĐÃ CHỐT
 
 ## 2026-06-26 — [Concordance Phase 3] FINALIZE lát VN (VN-first, giữ ASEAN) + one-to-many + RAC
-- Quyết định: Hoàn thiện concordance EU→HS6 cho **LÁT VN** (14 mã EU, 25 dòng eu×hs6 con, `status=finalized_vn`, có trích dẫn neo loài/heading); residual ASEAN gắn `parked_asean` (KHÔNG xóa/ép/gọi verified). Sửa lỗi phổ quát cả 2 nhánh: **Melons 0233010→080719**, Watermelons 0233030→080711; **Wheat 0500090→toàn bộ 1001.xx**, Barley 0500010→100310+100390.
-- Lý do: VN-first nhưng **CỘNG-THÊM**, không phá pipeline ASEAN.
-- Quy tắc: (1) **ONE-TO-MANY** (giữ tất cả con: gạo 4, wheat 4, citrus theo loài). (2) **RAC** — ớt khô (0904)/cà phê nhân (0901)/chè (0902) GIỮ mẫu chính, KHÔNG processed; chỉ processed cho đông/đóng hộp (0710-0712, 0811-0813).
-- Hệ quả: 03_ final_vn + full_with_parked; cờ HS-revision ĐÓNG cho lát VN. 2 cờ VN mở: thanh long + longan/rambutan không có mã EU riêng → Others/081090.
+- Quyết định: hoàn thiện concordance EU→HS6 LÁT VN (status finalized_vn, neo loài/heading); residual ASEAN parked_asean. Sửa lỗi phổ quát: Melons 0233010→080719, Wheat 0500090→1001.xx…
+- Quy tắc: ONE-TO-MANY giữ tất cả con; RAC (ớt khô/cà phê nhân/chè khô) giữ mẫu chính, KHÔNG processed.
 - Trạng thái: ĐÃ CHỐT (lát VN — chờ Claude verify); residual parked.
 
 ## 2026-06-26 — [Concordance Phase 3b] GIẢI 2 cờ VN + FINAL lát VN
-- Quyết định: **GỌI FINAL lát VN** (15 mã EU, 26 dòng). Giải 2 cờ qua synonyms: ớt cay = 0231020 (chung ớt ngọt, "Chili peppers"; MRL Capsicum chung); thanh long = 0162040 cactus ("Pitayas/dragon fruits", MRL từ 0162040); nhãn/longan = 0162020 ("Longans"). Cà phê rang 090121/22 → processed (nhân xanh 090111/12 = RAC mẫu chính).
-- Lý do: MRL-coverage (đọc 04_): ớt cay #1 đầy đủ panel (489 chất); thanh long #2 có MRL snapshot (691 chất). KHÔNG cờ ĐỎ → final.
-- Hệ quả: final_vn cập nhật; HS-revision ĐÓNG cho lát VN. ⚠ CỜ VÀNG: 6 mã VN có MRL snapshot nhưng chưa vào A_k/panel → mở rộng A_k ở bước chỉ số (issues_log).
-- Trạng thái: ĐÃ CHỐT (FINAL lát VN); A_k extension chờ sau.
+- Quyết định: GỌI FINAL lát VN (15 mã EU). Giải qua synonyms: ớt cay=0231020, thanh long=0162040, nhãn/longan=0162020; cà phê rang→processed.
+- Hệ quả: ⚠ CỜ VÀNG 6 mã VN có MRL snapshot nhưng chưa vào A_k/panel → bước chỉ số phải MỞ RỘNG A_k.
+- Trạng thái: ĐÃ CHỐT (FINAL lát VN); A_k extension chờ bước sau.
+
+## 2026-06-26 — [Panel extend + A_k reconcile] Mở rộng panel 7 mã VN; bảng đối chiếu A_k×RASFF; + CHUẨN bằng chứng nguyên văn
+- Quyết định: (A) Mở rộng panel ràng buộc cho **7 mã VN** (0231040, 0162020, 0162030, 0162040, 0163060, 0256040, 0256080) bằng đúng hàm bậc thang đã chốt (jan01+dec31, tie Annex II>III>V), tập **A_k 515 chất**. (B) `05_/ak_rasff_reconciliation` (18 chất RASFF T5) = đầu vào quyết định, KHÔNG khóa A_k. (Bước 0) rambutan tách 0162020 → **0163060 'Cherimoyas'** (HS6 081090, nguồn MRL khác).
+- Kiểm chứng: builder dựng lại **đối chiếu 50.750 ô vs panel hiện hành → 0 sai khác**; 7 mã đều **489 chất×10 năm** (ngang 9 mã OK); thanh long ĐỦ. Khóa 0 trùng; referential từ snapshot frozen.
+- Phát hiện: **acetamiprid MISSING_FROM_A_k** (21 rejection; snapshot chỉ có def REVISED 'Acetamiprid (R)' id=10 record 2025+ → 0 MRL in-window). dinotefuran trong A_k nhưng null. 17/18 T5 ∈ A_k; **498/515 chất A_k không gây rejection VN**.
+- Thay đổi Cẩm nang: thêm **CHUẨN THƯỜNG TRỰC — Quy tắc bằng chứng nguyên văn** (đầu Phần 3) + bullet checklist Giai đoạn 0.
+- Trạng thái: ĐÃ CHỐT (panel + reconciliation + quy tắc). **A_k membership CHỜ Claude/người dùng quyết** (đặc biệt acetamiprid) trước khi thiết kế chỉ số.

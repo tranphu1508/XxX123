@@ -2,6 +2,8 @@
 
 Định dạng: `YYYY-MM-DD | <task> | <raw URL> | <tóm tắt 1 câu>`
 
+2026-06-26 | Mở rộng panel MRL lát VN + đối chiếu A_k×RASFF | https://raw.githubusercontent.com/tranphu1508/XxX123/main/handoff_2026-06-26_panel_extend_vn_ak_reconcile.md | 7 mã VN vào panel (489 chất×năm, thanh long ĐỦ); acetamiprid MISSING_FROM_A_k; rambutan→0163060; +quy tắc bằng chứng nguyên văn — DỪNG.
+
 2026-06-26 | Annex I verify mã VN (bằng chứng thô) | https://raw.githubusercontent.com/tranphu1508/XxX123/main/handoff_2026-06-26_annex1_verify.md | Verbatim + grep catalogue: thanh long 0162040 + longan 0162020 + ớt cay 0231020 XÁC NHẬN; RAMBUTAN XÉT LẠI (0163060 Cherimoyas, không 0162020); EUR-Lex pháp lý bị chặn (URL cho user) — DỪNG chờ Claude.
 2026-06-26 | Concordance Phase 3b RESOLVE + FINAL lát VN | https://raw.githubusercontent.com/tranphu1508/XxX123/main/handoff_2026-06-26_concordance_phase3b_resolve.md | Giải 2 cờ qua synonyms; cà phê rang→processed; MRL-coverage 0 đỏ → FINAL lát VN; cờ VÀNG 6 mã — DỪNG.
 2026-06-26 | Concordance Phase 3 FINALIZE lát VN | https://raw.githubusercontent.com/tranphu1508/XxX123/main/handoff_2026-06-26_concordance_phase3_vn.md | Sửa lỗi phổ quát; lát VN finalized_vn; parked_asean 363 — DỪNG.
@@ -42,3 +44,6 @@ https://raw.githubusercontent.com/tranphu1508/XxX123/main/review_artifacts/annex
 https://raw.githubusercontent.com/tranphu1508/XxX123/main/review_artifacts/rasff_vietnam_density_scan_2026-06-26.md
 https://raw.githubusercontent.com/tranphu1508/XxX123/main/review_artifacts/rasff_T4_product_x_year_2026-06-26.md
 https://raw.githubusercontent.com/tranphu1508/XxX123/main/review_artifacts/rasff_T5_active_substances_2026-06-26.md
+https://raw.githubusercontent.com/tranphu1508/XxX123/main/review_artifacts/panel_extend_vn_ak_reconcile_report_2026-06-26.md
+https://raw.githubusercontent.com/tranphu1508/XxX123/main/review_artifacts/ak_rasff_reconciliation_2026-06-26.md
+https://raw.githubusercontent.com/tranphu1508/XxX123/main/review_artifacts/Cam_Nang_Quan_Tri_Du_An_Va_Checklist_Audit.md

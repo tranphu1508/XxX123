@@ -1,32 +1,33 @@
-> Bản sao chỉ-đọc của 03_/outputs/concordance_final_vn_2026-06-26.csv, cập nhật 2026-06-26 (FINAL).
+# Concordance FINAL lát VN (16 mã, +0163060 rambutan) — 2026-06-26
 
-# Concordance lát VN — FINAL (EU → HS6 con)
+(Bản .md sinh từ CSV gốc — chỉ để Claude rà.)
 
-| eu_code | sản phẩm | hs6 | hs6_desc | form |
-|---|---|---|---|---|
-| 0110010 | Grapefruits | 080540 | Fruit, edible: grapefruit, inclu | fresh |
-| 0110020 | Oranges | 080510 | Fruit, edible: oranges, fresh or | fresh |
-| 0110030 | Lemons | 080550 | Fruit, edible: lemons (Citrus li | fresh |
-| 0110050 | Mandarins | 080520 | Fruit, edible: mandarins (includ | fresh |
-| 0231020 | Sweet peppersbell pepp | 070960 | Vegetables: fruits of the genus  | fresh |
-| 0231020 | Sweet peppersbell pepp | 090421 | Spices: fruits of the genus Caps | RAC_dried |
-| 0231020 | Sweet peppersbell pepp | 090422 | Spices: fruits of the genus Caps | RAC_dried |
-| 0231040 | Okralady's fingers | 070999 | Vegetables: edible, n.e.c. in ch | fresh |
-| 0162020 | Litchislychees | 081090 | Fruit, edible: fruits n.e.c. in  | fresh |
-| 0162030 | Passionfruitsmaracujas | 081090 | Fruit, edible: fruits n.e.c. in  | fresh |
-| 0162040 | Prickly pears/cactus f | 081090 | Fruit, edible: fruits n.e.c. in  | fresh |
-| 0163030 | Mangoes | 080450 | Fruit, edible: guavas, mangoes a | fresh |
-| 0163100 | Durians | 081060 | Fruit, edible: durians, fresh | fresh |
-| 0500060 | Rice | 100610 | Cereals: rice in the husk (paddy | RAC |
-| 0500060 | Rice | 100620 | Cereals: husked (brown) rice | RAC |
-| 0500060 | Rice | 100630 | Cereals: rice, semi-milled or wh | RAC |
-| 0500060 | Rice | 100640 | Cereals: rice, broken | RAC |
-| 0620000 | Coffee beans | 090111 | Coffee: not roasted or decaffein | RAC_bean |
-| 0620000 | Coffee beans | 090112 | Coffee: decaffeinated, not roast | RAC_bean |
-| 0620000 | Coffee beans | 090121 | Coffee: roasted, not decaffeinat | processed |
-| 0620000 | Coffee beans | 090122 | Coffee: roasted, decaffeinated | processed |
-| 0610000 | Teas | 090210 | Tea, green: (not fermented), in  | RAC_dried |
-| 0610000 | Teas | 090220 | Tea, green: (not fermented), in  | RAC_dried |
-| 0610000 | Teas | 090230 | Tea, black: (fermented) and part | RAC_dried |
-| 0610000 | Teas | 090240 | Tea, black: (fermented) and part | RAC_dried |
-| 0256000 | (f) herbs and edible f | 070999 | Vegetables: edible, n.e.c. in ch | fresh |
+| eu_code | eu_desc | scientific_name | hs6 | hs6_desc | form | status | note | citation |
+|---|---|---|---|---|---|---|---|---|
+| 0110010 | Grapefruits | Citrus paradisi | 080540 | Fruit, edible: grapefruit, including pomelos, fresh or dried | fresh | final_vn | Bưởi/pomelo | EU 0110010 → 080540 'Fruit, edible: grapefruit, includi' (HS2012, BACI) |
+| 0110020 | Oranges | Citrus sinensis | 080510 | Fruit, edible: oranges, fresh or dried | fresh | final_vn | Cam | EU 0110020 → 080510 'Fruit, edible: oranges, fresh or d' (HS2012, BACI) |
+| 0110030 | Lemons | Citrus limon | 080550 | Fruit, edible: lemons (Citrus limon, Citrus limonum), limes (Citrus aurantifolia , Citrus latifolia), fresh or dried | fresh | final_vn | Chanh | EU 0110030 → 080550 'Fruit, edible: lemons (Citrus limo' (HS2012, BACI) |
+| 0110050 | Mandarins | Citrus reticulata; syn: Citrus deliciosa | 080520 | Fruit, edible: mandarins (including tangerines and satsumas), clementines, wilkings and similar citrus hybrids, fresh or dried | fresh | final_vn | Quýt | EU 0110050 → 080520 'Fruit, edible: mandarins (includin' (HS2012, BACI) |
+| 0231020 | Sweet peppersbell peppers | Capsicum annuum | 070960 | Vegetables: fruits of the genus capsicum or of the genus pimenta, fresh or chilled | fresh | final_vn | Ớt — PHỦ CẢ ỚT CAY (synonym Chili peppers); MRL Capsicum dùng chung ớt cay+ngọt; tươi 070960 + khô 0904 | EU 0231020 → 070960 'Vegetables: fruits of the genus ca' (HS2012, BACI) |
+| 0231020 | Sweet peppersbell peppers | Capsicum annuum | 090421 | Spices: fruits of the genus Capsicum or Pimenta, dried, neither crushed nor ground | RAC_dried | final_vn | Ớt — PHỦ CẢ ỚT CAY (synonym Chili peppers); MRL Capsicum dùng chung ớt cay+ngọt; tươi 070960 + khô 0904 | EU 0231020 → 090421 'Spices: fruits of the genus Capsic' (HS2012, BACI) |
+| 0231020 | Sweet peppersbell peppers | Capsicum annuum | 090422 | Spices: fruits of the genus Capsicum or Pimenta, crushed or ground | RAC_dried | final_vn | Ớt — PHỦ CẢ ỚT CAY (synonym Chili peppers); MRL Capsicum dùng chung ớt cay+ngọt; tươi 070960 + khô 0904 | EU 0231020 → 090422 'Spices: fruits of the genus Capsic' (HS2012, BACI) |
+| 0231040 | Okralady's fingers | Abelmoschus esculentus | 070999 | Vegetables: edible, n.e.c. in chapter 07, fresh or chilled | fresh | final_vn | Đậu bắp/okra (Abelmoschus); LỆCH kỳ vọng 0239→0231040 | EU 0231040 → 070999 'Vegetables: edible, n.e.c. in chap' (HS2012, BACI) |
+| 0162020 | Litchislychees | Litchi chinensis | 081090 | Fruit, edible: fruits n.e.c. in heading no. 0801 to 0810, fresh | fresh | final_vn | Vải/litchi + NHÃN/longan (synonym 'Longans'); KHÔNG phủ chôm chôm (chôm chôm → 0163060) | EU 0162020 → 081090 'Fruit, edible: fruits n.e.c. in he' (HS2012, BACI) |
+| 0162030 | Passionfruitsmaracujas | Passiflora edulis; syn Passiflora laurifolia | 081090 | Fruit, edible: fruits n.e.c. in heading no. 0801 to 0810, fresh | fresh | final_vn | Chanh leo/passion | EU 0162030 → 081090 'Fruit, edible: fruits n.e.c. in he' (HS2012, BACI) |
+| 0162040 | Prickly pears/cactus fruits | Opuntia ficus-indica | 081090 | Fruit, edible: fruits n.e.c. in heading no. 0801 to 0810, fresh | fresh | final_vn | THANH LONG/dragon fruit = synonym của 0162040 "cactus fruits"; MRL từ 0162040 (KHÔNG phải Others) | EU 0162040 → 081090 'Fruit, edible: fruits n.e.c. in he' (HS2012, BACI) |
+| 0163060 | Cherimoyas | Annona cherimola | 081090 | Fruit, edible: fruits n.e.c. in heading no. 0801 to 0810, fresh | fresh | final_vn | CHÔM CHÔM/rambutan = synonym của 0163060 'Cherimoyas' (catalogue synonym 'Rambutans/hairy litchis'); SỬA từ 0162020 theo verify Annex I; + mãng cầu/cherimoya; HS6 081090 chung heading longan NHƯNG nguồn MRL KHÁC (0163060≠0162020) | EU 0163060 → 081090 'Fruit, edible: fruits n.e.c. in he' (HS2012, BACI); synonym 'Rambutans/hairy litchis' ∈ product_synonym_names của 0163060 (catalogue) |
+| 0163030 | Mangoes | Mangifera indica | 080450 | Fruit, edible: guavas, mangoes and mangosteens, fresh or dried | fresh | final_vn | Xoài/mango | EU 0163030 → 080450 'Fruit, edible: guavas, mangoes and' (HS2012, BACI) |
+| 0163100 | Durians | Durio zibethinus | 081060 | Fruit, edible: durians, fresh | fresh | final_vn | Sầu riêng/durian | EU 0163100 → 081060 'Fruit, edible: durians, fresh' (HS2012, BACI) |
+| 0500060 | Rice | Oryza sativa | 100610 | Cereals: rice in the husk (paddy or rough) | RAC | final_vn | GẠO/rice — THE cereal VN; one-to-many | EU 0500060 → 100610 'Cereals: rice in the husk (paddy o' (HS2012, BACI) |
+| 0500060 | Rice | Oryza sativa | 100620 | Cereals: husked (brown) rice | RAC | final_vn | GẠO/rice — THE cereal VN; one-to-many | EU 0500060 → 100620 'Cereals: husked (brown) rice' (HS2012, BACI) |
+| 0500060 | Rice | Oryza sativa | 100630 | Cereals: rice, semi-milled or wholly milled, whether or not polished or glazed | RAC | final_vn | GẠO/rice — THE cereal VN; one-to-many | EU 0500060 → 100630 'Cereals: rice, semi-milled or whol' (HS2012, BACI) |
+| 0500060 | Rice | Oryza sativa | 100640 | Cereals: rice, broken | RAC | final_vn | GẠO/rice — THE cereal VN; one-to-many | EU 0500060 → 100640 'Cereals: rice, broken' (HS2012, BACI) |
+| 0620000 | Coffee beans | Coffea arabica, Coffea canephora; syn: Coffea robusta, Coffea liberica | 090111 | Coffee: not roasted or decaffeinated | RAC_bean | final_vn | Cà phê — NHÂN xanh 090111/12 = RAC mẫu chính; RANG 090121/22 = processed (SỬA) | EU 0620000 → 090111 'Coffee: not roasted or decaffeinat' (HS2012, BACI) |
+| 0620000 | Coffee beans | Coffea arabica, Coffea canephora; syn: Coffea robusta, Coffea liberica | 090112 | Coffee: decaffeinated, not roasted | RAC_bean | final_vn | Cà phê — NHÂN xanh 090111/12 = RAC mẫu chính; RANG 090121/22 = processed (SỬA) | EU 0620000 → 090112 'Coffee: decaffeinated, not roasted' (HS2012, BACI) |
+| 0620000 | Coffee beans | Coffea arabica, Coffea canephora; syn: Coffea robusta, Coffea liberica | 090121 | Coffee: roasted, not decaffeinated | processed | final_vn | Cà phê — NHÂN xanh 090111/12 = RAC mẫu chính; RANG 090121/22 = processed (SỬA) | EU 0620000 → 090121 'Coffee: roasted, not decaffeinated' (HS2012, BACI) |
+| 0620000 | Coffee beans | Coffea arabica, Coffea canephora; syn: Coffea robusta, Coffea liberica | 090122 | Coffee: roasted, decaffeinated | processed | final_vn | Cà phê — NHÂN xanh 090111/12 = RAC mẫu chính; RANG 090121/22 = processed (SỬA) | EU 0620000 → 090122 'Coffee: roasted, decaffeinated' (HS2012, BACI) |
+| 0610000 | Teas | Camellia sinensis | 090210 | Tea, green: (not fermented), in immediate packings of a content not exceeding 3kg | RAC_dried | final_vn | Chè/tea | EU 0610000 → 090210 'Tea, green: (not fermented), in im' (HS2012, BACI) |
+| 0610000 | Teas | Camellia sinensis | 090220 | Tea, green: (not fermented), in immediate packings of a content exceeding 3kg | RAC_dried | final_vn | Chè/tea | EU 0610000 → 090220 'Tea, green: (not fermented), in im' (HS2012, BACI) |
+| 0610000 | Teas | Camellia sinensis | 090230 | Tea, black: (fermented) and partly fermented tea, in immediate packings of a content not exceeding 3kg | RAC_dried | final_vn | Chè/tea | EU 0610000 → 090230 'Tea, black: (fermented) and partly' (HS2012, BACI) |
+| 0610000 | Teas | Camellia sinensis | 090240 | Tea, black: (fermented) and partly fermented tea, in immediate packings of a content exceeding 3kg | RAC_dried | final_vn | Chè/tea | EU 0610000 → 090240 'Tea, black: (fermented) and partly' (HS2012, BACI) |
+| 0256000 | (f) herbs and edible flowers |  | 070999 | Vegetables: edible, n.e.c. in chapter 07, fresh or chilled | fresh | final_vn | Rau thơm/herbs (cấp nhóm; húng/ngò/bạc hà…) | EU 0256000 → 070999 'Vegetables: edible, n.e.c. in chap' (HS2012, BACI) |
