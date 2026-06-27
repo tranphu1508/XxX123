@@ -1,0 +1,60 @@
+# ω quốc-gia fallback (substance×kỳ) — 2026-06-26
+
+
+
+| substance | omega_source_period | n_crops_national | n_tradenames_national | registered_national |
+|---|---|---|---|---|
+| carbendazim | 03/2015 | 22 | 22 | 1 |
+| carbendazim | 03/2016 | 29 | 21 | 1 |
+| carbendazim | 09/2023 | 0 | 0 | 0 |
+| permethrin | 03/2015 | 8 | 4 | 1 |
+| permethrin | 03/2016 | 11 | 4 | 1 |
+| permethrin | 09/2023 | 19 | 16 | 1 |
+| chlorpyrifos | 03/2015 | 21 | 22 | 1 |
+| chlorpyrifos | 03/2016 | 17 | 17 | 1 |
+| chlorpyrifos | 09/2023 | 0 | 0 | 0 |
+| tricyclazole | 03/2015 | 11 | 12 | 1 |
+| tricyclazole | 03/2016 | 8 | 9 | 1 |
+| tricyclazole | 09/2023 | 12 | 11 | 1 |
+| chlorfenapyr | 03/2015 | 6 | 3 | 1 |
+| chlorfenapyr | 03/2016 | 6 | 3 | 1 |
+| chlorfenapyr | 09/2023 | 15 | 15 | 1 |
+| hexaconazole | 03/2015 | 21 | 21 | 1 |
+| hexaconazole | 03/2016 | 22 | 19 | 1 |
+| hexaconazole | 09/2023 | 21 | 21 | 1 |
+| acetamiprid | 03/2015 | 11 | 11 | 1 |
+| acetamiprid | 03/2016 | 9 | 7 | 1 |
+| acetamiprid | 09/2023 | 11 | 11 | 1 |
+| propiconazole | 03/2015 | 10 | 11 | 1 |
+| propiconazole | 03/2016 | 11 | 11 | 1 |
+| propiconazole | 09/2023 | 12 | 12 | 1 |
+| imidacloprid | 03/2015 | 24 | 24 | 1 |
+| imidacloprid | 03/2016 | 18 | 20 | 1 |
+| imidacloprid | 09/2023 | 16 | 19 | 1 |
+| carbofuran | 03/2015 | 0 | 0 | 0 |
+| carbofuran | 03/2016 | 0 | 0 | 0 |
+| carbofuran | 09/2023 | 0 | 0 | 0 |
+| dinotefuran | 03/2015 | 10 | 6 | 1 |
+| dinotefuran | 03/2016 | 14 | 6 | 1 |
+| dinotefuran | 09/2023 | 21 | 19 | 1 |
+| profenofos | 03/2015 | 14 | 9 | 1 |
+| profenofos | 03/2016 | 7 | 5 | 1 |
+| profenofos | 09/2023 | 7 | 7 | 1 |
+| cypermethrin | 03/2015 | 32 | 35 | 1 |
+| cypermethrin | 03/2016 | 19 | 29 | 1 |
+| cypermethrin | 09/2023 | 17 | 30 | 1 |
+| acephate | 03/2015 | 8 | 3 | 1 |
+| acephate | 03/2016 | 13 | 3 | 1 |
+| acephate | 09/2023 | 0 | 0 | 0 |
+| methamidophos | 03/2015 | 0 | 0 | 0 |
+| methamidophos | 03/2016 | 0 | 0 | 0 |
+| methamidophos | 09/2023 | 0 | 0 | 0 |
+| dimethoate | 03/2015 | 16 | 15 | 1 |
+| dimethoate | 03/2016 | 15 | 9 | 1 |
+| dimethoate | 09/2023 | 13 | 12 | 1 |
+| fipronil | 03/2015 | 23 | 15 | 1 |
+| fipronil | 03/2016 | 18 | 15 | 1 |
+| fipronil | 09/2023 | 0 | 0 | 0 |
+| dithiocarbamates | 03/2015 | 29 | 41 | 1 |
+| dithiocarbamates | 03/2016 | 37 | 39 | 1 |
+| dithiocarbamates | 09/2023 | 39 | 75 | 1 |
