@@ -1,0 +1,382 @@
+eus,eu_desc,hs6,hs6_lumped,resolve,phase2_status,cls,h,hdesc,inpanel
+300040,Lupins/lupini beans,071331,LUMPED(2→071331),auto_hs6_present,needs_confirm,OK,071331,"Vegetables, leguminous: beans of the species vigna mungo (l.) hepper or vigna radiata (l.) wilczek, shelled, whether or not skinned or split, dried",True
+252020,Purslanes,070930,LUMPED(3→070930),auto_hs6_present,needs_arbitration,LUMPING,070930,"Vegetables: aubergines, (e.g. plants), fresh or chilled",True
+250000,"Leaf vegetables, herbs and edible flowers",,,needs_review,needs_review_group,NO_HS6,,,False
+280020,Wild fungi,070960,LUMPED(3→070960),auto_hs6_present,needs_arbitration,LUMPING,070960,"Vegetables: fruits of the genus capsicum or of the genus pimenta, fresh or chilled",False
+213060,Parsnips,070610,LUMPED(5→070610),auto_hs6_present,needs_confirm,LUMPING,070610,"Vegetables, root: carrots and turnips, fresh or chilled",True
+211000,(a) potatoes,070110,,auto_hs6_present,needs_review_group,OK,070110,"Vegetables: seed potatoes, fresh or chilled",True
+256050,Sage,070951,LUMPED(3→070951),auto_hs6_present,needs_confirm,LUMPING,070951,"Vegetables: mushrooms of the genus Agaricus, fresh or chilled",False
+213030,Celeriacs/turnip rooted celeries,070610,LUMPED(5→070610),auto_hs6_present,needs_arbitration,OK,070610,"Vegetables, root: carrots and turnips, fresh or chilled",True
+244000,(d) kohlrabies,070690,LUMPED(5→070690),auto_hs6_present,needs_review_group,catchall,070690,"Vegetables, root: salad beetroot, salsify, celeric, radishes and similar edible roots, fresh or chilled",True
+830990,Others (2),090619,,auto_hs6_present,excluded_nec,OK,090619,"Spices: cinnamon and cinnamon-tree flowers, other than cinnamon (Cinnamomum zeylanicum Blume), neither crushed nor ground",True
+270990,Others (2),070940,LUMPED(11→070940),auto_hs6_present,excluded_nec,OK,070940,"Vegetables: celery (other than celeriac), fresh or chilled",False
+256070,Thyme,070940,LUMPED(11→070940),auto_hs6_present,needs_confirm,LUMPING,070940,"Vegetables: celery (other than celeriac), fresh or chilled",False
+1050000,Amphibians and Reptiles,,,,needs_review_group,NO_HS6,,,False
+256040,Parsley,070920,LUMPED(6→070920),auto_hs6_present,needs_arbitration,LUMPING,070920,"Vegetables: asparagus, fresh or chilled",False
+163100,Durians,081060,,vn_finalized,verified_high,OK,081060,"Fruit, edible: durians, fresh",True
+242020,Head cabbages,070410,LUMPED(8→070410),auto_hs6_present,needs_arbitration,OK,070410,"Vegetables, brassica: cauliflowers and headed broccoli, fresh or chilled",True
+130050,Loquats/Japanese medlars,080830,LUMPED(4→080830),auto_hs6_present,needs_arbitration,LUMPING,080830,"Fruit, edible: pears, fresh",True
+300000,PULSES,071310,LUMPED(3→071310),auto_hs6_present,needs_review_group,LUMPING,071310,"Vegetables, leguminous: peas (pisum sativum), shelled, whether or not skinned or split, dried",True
+870000,Aril spices,090811,LUMPED(2→090811),auto_hs6_present,needs_review_group,OK,090811,"Spices: nutmeg, neither crushed nor ground",True
+401050,Sunflower seeds,120600,,auto_sci_name,needs_review_noanchor,OK,120600,"Oil seeds: sunflower seeds, whether or not broken",True
+110030,Lemons,080550,LUMPED(2→080550),vn_finalized,verified_high,OK,080550,"Fruit, edible: lemons (Citrus limon, Citrus limonum), limes (Citrus aurantifolia , Citrus latifolia), fresh or dried",True
+1011040,Kidney,,,,needs_review_noanchor,NO_HS6,,,False
+260010,Beans (with pods),070820,LUMPED(2→070820),auto_hs6_present,needs_confirm,OK,070820,"Vegetables, leguminous: beans (vigna spp., phaseolus spp.), shelled or unshelled, fresh or chilled",True
+632010,Strawberry,121190,LUMPED(13→121190),auto_herbal_infusion,needs_review_noanchor,UMBRELLA/multi,121190,"Plants and parts (including seeds and fruits) n.e.c. in heading no. 1211, used primarily in perfumery, pharmacy or for insecticidal, fungicidal purposes: fresh or dried, whether or not cut, crushed or powdered",True
+1012040,Kidney,,,,needs_review_noanchor,NO_HS6,,,False
+810030,Celery,090921,LUMPED(7→090921),auto_hs6_present,needs_arbitration,LUMPING,090921,"Spices: coriander seeds, neither crushed nor ground",True
+401070,Soyabeans,120190,,auto_sci_name,needs_review_noanchor,ERROR,120190,"Soya beans: other than seed, whether or not broken",True
+300010,Beans,071331,LUMPED(2→071331),auto_verified,verified_high,OK,071331,"Vegetables, leguminous: beans of the species vigna mungo (l.) hepper or vigna radiata (l.) wilczek, shelled, whether or not skinned or split, dried",True
+401080,Mustard seeds,120750,LUMPED(2→120750),auto_sci_name,needs_review_noanchor,OK,120750,"Oil seeds: mustard seeds, whether or not broken",True
+130000,Pome fruits,080810,LUMPED(2→080810),auto_hs6_present,needs_review_group,OK,080810,"Fruit, edible: apples, fresh",True
+154990,Others (2),081040,LUMPED(8→081040),auto_hs6_present,excluded_nec,OK,081040,"Fruit, edible: cranberries, bilberries and other fruits of the genus vaccinium, fresh",False
+500990,Others (2),,,excluded_nec,excluded_nec,NO_HS6,,,False
+254000,(d) watercresses,070930,LUMPED(3→070930),auto_hs6_present,needs_review_group,catchall,070930,"Vegetables: aubergines, (e.g. plants), fresh or chilled",True
+401150,Castor beans,120730,LUMPED(2→120730),auto_sci_name,needs_review_noanchor,OK,120730,"Oil seeds: castor oil seeds, whether or not broken",True
+800000,SPICES,,,needs_review,needs_review_group,NO_HS6,,,False
+162060,American persimmons/Virginia kaki,081070,LUMPED(3→081070),auto_hs6_present,needs_arbitration,OK,081070,"Fruit, edible: persimmons, fresh",True
+242010,Brussels sprouts,070420,LUMPED(2→070420),auto_verified,verified_high,OK,070420,"Vegetables, brassica: brussel sprouts, fresh or chilled",True
+1014000,d) goat,,,,needs_review_group,NO_HS6,,,False
+830000,Bark spices,090611,LUMPED(2→090611),auto_hs6_present,needs_review_group,OK,090611,"Spices: cinnamon (Cinnamomum zeylanicum Blume), neither crushed nor ground",True
+401100,Pumpkin seeds,120799,LUMPED(2→120799),auto_sci_name,needs_review_noanchor,UMBRELLA/multi,120799,"Oil seeds and oleaginous fruits: n.e.c. in heading no. 1207, whether or not broken",True
+163050,Granate apples/pomegranates,080390,LUMPED(4→080390),auto_hs6_present,needs_arbitration,LUMPING,080390,"Fruit, edible: bananas, other than plantains, fresh or dried",True
+900020,Sugar canes,121293,,auto_sci_name,needs_review_noanchor,UMBRELLA/multi,121293,"Sugar cane: fit for human consumption, fresh, chilled, frozen or dried, whether or not ground",True
+220990,Others (2),070390,LUMPED(2→070390),auto_hs6_present,excluded_nec,UMBRELLA/multi,070390,"Vegetables, alliaceous: leeks and other kinds n.e.c. in heading no. 0703, fresh or chilled",True
+1020040,Horse,,,,needs_review_noanchor,NO_HS6,,,False
+251070,Red mustards,070511,LUMPED(5→070511),auto_hs6_present,needs_arbitration,LUMPING,070511,"Vegetables: cabbage (head) lettuce (lactuca sativa), fresh or chilled",True
+232020,Gherkins,070700,LUMPED(2→070700),auto_verified,verified_high,OK,070700,"Vegetables: cucumbers and gherkins, fresh or chilled",True
+161010,Dates,080410,,auto_verified,verified_high,OK,080410,"Fruit, edible: dates, fresh or dried",True
+632990,Others (2),,,excluded_nec,excluded_nec,NO_HS6,,,False
+153020,Dewberries,081010,LUMPED(5→081010),auto_hs6_present,needs_confirm,LUMPING,081010,"Fruit, edible: strawberries, fresh",False
+233010,Melons,080719,LUMPED(3→080719),auto_verified,verified_high,OK,080719,"Fruit, edible: melons, other than watermelons, fresh",True
+212010,Cassava roots/manioc,071410,LUMPED(4→071410),auto_hs6_present,needs_confirm,OK,071410,"Vegetable roots and tubers: manioc (cassava), with high starch or inulin content, fresh, chilled, frozen or dried, whether or not sliced or in the form of pellets",True
+500060,Rice,100610;100620;100630;100640,,vn_finalized,verified_high,UMBRELLA/multi,100610,Cereals: rice in the husk (paddy or rough),True
+232030,Courgettes,070993,LUMPED(4→070993),auto_hs6_present,needs_arbitration,OK,070993,"Vegetables: pumpkins, squash and gourds (Cucurbita spp.), fresh or chilled",True
+252990,Others (2),070940,LUMPED(11→070940),auto_hs6_present,excluded_nec,OK,070940,"Vegetables: celery (other than celeriac), fresh or chilled",False
+1030000,Birds eggs,,,,needs_review_group,NO_HS6,,,False
+1015030,Liver,,,,needs_review_noanchor,NO_HS6,,,False
+1014050,Edible offals (other than liver and kidney),,,,needs_review_noanchor,NO_HS6,,,False
+220040,Spring onions/green onions and Welsh onions,070310,LUMPED(4→070310),auto_hs6_present,needs_arbitration,OK,070310,"Vegetables, alliaceous: onions and shallots, fresh or chilled",True
+243990,Others (2),070519,LUMPED(5→070519),auto_hs6_present,excluded_nec,OK,070519,"Vegetables: lettuce (lactuca sativa), (other than cabbage lettuce), fresh or chilled",True
+230000,Fruiting vegetables,,,needs_review,needs_review_group,NO_HS6,,,False
+1017030,Liver,,,,needs_review_noanchor,NO_HS6,,,False
+213080,Radishes,070690,LUMPED(5→070690),auto_verified,verified_high,OK,070690,"Vegetables, root: salad beetroot, salsify, celeric, radishes and similar edible roots, fresh or chilled",True
+1017010,Muscle,,,,needs_review_noanchor,NO_HS6,,,False
+200000,"VEGETABLES, FRESH or FROZEN",,,needs_review,needs_review_group,NO_HS6,,,False
+153990,Others (2),081040,LUMPED(8→081040),auto_hs6_present,excluded_nec,OK,081040,"Fruit, edible: cranberries, bilberries and other fruits of the genus vaccinium, fresh",False
+401090,Cotton seeds,120721,,auto_sci_name,needs_review_noanchor,OK,120721,"Oil seeds: cotton seeds, seed, whether or not broken",True
+1013050,Edible offals (other than liver and kidney),,,,needs_review_noanchor,NO_HS6,,,False
+810060,Dill,090961,LUMPED(5→090961),auto_hs6_present,needs_arbitration,LUMPING,090961,"Spices: seeds of anise, badian, caraway or fennel: juniper berries, neither crushed nor ground",True
+154060,Mulberries (black and white),081020,LUMPED(4→081020),auto_hs6_present,needs_confirm,OK,081020,"Fruit, edible: raspberries, blackberries, mulberries, and loganberries, fresh",False
+1016990,Others (2),,,,excluded_nec,NO_HS6,,,False
+402040,Kapok,080232,,auto_sci_name,needs_review_noanchor,ERROR,080232,"Nuts, edible: walnuts, fresh or dried, shelled",True
+1010000,Commodities from,,,,needs_review_group,NO_HS6,,,False
+1030030,Geese,,,,needs_review_noanchor,NO_HS6,,,False
+810070,Fennel,090961,LUMPED(5→090961),auto_verified,verified_high,OK,090961,"Spices: seeds of anise, badian, caraway or fennel: juniper berries, neither crushed nor ground",True
+631990,Others (2),,,excluded_nec,excluded_nec,NO_HS6,,,False
+163110,Soursops/guanabanas,080390,LUMPED(4→080390),auto_hs6_present,needs_arbitration,LUMPING,080390,"Fruit, edible: bananas, other than plantains, fresh or dried",True
+700000,HOPS,,,needs_review,needs_review_group,NO_HS6,,,False
+151020,Wine grapes,080610,LUMPED(3→080610),auto_hs6_present,needs_confirm,OK,080610,"Fruit, edible: grapes, fresh",True
+633010,Valerian,121190,LUMPED(13→121190),auto_herbal_infusion,needs_review_noanchor,UMBRELLA/multi,121190,"Plants and parts (including seeds and fruits) n.e.c. in heading no. 1211, used primarily in perfumery, pharmacy or for insecticidal, fungicidal purposes: fresh or dried, whether or not cut, crushed or powdered",True
+1015010,Muscle,,,,needs_review_noanchor,NO_HS6,,,False
+220010,Garlic,070320,,auto_verified,verified_high,OK,070320,"Vegetables, alliaceous: garlic, fresh or chilled",True
+640000,Cocoa beans,,,needs_review,needs_review_group,NO_HS6,,,False
+253000,(c) grape leaves and similar species,070970,LUMPED(7→070970),auto_hs6_present,needs_review_group,OK,070970,"Vegetables: spinach, New Zealand spinach and orache spinach (garden spinach), fresh or chilled",False
+1012050,Edible offals (other than liver and kidney),,,,needs_review_noanchor,NO_HS6,,,False
+401060,Rapeseeds/canola seeds,120740,,auto_sci_name,needs_review_noanchor,OK,120740,"Oil seeds: sesamum seeds, whether or not broken",True
+1011990,Others (2),,,,excluded_nec,NO_HS6,,,False
+1015050,Edible offals (other than liver and kidney),,,,needs_review_noanchor,NO_HS6,,,False
+161000,(a) edible peel,080430,LUMPED(2→080430),auto_hs6_present,needs_review_group,OK,080430,"Fruit, edible: pineapples, fresh or dried",True
+154010,Blueberries,081040,LUMPED(8→081040),auto_verified,verified_high,OK,081040,"Fruit, edible: cranberries, bilberries and other fruits of the genus vaccinium, fresh",False
+401130,Gold of pleasure seeds,120750,LUMPED(2→120750),auto_sci_name,needs_review_noanchor,OK,120750,"Oil seeds: mustard seeds, whether or not broken",True
+1013010,Muscle,,,,needs_review_noanchor,NO_HS6,,,False
+1012010,Muscle,,,,needs_review_noanchor,NO_HS6,,,False
+210000,Root and tuber vegetables,,,needs_review,needs_review_group,NO_HS6,,,False
+810990,Others (2),090921,LUMPED(7→090921),auto_hs6_present,excluded_nec,catchall,090921,"Spices: coriander seeds, neither crushed nor ground",True
+260000,Legume vegetables,070810,LUMPED(4→070810),auto_hs6_present,needs_review_group,OK,070810,"Vegetables, leguminous: peas (pisum sativum), shelled or unshelled, fresh or chilled",True
+151010,Table grapes,080610,LUMPED(3→080610),auto_verified,verified_high,OK,080610,"Fruit, edible: grapes, fresh",True
+241000,(a) flowering brassica,070410,LUMPED(8→070410),auto_hs6_present,needs_review_group,OK,070410,"Vegetables, brassica: cauliflowers and headed broccoli, fresh or chilled",True
+251020,Lettuces,070511,LUMPED(5→070511),auto_verified,verified_high,OK,070511,"Vegetables: cabbage (head) lettuce (lactuca sativa), fresh or chilled",True
+610000,Teas,090210;090220;090230;090240,,vn_finalized,needs_review_group,UMBRELLA/multi,090210,"Tea, green: (not fermented), in immediate packings of a content not exceeding 3kg",True
+241990,Others (2),070410,LUMPED(8→070410),auto_hs6_present,excluded_nec,catchall,070410,"Vegetables, brassica: cauliflowers and headed broccoli, fresh or chilled",True
+161040,Kumquats,081030,LUMPED(5→081030),auto_hs6_present,needs_arbitration,LUMPING,081030,"Fruit, edible: black, white or red currants and gooseberries, fresh",False
+212990,Others (2),071410,LUMPED(4→071410),auto_hs6_present,excluded_nec,catchall,071410,"Vegetable roots and tubers: manioc (cassava), with high starch or inulin content, fresh, chilled, frozen or dried, whether or not sliced or in the form of pellets",True
+140040,Plums,080940,LUMPED(2→080940),auto_verified,verified_high,OK,080940,"Fruit, edible: plums and sloes, fresh",True
+1013990,Others (2),,,,excluded_nec,NO_HS6,,,False
+242000,(b) head brassica,070410,LUMPED(8→070410),auto_hs6_present,needs_review_group,OK,070410,"Vegetables, brassica: cauliflowers and headed broccoli, fresh or chilled",True
+1015000,(e) equine,,,,needs_review_group,NO_HS6,,,False
+900990,Others (2),,,excluded_nec,excluded_nec,NO_HS6,,,False
+1011020,Fat,,,,needs_review_noanchor,NO_HS6,,,False
+233000,(c) cucurbits with inedible peel,080719,LUMPED(3→080719),auto_hs6_present,needs_review_group,catchall,080719,"Fruit, edible: melons, other than watermelons, fresh",True
+500040,Common milletproso millet,100821,,auto_hs6_present,needs_confirm,OK,100821,"Cereals: millet, seed",True
+1020030,Goat,,,,needs_review_noanchor,NO_HS6,,,False
+401030,Poppy seeds,120510,,auto_sci_name,needs_review_noanchor,OK,120510,"Oil seeds: low erucic acid rape or colza seeds, whether or not broken",True
+1011030,Liver,,,,needs_review_noanchor,NO_HS6,,,False
+1014040,Kidney,,,,needs_review_noanchor,NO_HS6,,,False
+220000,Bulb vegetables,070310,LUMPED(4→070310),auto_hs6_present,needs_review_group,OK,070310,"Vegetables, alliaceous: onions and shallots, fresh or chilled",True
+850010,Cloves,090710,LUMPED(4→090710),auto_verified,verified_high,OK,090710,"Spices: cloves (whole fruit, cloves and stems), neither crushed nor ground",True
+256010,Chervil,070920,LUMPED(6→070920),auto_hs6_present,needs_arbitration,LUMPING,070920,"Vegetables: asparagus, fresh or chilled",False
+633990,Others (2),,,excluded_nec,excluded_nec,NO_HS6,,,False
+500090,Wheat,100111; 100119; 100191; 100199,,auto_verified,verified_high,UMBRELLA/multi,100111,"Cereals: wheat and meslin, durum wheat, seed",True
+402030,Oil palms fruits,071120,LUMPED(2→071120),auto_sci_name,needs_review_noanchor,UMBRELLA/multi,071120,"Vegetables: olives, provisionally preserved but unsuitable in that state for immediate consumption",True
+163070,Guavas,080450,LUMPED(2→080450),auto_verified,verified_high,OK,080450,"Fruit, edible: guavas, mangoes and mangosteens, fresh or dried",True
+153030,Raspberries (red and yellow),081020,LUMPED(4→081020),auto_hs6_present,needs_confirm,OK,081020,"Fruit, edible: raspberries, blackberries, mulberries, and loganberries, fresh",False
+810000,Seed spices,090921,LUMPED(7→090921),auto_hs6_present,needs_review_group,OK,090921,"Spices: coriander seeds, neither crushed nor ground",True
+231040,Okralady's fingers,070999,LUMPED(2→070999),vn_finalized,needs_arbitration,UMBRELLA/multi,070999,"Vegetables: edible, n.e.c. in chapter 07, fresh or chilled",False
+256080,Basil and edible flowers,070960,LUMPED(3→070960),auto_hs6_present,needs_arbitration,LUMPING,070960,"Vegetables: fruits of the genus capsicum or of the genus pimenta, fresh or chilled",False
+162020,Litchislychees,081090,LUMPED(6→081090),vn_finalized,needs_arbitration,UMBRELLA/multi,081090,"Fruit, edible: fruits n.e.c. in heading no. 0801 to 0810, fresh",True
+154050,Rose hips,081010,LUMPED(5→081010),auto_hs6_present,needs_arbitration,LUMPING,081010,"Fruit, edible: strawberries, fresh",False
+260030,Peas (with pods),070810,LUMPED(4→070810),auto_verified,verified_high,OK,070810,"Vegetables, leguminous: peas (pisum sativum), shelled or unshelled, fresh or chilled",True
+232990,Others (2),070940,LUMPED(11→070940),auto_hs6_present,excluded_nec,OK,070940,"Vegetables: celery (other than celeriac), fresh or chilled",False
+1200000,PRODUCTS OR PART OF PRODUCTS EXCLUSIVELY USED FOR ANIMAL FEED PRODUCTION (8),,,,needs_review_group,NO_HS6,,,False
+233990,Others (2),080719,LUMPED(3→080719),auto_hs6_present,excluded_nec,OK,080719,"Fruit, edible: melons, other than watermelons, fresh",True
+280990,Mosses and lichens,070959,LUMPED(2→070959),auto_hs6_present,needs_arbitration,OK,070959,"Vegetables: truffles and mushrooms (other than of the genus Agaricus), fresh or chilled",True
+402020,Oil palms kernels,120710,,auto_sci_name,needs_review_noanchor,OK,120710,"Oil seeds: palm nuts and kernels, whether or not broken",False
+260990,Others (2),070890,,auto_hs6_present,excluded_nec,OK,070890,"Vegetables, leguminous: (other than peas and beans), shelled or unshelled, fresh or chilled",True
+140010,Apricots,080910,,auto_verified,verified_high,OK,080910,"Fruit, edible: apricots, fresh",True
+632020,Rooibos,121190,LUMPED(13→121190),auto_herbal_infusion,needs_review_noanchor,UMBRELLA/multi,121190,"Plants and parts (including seeds and fruits) n.e.c. in heading no. 1211, used primarily in perfumery, pharmacy or for insecticidal, fungicidal purposes: fresh or dried, whether or not cut, crushed or powdered",True
+154070,AzarolesMediterranean medlars,081030,LUMPED(5→081030),auto_hs6_present,needs_arbitration,LUMPING,081030,"Fruit, edible: black, white or red currants and gooseberries, fresh",False
+110020,Oranges,080510,LUMPED(2→080510),vn_finalized,verified_high,OK,080510,"Fruit, edible: oranges, fresh or dried",True
+840040,Horseradish (11),091091,,auto_hs6_present,needs_arbitration,ERROR,091091,Spices: mixtures of 2 or more products of different headings,True
+870010,Mace,090821,LUMPED(2→090821),auto_verified,verified_high,OK,090821,"Spices: mace, neither crushed nor ground",True
+1014030,Liver,,,,needs_review_noanchor,NO_HS6,,,False
+820010,Allspicepimento,090421,LUMPED(2→090421),auto_hs6_present,needs_confirm,OK,090421,"Spices: fruits of the genus Capsicum or Pimenta, dried, neither crushed nor ground",False
+260050,Lentils,070810,LUMPED(4→070810),auto_hs6_present,needs_arbitration,LUMPING,070810,"Vegetables, leguminous: peas (pisum sativum), shelled or unshelled, fresh or chilled",True
+243010,Chinese cabbagespe-tsai,070420,LUMPED(2→070420),auto_hs6_present,needs_arbitration,OK,070420,"Vegetables, brassica: brussel sprouts, fresh or chilled",True
+401990,Others (2),,,excluded_nec,excluded_nec,NO_HS6,,,False
+231010,Tomatoes,070200,,auto_verified,verified_high,OK,070200,"Vegetables: tomatoes, fresh or chilled",True
+820080,Tamarind,090421,LUMPED(2→090421),auto_hs6_present,needs_confirm,LUMPING,090421,"Spices: fruits of the genus Capsicum or Pimenta, dried, neither crushed nor ground",False
+1020010,Cattle,,,,needs_review_noanchor,NO_HS6,,,False
+631030,Rose,121190,LUMPED(13→121190),auto_herbal_infusion,needs_review_noanchor,UMBRELLA/multi,121190,"Plants and parts (including seeds and fruits) n.e.c. in heading no. 1211, used primarily in perfumery, pharmacy or for insecticidal, fungicidal purposes: fresh or dried, whether or not cut, crushed or powdered",True
+900010,Sugar beet roots,121291,,auto_sci_name,needs_review_noanchor,UMBRELLA/multi,121291,"Sugar beet: fit for human consumption, fresh, chilled, frozen or dried, whether or not ground",True
+850020,Capers,090710,LUMPED(4→090710),auto_hs6_present,needs_arbitration,LUMPING,090710,"Spices: cloves (whole fruit, cloves and stems), neither crushed nor ground",True
+820020,Sichuan pepper,090411,LUMPED(4→090411),auto_hs6_present,needs_confirm,OK,090411,"Spices: pepper (of the genus piper), neither crushed nor ground",True
+631040,Jasmine,121190,LUMPED(13→121190),auto_herbal_infusion,needs_review_noanchor,UMBRELLA/multi,121190,"Plants and parts (including seeds and fruits) n.e.c. in heading no. 1211, used primarily in perfumery, pharmacy or for insecticidal, fungicidal purposes: fresh or dried, whether or not cut, crushed or powdered",True
+212020,Sweet potatoes,071420,LUMPED(2→071420),auto_verified,verified_high,OK,071420,"Vegetable roots and tubers: sweet potatoes, with high starch or inulin content, fresh, chilled, frozen or dried, whether or not sliced or in the form of pellets",True
+163020,Bananas,080390,LUMPED(4→080390),auto_verified,verified_high,OK,080390,"Fruit, edible: bananas, other than plantains, fresh or dried",True
+270090,Palm hearts,070959,LUMPED(2→070959),auto_hs6_present,needs_arbitration,LUMPING,070959,"Vegetables: truffles and mushrooms (other than of the genus Agaricus), fresh or chilled",True
+1000000,PRODUCTS OF ANIMAL ORIGIN -TERRESTRIAL ANIMALS,,,,needs_review_group,NO_HS6,,,False
+1017020,Fat,,,,needs_review_noanchor,NO_HS6,,,False
+401140,Hemp seeds,120799,LUMPED(2→120799),auto_sci_name,needs_review_noanchor,UMBRELLA/multi,120799,"Oil seeds and oleaginous fruits: n.e.c. in heading no. 1207, whether or not broken",True
+154030,"Currants (black, red and white)",081030,LUMPED(5→081030),auto_verified,verified_high,OK,081030,"Fruit, edible: black, white or red currants and gooseberries, fresh",False
+110000,Citrus fruits,080590,,auto_hs6_present,needs_review_group,UMBRELLA/multi,080590,"Fruit, edible: citrus fruit n.e.c. in heading no. 0805, fresh or dried",True
+1030040,Quail,,,,needs_review_noanchor,NO_HS6,,,False
+251010,Lamb's lettucescorn salads,070519,LUMPED(5→070519),auto_hs6_present,needs_arbitration,LUMPING,070519,"Vegetables: lettuce (lactuca sativa), (other than cabbage lettuce), fresh or chilled",True
+500070,Rye,100210,,auto_verified,verified_high,OK,100210,"Cereals: rye, seed",True
+213100,Swedesrutabagas,071410,LUMPED(4→071410),auto_hs6_present,needs_arbitration,LUMPING,071410,"Vegetable roots and tubers: manioc (cassava), with high starch or inulin content, fresh, chilled, frozen or dried, whether or not sliced or in the form of pellets",True
+251080,Baby leaf crops (including brassica species),070519,LUMPED(5→070519),auto_hs6_present,needs_arbitration,LUMPING,070519,"Vegetables: lettuce (lactuca sativa), (other than cabbage lettuce), fresh or chilled",True
+252010,Spinaches,070970,LUMPED(7→070970),auto_verified,verified_high,LUMPING,070970,"Vegetables: spinach, New Zealand spinach and orache spinach (garden spinach), fresh or chilled",False
+256060,Rosemary,070940,LUMPED(11→070940),auto_hs6_present,needs_arbitration,LUMPING,070940,"Vegetables: celery (other than celeriac), fresh or chilled",False
+120050,Coconuts,080111,,auto_verified,verified_high,OK,080111,"Nuts, edible: coconuts, desiccated",True
+120110,Walnuts,080231,,auto_verified,verified_high,OK,080231,"Nuts, edible: walnuts, fresh or dried, in shell",True
+830010,Cinnamon,090611,LUMPED(2→090611),auto_verified,verified_high,OK,090611,"Spices: cinnamon (Cinnamomum zeylanicum Blume), neither crushed nor ground",True
+1016050,Edible offals (other than liver and kidney),,,,needs_review_noanchor,NO_HS6,,,False
+1016030,Liver,,,,needs_review_noanchor,NO_HS6,,,False
+163040,Papayas,080720,,auto_verified,verified_high,OK,080720,"Fruit, edible: papaws (papayas), fresh",True
+163010,Avocados,080440,,auto_verified,verified_high,OK,080440,"Fruit, edible: avocados, fresh or dried",True
+163000,"(c) inedible peel, large",080310,,auto_hs6_present,needs_review_group,catchall,080310,"Fruit, edible: plantains, fresh or dried",True
+270050,Globe artichokes,070991,,auto_verified,verified_high,OK,070991,"Vegetables: globe artichokes, fresh or chilled",True
+1012030,Liver,,,,needs_review_noanchor,NO_HS6,,,False
+500050,Oat,100410,,auto_verified,verified_high,OK,100410,"Cereals: oats, seeds",True
+1300000,PROCESSED FOOD PRODUCTS (9),,,,needs_review_group,NO_HS6,,,False
+810040,Coriander,090921,LUMPED(7→090921),auto_verified,verified_high,OK,090921,"Spices: coriander seeds, neither crushed nor ground",True
+231020,Sweet peppersbell peppers,070960;090421;090422,,vn_finalized,needs_arbitration,UMBRELLA/multi,070960,"Vegetables: fruits of the genus capsicum or of the genus pimenta, fresh or chilled",False
+1100000,"PRODUCTS OF ANIMAL ORIGIN - FISH, FISHPRODUCTS AND ANY OTHER MARINE AND FRESHWATER FOOD PRODUCTS (8)",,,,needs_review_group,NO_HS6,,,False
+500000,CEREALS,,,needs_review,needs_review_group,NO_HS6,,,False
+161050,Carambolas,081020,LUMPED(4→081020),auto_hs6_present,needs_arbitration,LUMPING,081020,"Fruit, edible: raspberries, blackberries, mulberries, and loganberries, fresh",False
+256020,Chives,070920,LUMPED(6→070920),auto_hs6_present,needs_confirm,LUMPING,070920,"Vegetables: asparagus, fresh or chilled",False
+212030,Yams,071430,,auto_verified,verified_high,OK,071430,"Vegetable roots and tubers: yams (Dioscorea spp.) with high starch or inulin content, fresh, chilled, frozen or dried, whether or not sliced or in the form of pellets",True
+130030,Quinces,080840,,auto_verified,verified_high,OK,080840,"Fruit, edible: quinces, fresh",True
+290000,Algae and prokaryotes organisms,,,needs_review,needs_review_group,NO_HS6,,,False
+1016010,Muscle,,,,needs_review_noanchor,NO_HS6,,,False
+402000,Oil fruits,,,needs_review,needs_review_group,NO_HS6,,,False
+160000,Miscellaneous fruitswith,,,needs_review,needs_review_group,NO_HS6,,,False
+162030,Passionfruitsmaracujas,081090,LUMPED(6→081090),vn_finalized,needs_arbitration,UMBRELLA/multi,081090,"Fruit, edible: fruits n.e.c. in heading no. 0801 to 0810, fresh",True
+840990,Others (2),091011,LUMPED(3→091011),auto_hs6_present,excluded_nec,catchall,091011,"Spices: ginger, neither crushed nor ground",True
+233020,Pumpkins,070993,LUMPED(4→070993),auto_verified,verified_high,OK,070993,"Vegetables: pumpkins, squash and gourds (Cucurbita spp.), fresh or chilled",True
+639000,(d) any other parts of the plant,,,needs_review,needs_review_group,NO_HS6,,,False
+162050,Star applescainitos,081030,LUMPED(5→081030),auto_hs6_present,needs_arbitration,LUMPING,081030,"Fruit, edible: black, white or red currants and gooseberries, fresh",False
+161070,Jambulsjambolans,081040,LUMPED(8→081040),auto_hs6_present,needs_arbitration,LUMPING,081040,"Fruit, edible: cranberries, bilberries and other fruits of the genus vaccinium, fresh",False
+212040,Arrowroots,071490,LUMPED(3→071490),auto_verified,verified_high,OK,071490,"Vegetable roots and tubers: arrowroot, salep, Jerusalem artichokes and similar roots and tubers (not manioc, sweet potatoes, yams, taro or yautia), high starch or inulin content, fresh, chilled, frozen, dried, sliced or not, or in pellet form: sago pith",True
+840000,Root and rhizome spices,091020,LUMPED(4→091020),auto_hs6_present,needs_review_group,OK,091020,Spices: saffron,True
+110050,Mandarins,080520,,vn_finalized,verified_high,OK,080520,"Fruit, edible: mandarins (including tangerines and satsumas), clementines, wilkings and similar citrus hybrids, fresh or dried",True
+251040,Cresses and other sprouts and shoots,070519,LUMPED(5→070519),auto_hs6_present,needs_arbitration,OK,070519,"Vegetables: lettuce (lactuca sativa), (other than cabbage lettuce), fresh or chilled",True
+154040,"Gooseberries (green, red and yellow)",081030,LUMPED(5→081030),auto_hs6_present,needs_confirm,OK,081030,"Fruit, edible: black, white or red currants and gooseberries, fresh",False
+252030,Chards/beet leaves,070940,LUMPED(11→070940),auto_hs6_present,needs_arbitration,LUMPING,070940,"Vegetables: celery (other than celeriac), fresh or chilled",False
+810090,Nutmeg,090921,LUMPED(7→090921),auto_hs6_present,needs_arbitration,LUMPING,090921,"Spices: coriander seeds, neither crushed nor ground",True
+120020,Brazil nuts,080121,,auto_verified,verified_high,OK,080121,"Nuts, edible: brazil nuts, fresh or dried, in shell",True
+231000,(a) Solanaceae and Malvaceae,070970,LUMPED(7→070970),auto_hs6_present,needs_review_group,OK,070970,"Vegetables: spinach, New Zealand spinach and orache spinach (garden spinach), fresh or chilled",False
+150000,Berries and small fruits,,,needs_review,needs_review_group,NO_HS6,,,False
+500030,Maize/corn,100510,,auto_verified,verified_high,OK,100510,"Cereals: maize (corn), seed",True
+810050,Cumin,090931,,auto_verified,verified_high,OK,090931,"Spices: cumin seeds, neither crushed nor ground",True
+1020990,Others (2),,,,excluded_nec,NO_HS6,,,False
+213010,Beetroots,070690,LUMPED(5→070690),auto_verified,verified_high,OK,070690,"Vegetables, root: salad beetroot, salsify, celeric, radishes and similar edible roots, fresh or chilled",True
+1012990,Others (2),,,,excluded_nec,NO_HS6,,,False
+213040,Horseradishes,070690,LUMPED(5→070690),auto_hs6_present,needs_confirm,LUMPING,070690,"Vegetables, root: salad beetroot, salsify, celeric, radishes and similar edible roots, fresh or chilled",True
+1011000,(a) swine,,,,needs_review_group,NO_HS6,,,False
+270060,Leeks,070390,LUMPED(2→070390),auto_verified,verified_high,UMBRELLA/multi,070390,"Vegetables, alliaceous: leeks and other kinds n.e.c. in heading no. 0703, fresh or chilled",True
+161030,Table olives,081010,LUMPED(5→081010),auto_hs6_present,needs_arbitration,LUMPING,081010,"Fruit, edible: strawberries, fresh",False
+1017000,(g) other farmed terrestrial animals,,,,needs_review_group,NO_HS6,,,False
+1011010,Muscle,,,,needs_review_noanchor,NO_HS6,,,False
+213000,(c) other root and tuber vegetables except sugar beets,070610,LUMPED(5→070610),auto_hs6_present,needs_review_group,OK,070610,"Vegetables, root: carrots and turnips, fresh or chilled",True
+162040,Prickly pears/cactus fruits,081090,LUMPED(6→081090),vn_finalized,needs_arbitration,UMBRELLA/multi,081090,"Fruit, edible: fruits n.e.c. in heading no. 0801 to 0810, fresh",True
+500010,Barley,100310; 100390,,auto_verified,verified_high,UMBRELLA/multi,100310,"Cereals: barley, seed",True
+1030990,Others (2),,,,excluded_nec,NO_HS6,,,False
+130990,Others (2),080830,LUMPED(4→080830),auto_hs6_present,excluded_nec,catchall,080830,"Fruit, edible: pears, fresh",True
+242990,Others (2),070410,LUMPED(8→070410),auto_hs6_present,excluded_nec,catchall,070410,"Vegetables, brassica: cauliflowers and headed broccoli, fresh or chilled",True
+110990,Others (2),080510,LUMPED(2→080510),auto_hs6_present,excluded_nec,catchall,080510,"Fruit, edible: oranges, fresh or dried",True
+631050,Lime/linden,121190,LUMPED(13→121190),auto_herbal_infusion,needs_review_noanchor,UMBRELLA/multi,121190,"Plants and parts (including seeds and fruits) n.e.c. in heading no. 1211, used primarily in perfumery, pharmacy or for insecticidal, fungicidal purposes: fresh or dried, whether or not cut, crushed or powdered",True
+650000,Carobs/Saint John's breads,,,needs_review,needs_review_group,NO_HS6,,,False
+810080,Fenugreek,090921,LUMPED(7→090921),auto_hs6_present,needs_arbitration,LUMPING,090921,"Spices: coriander seeds, neither crushed nor ground",True
+1070000,Wild terrestrial vertebrate animals,,,,needs_review_group,NO_HS6,,,False
+1020020,Sheep,,,,needs_review_noanchor,NO_HS6,,,False
+140020,Cherries (sweet),080921,,auto_hs6_present,needs_confirm,OK,080921,"Fruit, edible: sour cherries (Prunus cerasus), fresh",True
+300990,Others (2),071310,LUMPED(3→071310),auto_hs6_present,excluded_nec,catchall,071310,"Vegetables, leguminous: peas (pisum sativum), shelled, whether or not skinned or split, dried",True
+820060,"Peppercorn (black, green and white)",090411,LUMPED(4→090411),auto_hs6_present,needs_arbitration,OK,090411,"Spices: pepper (of the genus piper), neither crushed nor ground",True
+154080,Elderberries,081010,LUMPED(5→081010),auto_hs6_present,needs_confirm,LUMPING,081010,"Fruit, edible: strawberries, fresh",False
+270040,Florence fennels,070951,LUMPED(3→070951),auto_hs6_present,needs_arbitration,LUMPING,070951,"Vegetables: mushrooms of the genus Agaricus, fresh or chilled",False
+280000,"Fungi, mosses and lichens",070970,LUMPED(7→070970),auto_hs6_present,needs_review_group,OK,070970,"Vegetables: spinach, New Zealand spinach and orache spinach (garden spinach), fresh or chilled",False
+252000,(b) spinaches and similar leaves,070970,LUMPED(7→070970),auto_hs6_present,needs_review_group,OK,070970,"Vegetables: spinach, New Zealand spinach and orache spinach (garden spinach), fresh or chilled",False
+120070,Macadamias,080261,,auto_verified,verified_high,OK,080261,"Nuts, edible: macadamia, fresh or dried, in shell",True
+251050,Land cresses,070511,LUMPED(5→070511),auto_hs6_present,needs_arbitration,LUMPING,070511,"Vegetables: cabbage (head) lettuce (lactuca sativa), fresh or chilled",True
+162000,"(b) inedible peel, small",081070,LUMPED(3→081070),auto_hs6_present,needs_review_group,catchall,081070,"Fruit, edible: persimmons, fresh",True
+220020,Onions,070310,LUMPED(4→070310),auto_verified,verified_high,OK,070310,"Vegetables, alliaceous: onions and shallots, fresh or chilled",True
+1040000,Honey and other apiculture products (7),,,,needs_review_group,NO_HS6,,,False
+820030,Caraway,090961,LUMPED(5→090961),auto_verified,verified_high,OK,090961,"Spices: seeds of anise, badian, caraway or fennel: juniper berries, neither crushed nor ground",True
+1013000,(c) sheep,,,,needs_review_group,NO_HS6,,,False
+401110,Safflower seeds,120721,,auto_sci_name,needs_review_noanchor,OK,120721,"Oil seeds: cotton seeds, seed, whether or not broken",True
+1015990,Others (2),,,,excluded_nec,NO_HS6,,,False
+1020000,Milk,,,,needs_review_group,NO_HS6,,,False
+232010,Cucumbers,070700,LUMPED(2→070700),auto_verified,verified_high,OK,070700,"Vegetables: cucumbers and gherkins, fresh or chilled",True
+633000,(c) roots,121190,LUMPED(13→121190),auto_herbal_infusion,needs_review_group,UMBRELLA/multi,121190,"Plants and parts (including seeds and fruits) n.e.c. in heading no. 1211, used primarily in perfumery, pharmacy or for insecticidal, fungicidal purposes: fresh or dried, whether or not cut, crushed or powdered",True
+900030,Chicory roots,121299,,auto_sci_name,needs_review_noanchor,UMBRELLA/multi,121299,"Vegetable products: fit for human consumption, n.e.c. in heading no. 1212, fresh, chilled, frozen or dried, whether or not ground",True
+213070,Parsley roots/Hamburg roots parsley,071490,LUMPED(3→071490),auto_hs6_present,needs_confirm,OK,071490,"Vegetable roots and tubers: arrowroot, salep, Jerusalem artichokes and similar roots and tubers (not manioc, sweet potatoes, yams, taro or yautia), high starch or inulin content, fresh, chilled, frozen, dried, sliced or not, or in pellet form: sago pith",True
+243000,(c) leafy brassica,070490,,auto_hs6_present,needs_review_group,UMBRELLA/multi,070490,"Vegetables, brassica: edible, n.e.c. in heading no. 0704, fresh or chilled",True
+140030,Peaches,080930,,auto_verified,verified_high,OK,080930,"Fruit, edible: peaches, including nectarines, fresh",True
+401000,Oilseeds,,,needs_review,needs_review_group,NO_HS6,,,False
+1016000,(f) poultry,,,,needs_review_group,NO_HS6,,,False
+110040,Limes,080550,LUMPED(2→080550),auto_verified,verified_high,OK,080550,"Fruit, edible: lemons (Citrus limon, Citrus limonum), limes (Citrus aurantifolia , Citrus latifolia), fresh or dried",True
+1014010,Muscle,,,,needs_review_noanchor,NO_HS6,,,False
+213050,Jerusalem artichokes,071490,LUMPED(3→071490),auto_verified,verified_high,OK,071490,"Vegetable roots and tubers: arrowroot, salep, Jerusalem artichokes and similar roots and tubers (not manioc, sweet potatoes, yams, taro or yautia), high starch or inulin content, fresh, chilled, frozen, dried, sliced or not, or in pellet form: sago pith",True
+270070,Rhubarbs,070993,LUMPED(4→070993),auto_hs6_present,needs_arbitration,LUMPING,070993,"Vegetables: pumpkins, squash and gourds (Cucurbita spp.), fresh or chilled",True
+240000,Brassica vegetables(excluding brassica roots and brassica baby leaf crops),,,needs_review,needs_review_group,NO_HS6,,,False
+256090,Laurel/bay leaves,070992,,auto_hs6_present,needs_arbitration,ERROR,070992,"Vegetables: olives, fresh or chilled",True
+270000,Stem vegetables,070920,LUMPED(6→070920),auto_hs6_present,needs_review_group,OK,070920,"Vegetables: asparagus, fresh or chilled",False
+500020,Buckwheat and other pseudocereals,100119,,auto_hs6_present,needs_arbitration,OK,100119,"Cereals: wheat and meslin, durum wheat, other than seed",True
+402010,Olives for oil production,071120,LUMPED(2→071120),auto_sci_name,needs_review_noanchor,UMBRELLA/multi,071120,"Vegetables: olives, provisionally preserved but unsuitable in that state for immediate consumption",True
+1012000,(b) bovine,,,,needs_review_group,NO_HS6,,,False
+402990,Others (2),,,excluded_nec,excluded_nec,NO_HS6,,,False
+1016040,Kidney,,,,needs_review_noanchor,NO_HS6,,,False
+1013040,Kidney,,,,needs_review_noanchor,NO_HS6,,,False
+213090,Salsifies,070690,LUMPED(5→070690),auto_hs6_present,needs_confirm,LUMPING,070690,"Vegetables, root: salad beetroot, salsify, celeric, radishes and similar edible roots, fresh or chilled",True
+213990,Others (2),071410,LUMPED(4→071410),auto_hs6_present,excluded_nec,catchall,071410,"Vegetable roots and tubers: manioc (cassava), with high starch or inulin content, fresh, chilled, frozen or dried, whether or not sliced or in the form of pellets",True
+860990,Others (2),091011,LUMPED(3→091011),auto_hs6_present,excluded_nec,catchall,091011,"Spices: ginger, neither crushed nor ground",True
+256030,Celery leaves,070940,LUMPED(11→070940),auto_hs6_present,needs_confirm,OK,070940,"Vegetables: celery (other than celeriac), fresh or chilled",False
+1015040,Kidney,,,,needs_review_noanchor,NO_HS6,,,False
+1013030,Liver,,,,needs_review_noanchor,NO_HS6,,,False
+860000,Flower pistil spices,091020,LUMPED(4→091020),auto_hs6_present,needs_review_group,OK,091020,Spices: saffron,True
+1014990,Others (2),,,,excluded_nec,NO_HS6,,,False
+212000,(b) tropical root and tuber vegetables,071420,LUMPED(2→071420),auto_hs6_present,needs_review_group,OK,071420,"Vegetable roots and tubers: sweet potatoes, with high starch or inulin content, fresh, chilled, frozen or dried, whether or not sliced or in the form of pellets",True
+233030,Watermelons,080711,,auto_verified,verified_high,OK,080711,"Fruit, edible: watermelons, fresh",True
+256990,Others (2),070940,LUMPED(11→070940),auto_hs6_present,excluded_nec,OK,070940,"Vegetables: celery (other than celeriac), fresh or chilled",False
+401010,Linseeds,120400,,auto_sci_name,needs_review_noanchor,OK,120400,"Oil seeds: linseed, whether or not broken",True
+300020,Lentils,071340,,auto_verified,verified_high,OK,071340,"Vegetables, leguminous: lentils, shelled, whether or not skinned or split, dried",True
+820990,Others (2),090411,LUMPED(4→090411),auto_hs6_present,excluded_nec,catchall,090411,"Spices: pepper (of the genus piper), neither crushed nor ground",True
+810010,Anise/aniseed,090921,LUMPED(7→090921),auto_hs6_present,needs_confirm,LUMPING,090921,"Spices: coriander seeds, neither crushed nor ground",True
+270030,Celeries,070940,LUMPED(11→070940),auto_verified,verified_high,LUMPING,070940,"Vegetables: celery (other than celeriac), fresh or chilled",False
+840030,Turmeric/curcuma,091030,LUMPED(2→091030),auto_verified,verified_high,OK,091030,Spices: turmeric (curcuma),True
+251990,Others (2),070519,LUMPED(5→070519),auto_hs6_present,excluded_nec,OK,070519,"Vegetables: lettuce (lactuca sativa), (other than cabbage lettuce), fresh or chilled",True
+251000,(a) lettuces and salad plants,070511,LUMPED(5→070511),auto_hs6_present,needs_review_group,OK,070511,"Vegetables: cabbage (head) lettuce (lactuca sativa), fresh or chilled",True
+251030,Escaroles/broad-leaved endives,070521,LUMPED(2→070521),auto_hs6_present,needs_arbitration,OK,070521,"Vegetables: witloff chicory (cichorium intybus var. foliosum), fresh or chilled",True
+120040,Chestnuts,080241,,auto_verified,verified_high,OK,080241,"Nuts, edible: chestnuts (Castanea spp.), fresh or dried, in shell",True
+810020,Black caraway/black cumin,090961,LUMPED(5→090961),auto_hs6_present,needs_arbitration,OK,090961,"Spices: seeds of anise, badian, caraway or fennel: juniper berries, neither crushed nor ground",True
+256100,Tarragon,070920,LUMPED(6→070920),auto_hs6_present,needs_arbitration,LUMPING,070920,"Vegetables: asparagus, fresh or chilled",False
+231990,Others (2),070940,LUMPED(11→070940),auto_hs6_present,excluded_nec,OK,070940,"Vegetables: celery (other than celeriac), fresh or chilled",False
+154020,Cranberries,081040,LUMPED(8→081040),auto_verified,verified_high,OK,081040,"Fruit, edible: cranberries, bilberries and other fruits of the genus vaccinium, fresh",False
+120030,Cashew nuts,080131,LUMPED(2→080131),auto_verified,verified_high,OK,080131,"Nuts, edible: cashew nuts, fresh or dried, in shell",True
+631010,Chamomile,121190,LUMPED(13→121190),auto_herbal_infusion,needs_review_noanchor,UMBRELLA/multi,121190,"Plants and parts (including seeds and fruits) n.e.c. in heading no. 1211, used primarily in perfumery, pharmacy or for insecticidal, fungicidal purposes: fresh or dried, whether or not cut, crushed or powdered",True
+100000,"FRUITS, FRESH or FROZEN; TREE NUTS",,,needs_review,needs_review_group,NO_HS6,,,False
+1030020,Duck,,,,needs_review_noanchor,NO_HS6,,,False
+820070,Vanilla,090821,LUMPED(2→090821),auto_hs6_present,needs_arbitration,LUMPING,090821,"Spices: mace, neither crushed nor ground",True
+241010,Broccoli,070410,LUMPED(8→070410),auto_verified,verified_high,OK,070410,"Vegetables, brassica: cauliflowers and headed broccoli, fresh or chilled",True
+820040,Cardamom,090831,,auto_verified,verified_high,OK,090831,"Spices: cardamoms, neither crushed nor ground",True
+850990,Others (2),090710,LUMPED(4→090710),auto_hs6_present,excluded_nec,catchall,090710,"Spices: cloves (whole fruit, cloves and stems), neither crushed nor ground",True
+1012020,Fat,,,,needs_review_noanchor,NO_HS6,,,False
+500080,Sorghum,100710,,auto_verified,verified_high,OK,100710,"Cereals: grain sorghum, seed",True
+900000,SUGAR PLANTS,,,needs_review,needs_review_group,NO_HS6,,,False
+213110,Turnips,070610,LUMPED(5→070610),auto_verified,verified_high,OK,070610,"Vegetables, root: carrots and turnips, fresh or chilled",True
+120100,Pistachios,080251,,auto_verified,verified_high,OK,080251,"Nuts, edible: pistachios, fresh or dried, in shell",True
+110010,Grapefruits,080540,,vn_finalized,verified_high,OK,080540,"Fruit, edible: grapefruit, including pomelos, fresh or dried",True
+140000,Stone fruits,080940,LUMPED(2→080940),auto_hs6_present,needs_review_group,OK,080940,"Fruit, edible: plums and sloes, fresh",True
+120990,Others (2),080119,,auto_hs6_present,excluded_nec,OK,080119,"Nuts, edible: coconuts, fresh or dried, other than desiccated or in the inner shell (endocarp)",True
+161020,Figs,080420,,auto_verified,verified_high,OK,080420,"Fruit, edible: figs, fresh or dried",True
+260020,Beans (without pods),070820,LUMPED(2→070820),auto_hs6_present,needs_arbitration,OK,070820,"Vegetables, leguminous: beans (vigna spp., phaseolus spp.), shelled or unshelled, fresh or chilled",True
+270080,Bamboo shoots,070951,LUMPED(3→070951),auto_hs6_present,needs_arbitration,LUMPING,070951,"Vegetables: mushrooms of the genus Agaricus, fresh or chilled",False
+130040,Medlars,080830,LUMPED(4→080830),auto_hs6_present,needs_arbitration,LUMPING,080830,"Fruit, edible: pears, fresh",True
+153000,(c) cane fruits,081090,LUMPED(6→081090),auto_hs6_present,needs_review_group,UMBRELLA/multi,081090,"Fruit, edible: fruits n.e.c. in heading no. 0801 to 0810, fresh",True
+239000,(e) other fruiting vegetables,070940,LUMPED(11→070940),auto_hs6_present,needs_review_group,OK,070940,"Vegetables: celery (other than celeriac), fresh or chilled",False
+401020,Peanuts/groundnuts,120242,,auto_sci_name,needs_review_noanchor,ERROR,120242,"Ground-nuts: other than seed, not roasted or otherwise cooked, shelled, whether or not broken,",True
+630000,Herbal infusions from,091020,LUMPED(4→091020),auto_hs6_present,needs_review_group,LUMPING,091020,Spices: saffron,True
+1013020,Fat,,,,needs_review_noanchor,NO_HS6,,,False
+1017050,Edible offals (other than liver and kidney),,,,needs_review_noanchor,NO_HS6,,,False
+234000,(d) sweet corn,070970,LUMPED(7→070970),auto_hs6_present,needs_review_group,catchall,070970,"Vegetables: spinach, New Zealand spinach and orache spinach (garden spinach), fresh or chilled",False
+260040,Peas (without pods),070810,LUMPED(4→070810),auto_hs6_present,needs_confirm,OK,070810,"Vegetables, leguminous: peas (pisum sativum), shelled or unshelled, fresh or chilled",True
+255000,(e) witloofs/Belgian endives,070521,LUMPED(2→070521),auto_hs6_present,needs_review_group,OK,070521,"Vegetables: witloff chicory (cichorium intybus var. foliosum), fresh or chilled",True
+162990,Others (2),081040,LUMPED(8→081040),auto_hs6_present,excluded_nec,OK,081040,"Fruit, edible: cranberries, bilberries and other fruits of the genus vaccinium, fresh",False
+243020,Kales,070410,LUMPED(8→070410),auto_hs6_present,needs_confirm,OK,070410,"Vegetables, brassica: cauliflowers and headed broccoli, fresh or chilled",True
+162010,"Kiwi fruits (green, red, yellow)",081050,,auto_hs6_present,needs_arbitration,OK,081050,"Fruit, edible: kiwifruit, fresh",True
+600000,"TEAS, COFFEE, HERBAL INFUSIONS, COCOA AND CAROBS",,,needs_review,needs_review_group,NO_HS6,,,False
+1015020,Fat,,,,needs_review_noanchor,NO_HS6,,,False
+860010,Saffron,091020,LUMPED(4→091020),auto_verified,verified_high,OK,091020,Spices: saffron,True
+130010,Apples,080810,LUMPED(2→080810),auto_verified,verified_high,OK,080810,"Fruit, edible: apples, fresh",True
+270020,Cardoons,070970,LUMPED(7→070970),auto_hs6_present,needs_confirm,LUMPING,070970,"Vegetables: spinach, New Zealand spinach and orache spinach (garden spinach), fresh or chilled",False
+220030,Shallots,070310,LUMPED(4→070310),auto_verified,verified_high,OK,070310,"Vegetables, alliaceous: onions and shallots, fresh or chilled",True
+820050,Juniper berry,090961,LUMPED(5→090961),auto_verified,verified_high,OK,090961,"Spices: seeds of anise, badian, caraway or fennel: juniper berries, neither crushed nor ground",True
+1030010,Chicken,,,,needs_review_noanchor,NO_HS6,,,False
+633020,Ginseng,121190,LUMPED(13→121190),auto_herbal_infusion,needs_review_noanchor,UMBRELLA/multi,121190,"Plants and parts (including seeds and fruits) n.e.c. in heading no. 1211, used primarily in perfumery, pharmacy or for insecticidal, fungicidal purposes: fresh or dried, whether or not cut, crushed or powdered",True
+631020,Hibiscus/roselle,121190,LUMPED(13→121190),auto_herbal_infusion,needs_review_noanchor,UMBRELLA/multi,121190,"Plants and parts (including seeds and fruits) n.e.c. in heading no. 1211, used primarily in perfumery, pharmacy or for insecticidal, fungicidal purposes: fresh or dried, whether or not cut, crushed or powdered",True
+241020,Cauliflowers,070410,LUMPED(8→070410),auto_verified,verified_high,OK,070410,"Vegetables, brassica: cauliflowers and headed broccoli, fresh or chilled",True
+120090,Pine nut kernels,080112,,auto_hs6_present,needs_arbitration,OK,080112,"Nuts, edible: coconuts, in the inner shell (endocarp)",True
+163060,Cherimoyas,081090,LUMPED(6→081090),vn_finalized,needs_confirm,UMBRELLA/multi,081090,"Fruit, edible: fruits n.e.c. in heading no. 0801 to 0810, fresh",True
+120000,Tree nuts,080280,,auto_hs6_present,needs_review_group,OK,080280,"Nuts, edible: areca nuts, fresh or dried, whether or not shelled or peeled",True
+620000,Coffee beans,090111;090112;090121;090122,,vn_finalized,needs_review_group,UMBRELLA/multi,090111,Coffee: not roasted or decaffeinated,True
+632030,Mate/maté,121190,LUMPED(13→121190),auto_herbal_infusion,needs_review_noanchor,UMBRELLA/multi,121190,"Plants and parts (including seeds and fruits) n.e.c. in heading no. 1211, used primarily in perfumery, pharmacy or for insecticidal, fungicidal purposes: fresh or dried, whether or not cut, crushed or powdered",True
+163090,Breadfruits,081090,LUMPED(6→081090),auto_hs6_present,needs_confirm,UMBRELLA/multi,081090,"Fruit, edible: fruits n.e.c. in heading no. 0801 to 0810, fresh",True
+140990,Others (2),080929,,auto_hs6_present,excluded_nec,OK,080929,"Fruit, edible: cherries, other than sour cherries (Prunus cerasus), fresh",True
+632000,(b) leaves and herbs,121190,LUMPED(13→121190),auto_herbal_infusion,needs_review_group,UMBRELLA/multi,121190,"Plants and parts (including seeds and fruits) n.e.c. in heading no. 1211, used primarily in perfumery, pharmacy or for insecticidal, fungicidal purposes: fresh or dried, whether or not cut, crushed or powdered",True
+401040,Sesame seeds,120730,LUMPED(2→120730),auto_sci_name,needs_review_noanchor,OK,120730,"Oil seeds: castor oil seeds, whether or not broken",True
+1017040,Kidney,,,,needs_review_noanchor,NO_HS6,,,False
+850000,Bud spices,090710,LUMPED(4→090710),auto_hs6_present,needs_review_group,OK,090710,"Spices: cloves (whole fruit, cloves and stems), neither crushed nor ground",True
+840020,Ginger (10),091011,LUMPED(3→091011),auto_verified,verified_high,OK,091011,"Spices: ginger, neither crushed nor ground",True
+153010,Blackberries,081020,LUMPED(4→081020),auto_verified,verified_high,OK,081020,"Fruit, edible: raspberries, blackberries, mulberries, and loganberries, fresh",False
+270010,Asparagus,070920,LUMPED(6→070920),auto_verified,verified_high,OK,070920,"Vegetables: asparagus, fresh or chilled",False
+163080,Pineapples,080430,LUMPED(2→080430),auto_verified,verified_high,OK,080430,"Fruit, edible: pineapples, fresh or dried",True
+820000,Fruit spices,090411,LUMPED(4→090411),auto_hs6_present,needs_review_group,OK,090411,"Spices: pepper (of the genus piper), neither crushed nor ground",True
+1011050,Edible offals (other than liver and kidney),,,,needs_review_noanchor,NO_HS6,,,False
+231030,Aubergines/eggplants,070930,LUMPED(3→070930),auto_verified,verified_high,OK,070930,"Vegetables: aubergines, (e.g. plants), fresh or chilled",True
+152000,(b) strawberries,081010,LUMPED(5→081010),auto_hs6_present,needs_review_group,OK,081010,"Fruit, edible: strawberries, fresh",False
+256000,(f) herbs and edible flowers,070999,LUMPED(2→070999),vn_finalized,needs_review_group,UMBRELLA/multi,070999,"Vegetables: edible, n.e.c. in chapter 07, fresh or chilled",False
+631000,(a) flowers,121190,LUMPED(13→121190),auto_herbal_infusion,needs_review_group,UMBRELLA/multi,121190,"Plants and parts (including seeds and fruits) n.e.c. in heading no. 1211, used primarily in perfumery, pharmacy or for insecticidal, fungicidal purposes: fresh or dried, whether or not cut, crushed or powdered",True
+130020,Pears,080830,LUMPED(4→080830),auto_verified,verified_high,OK,080830,"Fruit, edible: pears, fresh",True
+161990,Others (2),081040,LUMPED(8→081040),auto_hs6_present,excluded_nec,OK,081040,"Fruit, edible: cranberries, bilberries and other fruits of the genus vaccinium, fresh",False
+232000,(b) cucurbits with edible peel,070993,LUMPED(4→070993),auto_hs6_present,needs_review_group,catchall,070993,"Vegetables: pumpkins, squash and gourds (Cucurbita spp.), fresh or chilled",True
+120060,Hazelnuts/cobnuts,080221,,auto_verified,verified_high,OK,080221,"Nuts, edible: hazelnuts or filberts (corylus spp.), fresh or dried, in shell",True
+870990,Others (2),090811,LUMPED(2→090811),auto_hs6_present,excluded_nec,catchall,090811,"Spices: nutmeg, neither crushed nor ground",True
+280010,Cultivated fungi,070960,LUMPED(3→070960),auto_hs6_present,needs_arbitration,LUMPING,070960,"Vegetables: fruits of the genus capsicum or of the genus pimenta, fresh or chilled",False
+1017990,Others (2),,,,excluded_nec,NO_HS6,,,False
+251060,Roman rocket/rucola,070511,LUMPED(5→070511),auto_hs6_present,needs_arbitration,OK,070511,"Vegetables: cabbage (head) lettuce (lactuca sativa), fresh or chilled",True
+1016020,Fat,,,,needs_review_noanchor,NO_HS6,,,False
+213020,Carrots,070610,LUMPED(5→070610),auto_verified,verified_high,OK,070610,"Vegetables, root: carrots and turnips, fresh or chilled",True
+120080,Pecans,080131,LUMPED(2→080131),auto_hs6_present,needs_confirm,LUMPING,080131,"Nuts, edible: cashew nuts, fresh or dried, in shell",True
+1014020,Fat,,,,needs_review_noanchor,NO_HS6,,,False
+163990,Others (2),080390,LUMPED(4→080390),auto_hs6_present,excluded_nec,OK,080390,"Fruit, edible: bananas, other than plantains, fresh or dried",True
+300030,Peas,071310,LUMPED(3→071310),auto_verified,verified_high,OK,071310,"Vegetables, leguminous: peas (pisum sativum), shelled, whether or not skinned or split, dried",True
+400000,OILSEEDS AND OIL FRUITS,,,needs_review,needs_review_group,NO_HS6,,,False
+161060,Kaki/Japanese persimmons,081070,LUMPED(3→081070),auto_hs6_present,needs_confirm,OK,081070,"Fruit, edible: persimmons, fresh",True
+154000,(d) other small fruits and berries,081040,LUMPED(8→081040),auto_hs6_present,needs_review_group,OK,081040,"Fruit, edible: cranberries, bilberries and other fruits of the genus vaccinium, fresh",False
+151000,(a) grapes,080610,LUMPED(3→080610),auto_hs6_present,needs_review_group,OK,080610,"Fruit, edible: grapes, fresh",True
+163030,Mangoes,080450,LUMPED(2→080450),vn_finalized,verified_high,OK,080450,"Fruit, edible: guavas, mangoes and mangosteens, fresh or dried",True
+120010,Almonds,080211,,auto_verified,verified_high,OK,080211,"Nuts, edible: almonds, fresh or dried, in shell",True
+840010,Liquorice,091030,LUMPED(2→091030),auto_hs6_present,needs_arbitration,LUMPING,091030,Spices: turmeric (curcuma),True
+1060000,Terrestrial invertebrate animals,,,,needs_review_group,NO_HS6,,,False
+401120,Borage seeds,120760,,auto_sci_name,needs_review_noanchor,OK,120760,"Oil seeds: safflower (Carthamus tinctorius) seeds, whether or not broken",True

@@ -1,0 +1,224 @@
+eu,eu_desc,species,hs6,hs6_desc_HS2012,match,cert
+300040,Lupins/lupini beans,Lupinus albus subsp. albus; Lupi,071331,"Vegetables, leguminous: beans of the spe",KHỚP,LUMPED_known
+252020,Purslanes,Portulaca oleracea; Salsola soda,070930,"Vegetables: aubergines, (e.g. plants), f",XEM,LUMPED_known
+213060,Parsnips,Pastinaca sativa,070610,"Vegetables, root: carrots and turnips, f",XEM,LUMPED_known
+211000,(a) potatoes,Solanum tuberosum subsp. tuberos,070110,"Vegetables: seed potatoes, fresh or chil",KHỚP,AGG_group
+213030,Celeriacs/turnip rooted celeri,Apium graveolens var. rapaceum,070610,"Vegetables, root: carrots and turnips, f",KHỚP,LUMPED_known
+244000,(d) kohlrabies,Brassica oleracea var. gongylode,070690,"Vegetables, root: salad beetroot, salsif",XEM,AGG_group
+830990,Others (2),,090619,Spices: cinnamon and cinnamon-tree flowe,KHỚP,AGG_group
+163100,Durians,Durio zibethinus,081060,"Fruit, edible: durians, fresh",KHỚP,CERT_strong
+242020,Head cabbages,Brassica oleracea var. capitata;,070410,"Vegetables, brassica: cauliflowers and h",KHỚP,LUMPED_known
+130050,Loquats/Japanese medlars,Eriobotrya japonica,080830,"Fruit, edible: pears, fresh",XEM,LUMPED_known
+300000,PULSES,,071310,"Vegetables, leguminous: peas (pisum sati",XEM,AGG_group
+870000,Aril spices,,090811,"Spices: nutmeg, neither crushed nor grou",KHỚP,AGG_group
+401050,Sunflower seeds,Helianthus annuus,120600,"Oil seeds: sunflower seeds, whether or n",KHỚP,CERT_strong
+110030,Lemons,Citrus limon; Citrus medica var.,080550,"Fruit, edible: lemons (Citrus limon, Cit",KHỚP,LUMPED_known
+260010,Beans (with pods),Phaseolus vulgaris; Vigna angula,070820,"Vegetables, leguminous: beans (vigna spp",KHỚP,LUMPED_known
+632010,Strawberry,Fragaria x ananassa; Artemisia a,121190,Plants and parts (including seeds and fr,XEM,CERT_umbrella
+810030,Celery,Apium graveolens; Angelica archa,090921,"Spices: coriander seeds, neither crushed",XEM,LUMPED_known
+401070,Soyabeans,Glycine max; Moringa oleifera ; ,120190,"Soya beans: other than seed, whether or ",XEM,CERT_ok
+300010,Beans,Phaseolus vulgaris,071331,"Vegetables, leguminous: beans of the spe",KHỚP,LUMPED_known
+401080,Mustard seeds,Brassica juncea; Brassica nigra;,120750,"Oil seeds: mustard seeds, whether or not",KHỚP,LUMPED_known
+130000,Pome fruits,,080810,"Fruit, edible: apples, fresh",KHỚP,AGG_group
+254000,(d) watercresses,Nasturtium officinale; Ipomea aq,070930,"Vegetables: aubergines, (e.g. plants), f",XEM,AGG_group
+401150,Castor beans,Ricinus communis; Vitis vinifera,120730,"Oil seeds: castor oil seeds, whether or ",KHỚP,LUMPED_known
+162060,American persimmons/Virginia k,Diospyros virginiana; Diospyros ,081070,"Fruit, edible: persimmons, fresh",KHỚP,LUMPED_known
+242010,Brussels sprouts,Brassica oleracea var. gemmifera,070420,"Vegetables, brassica: brussel sprouts, f",KHỚP,LUMPED_known
+830000,Bark spices,,090611,Spices: cinnamon (Cinnamomum zeylanicum ,KHỚP,AGG_group
+401100,Pumpkin seeds,Cucurbita pepo Styrian Hulless G,120799,Oil seeds and oleaginous fruits: n.e.c. ,KHỚP,LUMPED_known
+163050,Granate apples/pomegranates,Punica granatum,081090,"Fruit, edible: fruits n.e.c. in heading ",XEM,CERT_umbrella
+900020,Sugar canes,Saccharum officinarum; Agave spp,121293,"Sugar cane: fit for human consumption, f",KHỚP,CERT_strong
+220990,Others (2),,070390,"Vegetables, alliaceous: leeks and other ",KHỚP,AGG_group
+251070,Red mustards,Brassica juncea var. rugosa,070511,Vegetables: cabbage (head) lettuce (lact,XEM,LUMPED_known
+232020,Gherkins,Cucumis sativus; Cucumis anguria,070700,"Vegetables: cucumbers and gherkins, fres",KHỚP,LUMPED_known
+161010,Dates,Phoenix dactylifera; Euterpe ole,080410,"Fruit, edible: dates, fresh or dried",KHỚP,CERT_strong
+233010,Melons,Cucumis melo; Cucumis metuliferu,080719,"Fruit, edible: melons, other than waterm",KHỚP,LUMPED_known
+212010,Cassava roots/manioc,Manihot esculenta; Xanthosoma vi,071410,Vegetable roots and tubers: manioc (cass,KHỚP,LUMPED_known
+500060,Rice,Oryza sativa; Oryza glaberrima; ,100610+,[multi],multi,CERT_multi
+232030,Courgettes,Cucurbita pepo Zucchini Group; L,070993,"Vegetables: pumpkins, squash and gourds ",KHỚP,LUMPED_known
+220040,Spring onions/green onions and,Allium cepa Common Onion Group; ,070310,"Vegetables, alliaceous: onions and shall",KHỚP,LUMPED_known
+243990,Others (2),,070519,"Vegetables: lettuce (lactuca sativa), (o",KHỚP,AGG_group
+213080,Radishes,Raphanus sativus Radish Group; R,070690,"Vegetables, root: salad beetroot, salsif",KHỚP,LUMPED_known
+401090,Cotton seeds,Gossypium barbadense; Gossypium ,120721,"Oil seeds: cotton seeds, seed, whether o",KHỚP,CERT_strong
+810060,Dill,Anethum graveolens,090961,"Spices: seeds of anise, badian, caraway ",XEM,LUMPED_known
+402040,Kapok,Ceiba pentandra,120799,Oil seeds and oleaginous fruits: n.e.c. ,XEM,CERT_ok
+810070,Fennel,Foeniculum vulgare; Foeniculum v,090961,"Spices: seeds of anise, badian, caraway ",KHỚP,LUMPED_known
+163110,Soursops/guanabanas,Annona muricata,081090,"Fruit, edible: fruits n.e.c. in heading ",XEM,CERT_umbrella
+151020,Wine grapes,Vitis vinifera; Vitis amurensis;,080610,"Fruit, edible: grapes, fresh",KHỚP,LUMPED_known
+633010,Valerian,Valeriana officinalis; Iris vers,121190,Plants and parts (including seeds and fr,XEM,CERT_umbrella
+220010,Garlic,Allium sativum; Allium obliquum,070320,"Vegetables, alliaceous: garlic, fresh or",KHỚP,CERT_strong
+161000,(a) edible peel,,080430,"Fruit, edible: pineapples, fresh or drie",KHỚP,AGG_group
+401130,Gold of pleasure seeds,Camelina sativa,120799,Oil seeds and oleaginous fruits: n.e.c. ,KHỚP,LUMPED_known
+810990,Others (2),,090921,"Spices: coriander seeds, neither crushed",XEM,AGG_group
+260000,Legume vegetables,,070810,"Vegetables, leguminous: peas (pisum sati",KHỚP,AGG_group
+151010,Table grapes,Vitis vinifera; Actinidia arguta,080610,"Fruit, edible: grapes, fresh",KHỚP,LUMPED_known
+241000,(a) flowering brassica,,070410,"Vegetables, brassica: cauliflowers and h",KHỚP,AGG_group
+251020,Lettuces,Lactuca sativa; Lactuca sativa C,070511,Vegetables: cabbage (head) lettuce (lact,KHỚP,LUMPED_known
+610000,Teas,Camellia sinensis,090210+,[multi],multi,CERT_multi
+241990,Others (2),,070410,"Vegetables, brassica: cauliflowers and h",XEM,AGG_group
+212990,Others (2),,071410,Vegetable roots and tubers: manioc (cass,XEM,AGG_group
+140040,Plums,Prunus domestica; Prunus america,080940,"Fruit, edible: plums and sloes, fresh",KHỚP,LUMPED_known
+242000,(b) head brassica,,070410,"Vegetables, brassica: cauliflowers and h",KHỚP,AGG_group
+233000,(c) cucurbits with inedible pe,,080719,"Fruit, edible: melons, other than waterm",XEM,AGG_group
+500040,Common milletproso millet,Panicum miliaceum; Digitaria ibu,100821,"Cereals: millet, seed",KHỚP,CERT_strong
+220000,Bulb vegetables,,070310,"Vegetables, alliaceous: onions and shall",KHỚP,AGG_group
+850010,Cloves,Syzygium aromaticum ; syn: Eugen,090710,"Spices: cloves (whole fruit, cloves and ",KHỚP,LUMPED_known
+500090,Wheat,Triticum aestivum; Triticum turg,100111+,[multi],multi,CERT_multi
+402030,Oil palms fruits,Attalea maripa; Elaeis guineensi,120799,Oil seeds and oleaginous fruits: n.e.c. ,KHỚP,LUMPED_known
+163070,Guavas,Psidium guajava; Psidium guineen,080450,"Fruit, edible: guavas, mangoes and mango",KHỚP,LUMPED_known
+810000,Seed spices,,090921,"Spices: coriander seeds, neither crushed",KHỚP,AGG_group
+162020,Litchislychees,Litchi chinensis; Dimocarpus lon,081090,"Fruit, edible: fruits n.e.c. in heading ",XEM,CERT_umbrella
+260030,Peas (with pods),Pisum sativum; Tetragonolobus pu,070810,"Vegetables, leguminous: peas (pisum sati",KHỚP,LUMPED_known
+233990,Others (2),,080719,"Fruit, edible: melons, other than waterm",KHỚP,AGG_group
+280990,Mosses and lichens,Cetraria islandica,070959,Vegetables: truffles and mushrooms (othe,KHỚP,LUMPED_known
+260990,Others (2),,070890,"Vegetables, leguminous: (other than peas",KHỚP,AGG_group
+140010,Apricots,Armeniaca vulgaris ; syn: Prunus,080910,"Fruit, edible: apricots, fresh",KHỚP,CERT_strong
+632020,Rooibos,Aspalathus linearis; Cyclopia ge,121190,Plants and parts (including seeds and fr,XEM,CERT_umbrella
+110020,Oranges,Citrus sinensis; Citrus bergamia,080510,"Fruit, edible: oranges, fresh or dried",KHỚP,LUMPED_known
+840040,Horseradish (11),Armoracia rusticana,070690,"Vegetables, root: salad beetroot, salsif",XEM,CERT_ok
+870010,Mace,Myristica fragrans,090821,"Spices: mace, neither crushed nor ground",KHỚP,LUMPED_known
+260050,Lentils,Lens culinaris ; syn: Lens escul,070810,"Vegetables, leguminous: peas (pisum sati",XEM,LUMPED_known
+243010,Chinese cabbagespe-tsai,Brassica rapa subsp. pekinensis;,070420,"Vegetables, brassica: brussel sprouts, f",KHỚP,LUMPED_known
+231010,Tomatoes,Lycopersicon esculentum; Physali,070200,"Vegetables: tomatoes, fresh or chilled",KHỚP,CERT_strong
+631030,Rose,Rosa spp.; Amygdalus communis ; ,121190,Plants and parts (including seeds and fr,XEM,CERT_umbrella
+900010,Sugar beet roots,Beta vulgaris ssp. vulgaris var.,121291,"Sugar beet: fit for human consumption, f",KHỚP,CERT_strong
+850020,Capers,Capparis spinosa; Tropaeolum maj,090710,"Spices: cloves (whole fruit, cloves and ",XEM,LUMPED_known
+820020,Sichuan pepper,Zanthoxylum spp.; Zanthoxylum pi,090411,"Spices: pepper (of the genus piper), nei",KHỚP,LUMPED_known
+631040,Jasmine,Jasminum officinale; Jasminum sa,121190,Plants and parts (including seeds and fr,XEM,CERT_umbrella
+212020,Sweet potatoes,Ipomoea batatas,071420,Vegetable roots and tubers: sweet potato,KHỚP,LUMPED_known
+163020,Bananas,Musa acuminata; Musa balbisiana;,080390,"Fruit, edible: bananas, other than plant",KHỚP,LUMPED_known
+270090,Palm hearts,Bactris gasipaes; Cocos nucifera,070959,Vegetables: truffles and mushrooms (othe,XEM,LUMPED_known
+401140,Hemp seeds,Cannabis sativa subsp. sativa; C,120799,Oil seeds and oleaginous fruits: n.e.c. ,KHỚP,LUMPED_known
+110000,Citrus fruits,,080590,"Fruit, edible: citrus fruit n.e.c. in he",KHỚP,CERT_strong
+251010,Lamb's lettucescorn salads,Valerianella locusta; Valerianel,070519,"Vegetables: lettuce (lactuca sativa), (o",XEM,LUMPED_known
+500070,Rye,Secale cereale,100210,"Cereals: rye, seed",KHỚP,CERT_strong
+213100,Swedesrutabagas,Brassica napus subsp. napobrassi,071490,"Vegetable roots and tubers: arrowroot, s",XEM,LUMPED_known
+251080,Baby leaf crops (including bra,Beta vulgaris var. flavescens; C,070519,"Vegetables: lettuce (lactuca sativa), (o",XEM,LUMPED_known
+120050,Coconuts,Cocos nucifera; Areca catechu,080111,"Nuts, edible: coconuts, desiccated",KHỚP,CERT_strong
+120110,Walnuts,Juglans nigra; Juglans regia,080231,"Nuts, edible: walnuts, fresh or dried, i",KHỚP,CERT_strong
+830010,Cinnamon,Cinnamomum verum ; syn: Cinnamom,090611,Spices: cinnamon (Cinnamomum zeylanicum ,KHỚP,LUMPED_known
+163040,Papayas,Carica papaya; Blighia sapida; A,080720,"Fruit, edible: papaws (papayas), fresh",KHỚP,CERT_strong
+163010,Avocados,Persea americana; Persea america,080440,"Fruit, edible: avocados, fresh or dried",KHỚP,CERT_strong
+163000,"(c) inedible peel, large",,080310,"Fruit, edible: plantains, fresh or dried",XEM,AGG_group
+270050,Globe artichokes,Cynara cardunculus Globe articho,070991,"Vegetables: globe artichokes, fresh or c",KHỚP,CERT_strong
+500050,Oat,Avena sativa,100410,"Cereals: oats, seeds",KHỚP,CERT_strong
+810040,Coriander,Coriandrum sativum; Eryngium foe,090921,"Spices: coriander seeds, neither crushed",KHỚP,LUMPED_known
+231020,Sweet peppersbell peppers,Capsicum annuum; Capsicum annuum,070960+,[multi],multi,CERT_multi
+212030,Yams,Dioscorea spp.; Pachyrhizus tube,071430,Vegetable roots and tubers: yams (Diosco,KHỚP,CERT_strong
+130030,Quinces,Cydonia oblonga; Pseudocydonia s,080840,"Fruit, edible: quinces, fresh",KHỚP,CERT_strong
+162030,Passionfruitsmaracujas,Passiflora edulis ; syn: Passifl,081090,"Fruit, edible: fruits n.e.c. in heading ",XEM,CERT_umbrella
+840990,Others (2),,091011,"Spices: ginger, neither crushed nor grou",XEM,AGG_group
+233020,Pumpkins,Cucurbita maxima; Cucurbita mosc,070993,"Vegetables: pumpkins, squash and gourds ",KHỚP,LUMPED_known
+212040,Arrowroots,Maranta arundinacea; Nelumbo nuc,071490,"Vegetable roots and tubers: arrowroot, s",KHỚP,LUMPED_known
+840000,Root and rhizome spices,,091020,Spices: saffron,KHỚP,AGG_group
+110050,Mandarins,Citrus reticulata ; syn: Citrus ,080520,"Fruit, edible: mandarins (including tang",KHỚP,CERT_strong
+251040,Cresses and other sprouts and ,Lepidium sativum subsp. sativum;,070519,"Vegetables: lettuce (lactuca sativa), (o",KHỚP,LUMPED_known
+810090,Nutmeg,Myristica fragrans; Bixa orellan,090921,"Spices: coriander seeds, neither crushed",XEM,LUMPED_known
+120020,Brazil nuts,Bertholletia excelsa,080121,"Nuts, edible: brazil nuts, fresh or drie",KHỚP,CERT_strong
+500030,Maize/corn,Zea mays; Zea mays var. indurata,100510,"Cereals: maize (corn), seed",KHỚP,CERT_strong
+810050,Cumin,Cuminum cyminum,090931,"Spices: cumin seeds, neither crushed nor",KHỚP,CERT_strong
+213010,Beetroots,Beta vulgaris var. vulgaris,070690,"Vegetables, root: salad beetroot, salsif",KHỚP,LUMPED_known
+213040,Horseradishes,Armoracia rusticana; Taraxacum s,070690,"Vegetables, root: salad beetroot, salsif",XEM,LUMPED_known
+270060,Leeks,Allium ampeloprasumampeloprasum ,070390,"Vegetables, alliaceous: leeks and other ",KHỚP,LUMPED_known
+213000,(c) other root and tuber veget,,070610,"Vegetables, root: carrots and turnips, f",KHỚP,AGG_group
+162040,Prickly pears/cactus fruits,Opuntia ficus-indica; Hylocereus,081090,"Fruit, edible: fruits n.e.c. in heading ",KHỚP,CERT_umbrella
+500010,Barley,Hordeum vulgare,100310+,[multi],multi,CERT_multi
+130990,Others (2),,080830,"Fruit, edible: pears, fresh",XEM,AGG_group
+242990,Others (2),,070410,"Vegetables, brassica: cauliflowers and h",XEM,AGG_group
+110990,Others (2),,080510,"Fruit, edible: oranges, fresh or dried",XEM,AGG_group
+631050,Lime/linden,Tilia cordata; Tilia platyphyllo,121190,Plants and parts (including seeds and fr,XEM,CERT_umbrella
+810080,Fenugreek,Trigonella foenum-graecum,090921,"Spices: coriander seeds, neither crushed",XEM,LUMPED_known
+140020,Cherries (sweet),Cerasus avium ; syn: Prunus aviu,080921,"Fruit, edible: sour cherries (Prunus cer",KHỚP,CERT_strong
+300990,Others (2),,071310,"Vegetables, leguminous: peas (pisum sati",XEM,AGG_group
+820060,"Peppercorn (black, green and w",Piper nigrum; Schinus terebinthi,090411,"Spices: pepper (of the genus piper), nei",KHỚP,LUMPED_known
+120070,Macadamias,Macadamia ternifolia ; syn: Maca,080261,"Nuts, edible: macadamia, fresh or dried,",KHỚP,CERT_strong
+251050,Land cresses,Barbarea verna,070511,Vegetables: cabbage (head) lettuce (lact,XEM,LUMPED_known
+162000,"(b) inedible peel, small",,081070,"Fruit, edible: persimmons, fresh",XEM,AGG_group
+220020,Onions,Allium cepa Common Onion Group; ,070310,"Vegetables, alliaceous: onions and shall",KHỚP,LUMPED_known
+820030,Caraway,Carum carvi; Trachyspermum ammi,090961,"Spices: seeds of anise, badian, caraway ",KHỚP,LUMPED_known
+401110,Safflower seeds,Carthamus tinctorius; Silybum ma,120760,Oil seeds: safflower (Carthamus tinctori,KHỚP,CERT_strong
+232010,Cucumbers,Cucumis sativus; Cucumis melo va,070700,"Vegetables: cucumbers and gherkins, fres",KHỚP,LUMPED_known
+633000,(c) roots,,121190,Plants and parts (including seeds and fr,XEM,CERT_umbrella
+900030,Chicory roots,Cichorium intybus Sativum group;,121299,Vegetable products: fit for human consum,XEM,CERT_umbrella
+213070,Parsley roots/Hamburg roots pa,Petroselinum crispum convar. rad,071490,"Vegetable roots and tubers: arrowroot, s",KHỚP,LUMPED_known
+243000,(c) leafy brassica,,070490,"Vegetables, brassica: edible, n.e.c. in ",KHỚP,AGG_group
+140030,Peaches,Persica vulgaris ; syn: Prunus p,080930,"Fruit, edible: peaches, including nectar",KHỚP,CERT_strong
+110040,Limes,Citrus aurantiifolia; Citrus lim,080550,"Fruit, edible: lemons (Citrus limon, Cit",KHỚP,LUMPED_known
+213050,Jerusalem artichokes,Helianthus tuberosus; Stachys af,071490,"Vegetable roots and tubers: arrowroot, s",KHỚP,LUMPED_known
+270070,Rhubarbs,Rheum rhabarbarum,070993,"Vegetables: pumpkins, squash and gourds ",XEM,LUMPED_known
+500020,Buckwheat and other pseudocere,Fagopyrum esculentum; Amaranthus,100119,"Cereals: wheat and meslin, durum wheat, ",KHỚP,CERT_strong
+402010,Olives for oil production,Olea europaea var. europaea,071120,"Vegetables: olives, provisionally preser",KHỚP,LUMPED_known
+213090,Salsifies,Tragopogon porrifolius; Arctium ,070690,"Vegetables, root: salad beetroot, salsif",XEM,LUMPED_known
+213990,Others (2),,071410,Vegetable roots and tubers: manioc (cass,XEM,AGG_group
+860990,Others (2),,091011,"Spices: ginger, neither crushed nor grou",XEM,AGG_group
+860000,Flower pistil spices,,091020,Spices: saffron,KHỚP,AGG_group
+212000,(b) tropical root and tuber ve,,071420,Vegetable roots and tubers: sweet potato,KHỚP,AGG_group
+233030,Watermelons,Citrullus vulgaris ; syn: Citrul,080711,"Fruit, edible: watermelons, fresh",KHỚP,CERT_strong
+401010,Linseeds,Linum usitatissimum,120400,"Oil seeds: linseed, whether or not broke",KHỚP,CERT_strong
+300020,Lentils,Lens culinaris ; syn: Lens escul,071340,"Vegetables, leguminous: lentils, shelled",KHỚP,CERT_strong
+820990,Others (2),,090411,"Spices: pepper (of the genus piper), nei",XEM,AGG_group
+810010,Anise/aniseed,Pimpinella anisum,090921,"Spices: coriander seeds, neither crushed",XEM,LUMPED_known
+840030,Turmeric/curcuma,Curcuma longa ; syn: Curcuma dom,091030,Spices: turmeric (curcuma),KHỚP,LUMPED_known
+251990,Others (2),,070519,"Vegetables: lettuce (lactuca sativa), (o",KHỚP,AGG_group
+251000,(a) lettuces and salad plants,,070511,Vegetables: cabbage (head) lettuce (lact,KHỚP,AGG_group
+251030,Escaroles/broad-leaved endives,Cichorium endivia var. latifolia,070521,Vegetables: witloff chicory (cichorium i,KHỚP,LUMPED_known
+120040,Chestnuts,Castanea crenata; Castanea denta,080241,"Nuts, edible: chestnuts (Castanea spp.),",KHỚP,CERT_strong
+810020,Black caraway/black cumin,Bunium persicum; Nigella sativa,090961,"Spices: seeds of anise, badian, caraway ",KHỚP,LUMPED_known
+120030,Cashew nuts,Anacardium occidentale,080131,"Nuts, edible: cashew nuts, fresh or drie",KHỚP,LUMPED_known
+631010,Chamomile,Chamaemelum nobile ; syn: Anthem,121190,Plants and parts (including seeds and fr,XEM,CERT_umbrella
+820070,Vanilla,Vanilla planifolia ; syn: Vanill,090821,"Spices: mace, neither crushed nor ground",XEM,LUMPED_known
+241010,Broccoli,Brassica oleracea var. italica; ,070410,"Vegetables, brassica: cauliflowers and h",KHỚP,LUMPED_known
+820040,Cardamom,Elettaria cardamomum; Origanum m,090831,"Spices: cardamoms, neither crushed nor g",KHỚP,CERT_strong
+850990,Others (2),,090710,"Spices: cloves (whole fruit, cloves and ",XEM,AGG_group
+500080,Sorghum,Sorghum bicolor; Sorghum bicolor,100710,"Cereals: grain sorghum, seed",KHỚP,CERT_strong
+213110,Turnips,Brassica rapa subsp. rapa; Brass,070610,"Vegetables, root: carrots and turnips, f",KHỚP,LUMPED_known
+120100,Pistachios,Pistacia vera,080251,"Nuts, edible: pistachios, fresh or dried",KHỚP,CERT_strong
+110010,Grapefruits,Citrus paradisi; Citrus natsudai,080540,"Fruit, edible: grapefruit, including pom",KHỚP,CERT_strong
+140000,Stone fruits,,080940,"Fruit, edible: plums and sloes, fresh",KHỚP,AGG_group
+120990,Others (2),,080119,"Nuts, edible: coconuts, fresh or dried, ",KHỚP,AGG_group
+161020,Figs,Ficus carica,080420,"Fruit, edible: figs, fresh or dried",KHỚP,CERT_strong
+260020,Beans (without pods),Phaseolus vulgaris,070820,"Vegetables, leguminous: beans (vigna spp",KHỚP,LUMPED_known
+130040,Medlars,Mespilus germanica,080830,"Fruit, edible: pears, fresh",XEM,LUMPED_known
+153000,(c) cane fruits,,081090,"Fruit, edible: fruits n.e.c. in heading ",KHỚP,CERT_umbrella
+401020,Peanuts/groundnuts,Arachis hypogaea,120242,"Ground-nuts: other than seed, not roaste",XEM,CERT_ok
+630000,Herbal infusions from,,091020,Spices: saffron,XEM,LUMPED_known
+260040,Peas (without pods),Pisum sativum,070810,"Vegetables, leguminous: peas (pisum sati",KHỚP,LUMPED_known
+255000,(e) witloofs/Belgian endives,Cichorium intybus Foliosum group,070521,Vegetables: witloff chicory (cichorium i,KHỚP,AGG_group
+243020,Kales,Brassica oleracea var. sabellica,070410,"Vegetables, brassica: cauliflowers and h",KHỚP,LUMPED_known
+162010,"Kiwi fruits (green, red, yello",Actinidia deliciosa; Actinidia c,081050,"Fruit, edible: kiwifruit, fresh",KHỚP,CERT_strong
+860010,Saffron,Crocus sativus,091020,Spices: saffron,KHỚP,LUMPED_known
+130010,Apples,Malus domestica; Malus sylvestri,080810,"Fruit, edible: apples, fresh",KHỚP,LUMPED_known
+220030,Shallots,Allium cepa Aggregatum Group; sy,070310,"Vegetables, alliaceous: onions and shall",KHỚP,LUMPED_known
+820050,Juniper berry,Juniperus communis,090961,"Spices: seeds of anise, badian, caraway ",KHỚP,LUMPED_known
+633020,Ginseng,Panax ginseng; Panax quinquefoli,121190,Plants and parts (including seeds and fr,XEM,CERT_umbrella
+631020,Hibiscus/roselle,Hibiscus sabdariffa,121190,Plants and parts (including seeds and fr,XEM,CERT_umbrella
+241020,Cauliflowers,Brassica oleracea var. botrytis;,070410,"Vegetables, brassica: cauliflowers and h",KHỚP,LUMPED_known
+163060,Cherimoyas,Annona cherimola; Limonia acidis,081090,"Fruit, edible: fruits n.e.c. in heading ",XEM,CERT_umbrella
+120000,Tree nuts,,080280,"Nuts, edible: areca nuts, fresh or dried",KHỚP,AGG_group
+620000,Coffee beans,Coffea arabica; Coffea canephora,090111+,[multi],multi,CERT_multi
+632030,Mate/maté,Ilex paraguariensis; Ginkgo bilo,121190,Plants and parts (including seeds and fr,XEM,CERT_umbrella
+163090,Breadfruits,Artocarpus altilis; Artocarpus h,081090,"Fruit, edible: fruits n.e.c. in heading ",XEM,CERT_umbrella
+140990,Others (2),,080929,"Fruit, edible: cherries, other than sour",KHỚP,AGG_group
+632000,(b) leaves and herbs,,121190,Plants and parts (including seeds and fr,KHỚP,CERT_umbrella
+401040,Sesame seeds,Sesamum indicum,120740,"Oil seeds: sesamum seeds, whether or not",KHỚP,LUMPED_known
+850000,Bud spices,,090710,"Spices: cloves (whole fruit, cloves and ",KHỚP,AGG_group
+840020,Ginger (10),Zingiber officinale,091011,"Spices: ginger, neither crushed nor grou",KHỚP,LUMPED_known
+163080,Pineapples,Ananas comosus,080430,"Fruit, edible: pineapples, fresh or drie",KHỚP,LUMPED_known
+820000,Fruit spices,,090411,"Spices: pepper (of the genus piper), nei",KHỚP,AGG_group
+231030,Aubergines/eggplants,Solanum melongena; Solanum macro,070930,"Vegetables: aubergines, (e.g. plants), f",KHỚP,LUMPED_known
+631000,(a) flowers,,121190,Plants and parts (including seeds and fr,XEM,CERT_umbrella
+130020,Pears,Pyrus communis; Pyrus pyrifolia;,080830,"Fruit, edible: pears, fresh",KHỚP,LUMPED_known
+232000,(b) cucurbits with edible peel,,070993,"Vegetables: pumpkins, squash and gourds ",XEM,AGG_group
+120060,Hazelnuts/cobnuts,Corylus avellana; Quercus spp.; ,080221,"Nuts, edible: hazelnuts or filberts (cor",KHỚP,CERT_strong
+870990,Others (2),,090811,"Spices: nutmeg, neither crushed nor grou",XEM,AGG_group
+251060,Roman rocket/rucola,Eruca sativa; Diplotaxis tenuifo,070511,Vegetables: cabbage (head) lettuce (lact,KHỚP,LUMPED_known
+213020,Carrots,Daucus carota subsp. sativus; Da,070610,"Vegetables, root: carrots and turnips, f",KHỚP,LUMPED_known
+120080,Pecans,Carya illinoinensis; Carya ovata,080131,"Nuts, edible: cashew nuts, fresh or drie",XEM,LUMPED_known
+163990,Others (2),,080390,"Fruit, edible: bananas, other than plant",KHỚP,AGG_group
+300030,Peas,Pisum sativum,071310,"Vegetables, leguminous: peas (pisum sati",KHỚP,LUMPED_known
+161060,Kaki/Japanese persimmons,Diospyros kaki,081070,"Fruit, edible: persimmons, fresh",KHỚP,LUMPED_known
+151000,(a) grapes,,080610,"Fruit, edible: grapes, fresh",KHỚP,AGG_group
+163030,Mangoes,Mangifera indica,080450,"Fruit, edible: guavas, mangoes and mango",KHỚP,LUMPED_known
+120010,Almonds,Amygdalus communis ; syn: Prunus,080211,"Nuts, edible: almonds, fresh or dried, i",KHỚP,CERT_strong
+840010,Liquorice,Glycyrrhiza glabra,091030,Spices: turmeric (curcuma),XEM,LUMPED_known
+401120,Borage seeds,Borago officinalis; Buglossoides,120799,Oil seeds and oleaginous fruits: n.e.c. ,KHỚP,CERT_strong

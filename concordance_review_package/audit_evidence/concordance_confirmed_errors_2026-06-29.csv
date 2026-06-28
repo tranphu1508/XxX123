@@ -1,0 +1,13 @@
+eu_code,product,bucket,assigned_hs6,assigned_actually_is,proposed_hs2012,impact
+0401040,Sesame seeds,auto_sci_name,120730,castor oil seeds,120740,oilseed nhỏ
+0401060,Rapeseeds/canola,auto_sci_name,120740,sesame,120590,oilseed nhỏ
+0401030,Poppy seeds,auto_sci_name,120510,rape/colza,120791,oilseed nhỏ
+0401110,Safflower seeds,auto_sci_name,120721,cotton seed,120760,oilseed nhỏ
+0401120,Borage seeds,auto_sci_name,120760,safflower,120799,oilseed nhỏ
+0401130,Gold of pleasure,auto_sci_name,120750,mustard,120799,oilseed nhỏ
+0402040,Kapok,auto_sci_name,080232,WALNUTS (óc chó!),120799,oilseed nhỏ
+0402030,Oil palm fruits,auto_sci_name,071120,OLIVES (ô liu!),151190/?,nhỏ; cần xét quả cọ tươi
+0163050,Pomegranates,needs_arbitration,080390,BANANAS (chuối!),081090,NHIỄM stringency mã chuối 8% panel
+0163110,Soursops/guanabanas,needs_arbitration,080390,BANANAS (chuối!),081090,NHIỄM stringency mã chuối
+0213100,Swedes/rutabagas,needs_arbitration,071410,CASSAVA (sắn!),071490,NHIỄM stringency mã sắn 6% panel
+0120090,Pine nut kernels,needs_arbitration,080112,COCONUTS (dừa!),080290,mã dừa 080112 ~1% panel

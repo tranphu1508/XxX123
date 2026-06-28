@@ -5,6 +5,12 @@
 
 Định dạng: `YYYY-MM-DD | <task> | <raw URL> | <tóm tắt 1 câu>`
 
+2026-06-29 | Đo méo concordance + vá 14 lỗi (β VỮNG) | https://raw.githubusercontent.com/tranphu1508/XxX123/main/handoff_2026-06-29_concordance_distortion_fix.md | ĐO: loại 31 mã lỗi+lumping (24,8% dòng) → S1 −1,47→−1,38, S2 +0,149→+0,141 (cùng dấu/ý nghĩa) → lỗi concordance VÔ HẠI với β. Soi 100% 381 mã: 168 OK + loại-đúng 97 + umbrella 38 + lumping 53 + ~12-15 lỗi. Đã vá 14 (oilseeds, lựu/mãng cầu→fruit-nec, su hào→071490...), 2 borderline cờ REVIEW. Lõi vững → công bố được; lumping ghi Limitations. Panel chưa rebuild — chờ user.
+
+2026-06-29 | Soi rổ flagged concordance (auto_sci_name+needs_review) | https://raw.githubusercontent.com/tranphu1508/XxX123/main/handoff_2026-06-29_concordance_bucket_review.md | ESCALATION: rổ flagged SAI hệ thống — auto_sci_name 8/22 lỗi (hạt dầu lộn mã, ~0,08%KN), needs_arbitration ≥4 lỗi gồm 2 GIÁ TRỊ LỚN (lựu+mãng cầu→080390 CHUỐI 8%, su hào→071410 SẮN 6%, làm bẩn weakest-link stringency chứ không bịa mã). Umbrella 081090/121190/0902 HỢP LỆ. Đã vá 2 (cotton/palm), lập 12 lỗi xác nhận. Lõi verified_high vẫn đúng → β lõi có thể vững, nhưng phải dọn rổ flagged+rebuild — chờ user.
+
+2026-06-29 | Audit HS-revision EU↔BACI + tính đúng concordance | https://raw.githubusercontent.com/tranphu1508/XxX123/main/handoff_2026-06-29_hs_revision_audit.md | HS-revision KHỚP (136/137 mã HS2012 hợp lệ, panel 125/125); GIẢI cờ Giai đoạn 0. Phát hiện 2 lỗi map (đều auto_sci_name): 0402020 palm→151010(không có HS2012, đúng 120710, rớt vô hại) + 0401090 cotton seed→520100(=xơ bông ch52 NGOÀI 07-12, đúng 120721, NHIỄM panel 2.340 dòng=0,12%KN). Rổ auto_sci_name(22)+needs_review(95) cần soi — chờ user chốt phạm vi+rebuild.
+
 2026-06-29 | ASEAN: diagnostic SAME-SAMPLE (mã loại có lái β=−2,077?) | https://raw.githubusercontent.com/tranphu1508/XxX123/main/handoff_2026-06-29_samesample_diag.md | TÁI LẬP full-185 khớp tuyệt đối; mã SẠCH(112) β=−2,88*** MẠNH HƠN, mã LOẠI(73) null −0,32(ns) → BÁC BỎ nghi vấn 'mã loại lái −2,077' (ngược lại: pháp-lý-hóa gia cố H1, mã loại là nhiễu đo); β mới yếu do thước đo+cấu trúc, KHÔNG do loại mã; S2 3-chiều đổi dấu ở MỌI mẫu = artifact incidental-parameter — chờ user.
 
 2026-06-29 | ASEAN: kiểm ổn định β panel cũ↔mới (M1) | https://raw.githubusercontent.com/tranphu1508/XxX123/main/handoff_2026-06-29_asean_beta_oldnew.md | β_mới S2(3 chiều)=+0,15 (ĐỔI DẤU từ −2,077), S1=−1,47, S3=−0,88 → STOP-RULE: β KHÔNG ổn định → DỪNG, chưa chốt panel, nghi loại mã 185→126 lái kết quả — chờ user.

@@ -1,0 +1,64 @@
+LOAD
+rows: 388500 HS6: 185 exp: 5 dest: 43 yrs: [np.int64(2015), np.int64(2016), np.int64(2017), np.int64(2018), np.int64(2019), np.int64(2020), np.int64(2021), np.int64(2022), np.int64(2023), np.int64(2024)]
+OLD=185 kept_baci=112 dropped=73 | kept_mrl=122 dropped=63
+
+#### SAMPLE FULL_185 rows= 388500 HS6= 185
+/sessions/modest-dazzling-tesla/.local/lib/python3.10/site-packages/pyfixest/estimation/models/fepois_.py:576: UserWarning: 79506 observations removed because of separation.
+  warnings.warn(
+  [S1_pref(ikt+jt)       ] beta= -2.0770 SE=0.4328 z= -4.80 p=0.0000*** N=308994 (4s)
+/sessions/modest-dazzling-tesla/.local/lib/python3.10/site-packages/pyfixest/estimation/models/fepois_.py:576: UserWarning: 79506 observations removed because of separation.
+  warnings.warn(
+  [S3_min(ikt+j+t)       ] beta= -2.0358 SE=0.4298 z= -4.74 p=0.0000*** N=308994 (1s)
+/sessions/modest-dazzling-tesla/.local/lib/python3.10/site-packages/pyfixest/estimation/models/fepois_.py:576: UserWarning: 260232 observations removed because of separation.
+  warnings.warn(
+  [S2_cons(ikt+jt+ijk)   ] beta= +0.8943 SE=0.4453 z= +2.01 p=0.0446** N=128268 (1s)
+
+#### SAMPLE KEPT_baci rows= 235200 HS6= 112
+/sessions/modest-dazzling-tesla/.local/lib/python3.10/site-packages/pyfixest/estimation/models/fepois_.py:576: UserWarning: 43512 observations removed because of separation.
+  warnings.warn(
+  [S1_pref(ikt+jt)       ] beta= -2.8781 SE=0.4782 z= -6.02 p=0.0000*** N=191688 (0s)
+/sessions/modest-dazzling-tesla/.local/lib/python3.10/site-packages/pyfixest/estimation/models/fepois_.py:576: UserWarning: 43512 observations removed because of separation.
+  warnings.warn(
+  [S3_min(ikt+j+t)       ] beta= -2.8629 SE=0.4882 z= -5.86 p=0.0000*** N=191688 (1s)
+/sessions/modest-dazzling-tesla/.local/lib/python3.10/site-packages/pyfixest/estimation/models/fepois_.py:576: UserWarning: 149779 observations removed because of separation.
+  warnings.warn(
+  [S2_cons(ikt+jt+ijk)   ] beta= +0.4965 SE=0.5564 z= +0.89 p=0.3722 N=85421 (1s)
+
+#### SAMPLE DROPPED_baci rows= 153300 HS6= 73
+/sessions/modest-dazzling-tesla/.local/lib/python3.10/site-packages/pyfixest/estimation/models/fepois_.py:576: UserWarning: 35994 observations removed because of separation.
+  warnings.warn(
+  [S1_pref(ikt+jt)       ] beta= -0.3209 SE=0.3838 z= -0.84 p=0.4030 N=117306 (0s)
+/sessions/modest-dazzling-tesla/.local/lib/python3.10/site-packages/pyfixest/estimation/models/fepois_.py:576: UserWarning: 35994 observations removed because of separation.
+  warnings.warn(
+  [S3_min(ikt+j+t)       ] beta= -0.2201 SE=0.3748 z= -0.59 p=0.5570 N=117306 (0s)
+/sessions/modest-dazzling-tesla/.local/lib/python3.10/site-packages/pyfixest/estimation/models/fepois_.py:576: UserWarning: 110453 observations removed because of separation.
+  warnings.warn(
+  [S2_cons(ikt+jt+ijk)   ] beta= +1.9241 SE=0.7481 z= +2.57 p=0.0101** N=42847 (0s)
+
+#### SAMPLE KEPT_mrl rows= 256200 HS6= 122
+/sessions/modest-dazzling-tesla/.local/lib/python3.10/site-packages/pyfixest/estimation/models/fepois_.py:576: UserWarning: 46662 observations removed because of separation.
+  warnings.warn(
+  [S1_pref(ikt+jt)       ] beta= -2.8835 SE=0.4800 z= -6.01 p=0.0000*** N=209538 (1s)
+/sessions/modest-dazzling-tesla/.local/lib/python3.10/site-packages/pyfixest/estimation/models/fepois_.py:576: UserWarning: 46662 observations removed because of separation.
+  warnings.warn(
+  [S3_min(ikt+j+t)       ] beta= -2.8682 SE=0.4902 z= -5.85 p=0.0000*** N=209538 (1s)
+/sessions/modest-dazzling-tesla/.local/lib/python3.10/site-packages/pyfixest/estimation/models/fepois_.py:576: UserWarning: 164806 observations removed because of separation.
+  warnings.warn(
+  [S2_cons(ikt+jt+ijk)   ] beta= +0.4866 SE=0.5561 z= +0.88 p=0.3815 N=91394 (1s)
+
+==== SUMMARY ====
+      sample                spec    beta     se     z      p      N  nHS6
+    FULL_185     S1_pref(ikt+jt) -2.0770 0.4328 -4.80 0.0000 308994   185
+    FULL_185     S3_min(ikt+j+t) -2.0358 0.4298 -4.74 0.0000 308994   185
+    FULL_185 S2_cons(ikt+jt+ijk)  0.8943 0.4453  2.01 0.0446 128268   185
+   KEPT_baci     S1_pref(ikt+jt) -2.8781 0.4782 -6.02 0.0000 191688   112
+   KEPT_baci     S3_min(ikt+j+t) -2.8629 0.4882 -5.86 0.0000 191688   112
+   KEPT_baci S2_cons(ikt+jt+ijk)  0.4965 0.5564  0.89 0.3722  85421   112
+DROPPED_baci     S1_pref(ikt+jt) -0.3209 0.3838 -0.84 0.4030 117306    73
+DROPPED_baci     S3_min(ikt+j+t) -0.2201 0.3748 -0.59 0.5570 117306    73
+DROPPED_baci S2_cons(ikt+jt+ijk)  1.9241 0.7481  2.57 0.0101  42847    73
+    KEPT_mrl     S1_pref(ikt+jt) -2.8835 0.4800 -6.01 0.0000 209538   122
+    KEPT_mrl     S3_min(ikt+j+t) -2.8682 0.4902 -5.85 0.0000 209538   122
+    KEPT_mrl S2_cons(ikt+jt+ijk)  0.4866 0.5561  0.88 0.3815  91394   122
+
+DONE

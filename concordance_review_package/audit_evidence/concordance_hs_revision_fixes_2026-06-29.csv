@@ -1,0 +1,3 @@
+eu_code,eu_desc,annex1_group,assigned_hs6,assigned_problem,correct_hs2012,correct_desc,resolve_method,panel_impact,severity
+0402020,Oil palms kernels,04 Oilseeds,151010,"Mã KHÔNG tồn tại trong HS2012 (1510 chỉ có 151000=dầu ô liu n.e.c.)",120710,"Oil seeds: palm nuts and kernels",auto_sci_name/needs_review_noanchor,"MRL panel 13 dòng; analysis panel 0 (rớt, vô hại)",THẤP
+0401090,Cotton seeds,04 Oilseeds,520100,"520100 = XƠ BÔNG (chương 52, ngoài phạm vi 07-12); hạt bông là oilseed",120721,"Oil seeds: cotton seeds",auto_sci_name/needs_review_noanchor,"analysis panel 2340 dòng = 0.12% kim ngạch (0.031% đi-EU) — NHIỄM panel",TRUNG BÌNH

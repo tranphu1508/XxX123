@@ -1,0 +1,22 @@
+LOAD
+merge stringency: matched 100.0 %
+
+Suspect HS6 trong panel: 31 mã | dòng panel dính: 72540 / 292500 (24.8%)
+
+#### BASELINE (toàn 125 mã): 292500 dòng, 125 HS6
+/sessions/modest-dazzling-tesla/.local/lib/python3.10/site-packages/pyfixest/estimation/models/fepois_.py:576: UserWarning: 51250 observations removed because of separation.
+  warnings.warn(
+   [S1(ikt+jt)      ] beta=-1.4685 SE=0.3898 p=0.0002*** N=241250 (2s)
+/sessions/modest-dazzling-tesla/.local/lib/python3.10/site-packages/pyfixest/estimation/models/fepois_.py:576: UserWarning: 192494 observations removed because of separation.
+  warnings.warn(
+   [S2(ikt+jt+ijk)  ] beta=+0.1488 SE=0.0760 p=0.0502* N=100006 (1s)
+
+#### LOẠI mã lỗi+lumping: 219960 dòng, 94 HS6
+/sessions/modest-dazzling-tesla/.local/lib/python3.10/site-packages/pyfixest/estimation/models/fepois_.py:576: UserWarning: 41110 observations removed because of separation.
+  warnings.warn(
+   [S1(ikt+jt)      ] beta=-1.3811 SE=0.3853 p=0.0003*** N=178850 (0s)
+/sessions/modest-dazzling-tesla/.local/lib/python3.10/site-packages/pyfixest/estimation/models/fepois_.py:576: UserWarning: 144282 observations removed because of separation.
+  warnings.warn(
+   [S2(ikt+jt+ijk)  ] beta=+0.1410 SE=0.0764 p=0.0648* N=75678 (1s)
+
+DONE
