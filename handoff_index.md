@@ -1,5 +1,8 @@
 # Handoff Index — mục lục sống (mới nhất trên cùng)
 
+>>> 🆕 CHAT MỚI? Đọc CỔNG CONTEXT trước: `_DOC_TRUOC_TIEN.md` → https://raw.githubusercontent.com/tranphu1508/XxX123/main/_DOC_TRUOC_TIEN.md (dẫn tới 6 file context_knowledge 00–05).
+
+
 Định dạng: `YYYY-MM-DD | <task> | <raw URL> | <tóm tắt 1 câu>`
 
 2026-06-26 | ASEAN Chặng 3: panel BACI đa phương + CỔNG pre-trends | https://raw.githubusercontent.com/tranphu1508/XxX123/main/handoff_2026-06-26_asean_eventstudy.md | Panel 292.500 (ASEAN-5×126HS6×52đích); bảng phủ-sóng nước; cohort gạo2018+fruits2022; CỔNG pre-trends GÃY CẢ HAI (gạo F p=0,0009; fruits τ<0 p<0,001) → STOP-RULE → KHÔNG chạy gói nhân quả → cả 2 bài chuyển ĐO-LƯỜNG — DỪNG.
