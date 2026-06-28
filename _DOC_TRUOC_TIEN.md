@@ -4,6 +4,9 @@
 >
 > Link dán: `https://raw.githubusercontent.com/tranphu1508/XxX123/main/_DOC_TRUOC_TIEN.md`
 
+
+> **🚀 ĐANG CHẠY (2026-06-29):** làm lại bài ASEAN, Cowork làm chính. Sau khi đọc 00–05, đọc tiếp **`_KICKOFF_ASEAN_REDESIGN.md`** → `https://raw.githubusercontent.com/tranphu1508/XxX123/main/_KICKOFF_ASEAN_REDESIGN.md` (việc #1: giải nghi vấn β panel cũ↔mới).
+
 ---
 
 ## 🤖 HƯỚNG DẪN CHO CLAUDE (làm theo đúng thứ tự, TRƯỚC khi tư vấn bất cứ điều gì)
