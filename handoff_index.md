@@ -5,6 +5,8 @@
 
 Định dạng: `YYYY-MM-DD | <task> | <raw URL> | <tóm tắt 1 câu>`
 
+2026-06-29 | ASEAN: kiểm ổn định β panel cũ↔mới (M1) | https://raw.githubusercontent.com/tranphu1508/XxX123/main/handoff_2026-06-29_asean_beta_oldnew.md | β_mới S2(3 chiều)=+0,15 (ĐỔI DẤU từ −2,077), S1=−1,47, S3=−0,88 → STOP-RULE: β KHÔNG ổn định → DỪNG, chưa chốt panel, nghi loại mã 185→126 lái kết quả — chờ user.
+
 2026-06-26 | ASEAN Chặng 3: panel BACI đa phương + CỔNG pre-trends | https://raw.githubusercontent.com/tranphu1508/XxX123/main/handoff_2026-06-26_asean_eventstudy.md | Panel 292.500 (ASEAN-5×126HS6×52đích); bảng phủ-sóng nước; cohort gạo2018+fruits2022; CỔNG pre-trends GÃY CẢ HAI (gạo F p=0,0009; fruits τ<0 p<0,001) → STOP-RULE → KHÔNG chạy gói nhân quả → cả 2 bài chuyển ĐO-LƯỜNG — DỪNG.
 
 2026-06-26 | ASEAN Chặng 2: panel MRL EU + chẩn đoán gộp + CỔNG hình-dạng-cong | https://raw.githubusercontent.com/tranphu1508/XxX123/main/handoff_2026-06-26_asean_mrl_panel_diag.md | 137 HS6 (77 sạch/60 gộp); 11 lump_divergent; CỔNG B KHÔNG ĐẠT — độ-ngặt bó cụm 100% gần-sàn (cấu trúc, weakest-link+mean đều bó) → bỏ cross-section-curvature, chuyển chiều thời gian — DỪNG.
