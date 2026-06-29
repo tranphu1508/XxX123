@@ -16,3 +16,10 @@
 - BLOCKER FIXED: luật đuôi-0000 loại nhầm Tea/Coffee/Cocoa/Hops/Algae/Carob (XK lớn) → thay bằng cột **release_policy** tường minh; khôi phục 6 commodity.
 - Output: release_policy (EXPORT_PRODUCT 213 / EXPORT_CHILDREN_ONLY 58 / EXCLUDE_NEC 31 / EXCLUDE_NONFOOD 77 / ADJUDICATE 2); build_release_long.py + validate_release_long.py; release_long rebuild = 234 dòng, validator PASS.
 - PENDING (cần user chốt scope): RAC-only vs trade-coverage cho coffee-roasted / hops-ground / tree-nuts-shelled / spices-crushed; cherry parent-only vs +subitems.
+
+## Round 004 — GPT eval + RAC-vs-coverage policy → cowork incorporate
+- Date: 2026-06-29 | Actor: GPT eval (round_004_gpt_evaluation...) → cowork
+- GPT bắt: (a) script trỏ sai path (outputs/ + raw-frozen) → đã đổi đọc data/ + sources/ (self-contained); (b) package data/ chưa có release_policy → đã sync; (c) **strawberries 081010 RỚT** do luật "(b).." loại nhầm → thay bằng **luật có-con-thật** (parent chỉ children-only NẾU thực sự có dòng con); (d) thêm validator **known-commodity-presence**.
+- POLICY (GPT chốt): **hai tầng** — main=TRADE_COVERAGE_PRIMARY, robustness=CORE_RAC_ONLY. Đã áp coverage: nuts in-shell+shelled (cashew 080131;080132...), spices whole+crushed (pepper 090411;090412...), coffee green-only baseline, hops 121010 baseline, cherry 080929 parent-only.
+- Output: concordance_final_asean.csv (release_policy luật mới: EXPORT_PRODUCT 216/CHILDREN_ONLY 56/NEC 31/NONFOOD 77/ADJ 1); build+validate self-contained; **release_long 262 dòng, validator PASS (gồm presence check)**.
+- CÒN: build CORE_RAC_ONLY robustness release (cần tag dạng-RAC từng category; cereal RAC=grain không phải seed). Chờ user duyệt hướng coverage trước khi coi final.
