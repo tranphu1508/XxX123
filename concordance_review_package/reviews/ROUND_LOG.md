@@ -47,3 +47,9 @@
 - Verdict GPT: main coverage = ANALYSIS-READY ✓; CORE_RAC near-ready.
 - Sửa CORE_RAC first-token errors: Wheat 100111→100199 (commodity grain), Cotton 120721→120729 (oilseed). Rice 100610 = strict-raw (đã ghi định nghĩa Option A vào build script).
 - Thêm validate_release_core_rac.py + .github/workflows/concordance-ci.yml (build+validate cả 2 release). Provenance: 57f0722→0d4ed0.
+
+## Round 009 — End-to-end reproducibility package report (GPT request @70f6ff4)
+- Date: 2026-06-30 | GPT round-009 → cowork
+- GPT verdict: concordance main + CORE_RAC = ACCEPT; yêu cầu báo cáo reproducibility end-to-end.
+- Tạo `reviews/reproducibility_package_report.md` (9 mục A–I): inventory+checksum, data freeze, cleaning, MRL imputation, merge keys (stringency↔BACI 100%), policy, literature/legal, rebuild commands, status matrix.
+- TRUNG THỰC: concordance+releases REPRODUCIBLE+CI; raw frozen+checksum (re-download manual); **2 script build panel (asean_mrl_panel, asean_baci_panel) CÒN THIẾU** → ghi rõ là lỗ hổng, sẽ đóng khi rebuild panel.
