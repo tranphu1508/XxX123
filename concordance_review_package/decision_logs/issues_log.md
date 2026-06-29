@@ -163,3 +163,12 @@
 - ĐÍNH CHÍNH: phán "lumping = chuẩn, vô hại" của Cowork quá lỏng — đúng cho lump-không-có-mã-riêng, SAI cho 4 ca mis-lump trên.
 - Tổng đã sửa session: 20 mã. β vẫn vô hại (mã trọng số nhỏ).
 - Trạng thái: ĐANG XỬ LÝ (còn 2 borderline + 158 mã ngoài-panel + lump hợp lệ ghi Limitations).
+
+## 2026-06-29 — [Concordance] — Incorporate GPT round-2 (structured P0/P1/P2 + validator)
+- File: 12_audit/GPT_independent_audit_2026-06-29.csv (round1 381 mã); bundle round2 (85 proposals P0/P1/P2 + validator); concordance_release_long.csv
+- ĐÃ ÁP round2 P0: sweet-cherry 080921(chua)→080929; potatoes +070190; 8 ca seed↔grain split (rye 100210→100210;100290, oat/maize/sorghum/millet/rapeseed/soybean/cotton); 47 group-heading gắn cờ loại-khỏi-release.
+- Data hygiene (theo validator GPT): 93 ô hs6 'nan'→rỗng; 4 cờ NO_HS6 xóa; 101 hs6_lumped cũ đánh [SUPERSEDED]. → **concordance PASS validator GPT (0 ERROR)**.
+- Dựng **release_long** (252 dòng, 1 HS6/dòng, 234 EU, 138 HS6 distinct; loại 47 group + 97 excluded + 3 empty; mọi HS6 ∈ HS2012).
+- CÒN (P1/P2 = policy build): in-shell↔shelled nuts, RAC↔processed forms, fresh↔frozen — quyết theo trade scope khi build panel.
+- BÀI HỌC (cập nhật): qua 2 vòng GPT, tổng ~83 sửa thật mà certification token của Cowork sót. Review semantic độc lập là KHÔNG THỂ THIẾU. Đã adopt validator GPT làm CI.
+- Trạng thái: concordance + release_long sạch cấu trúc; chờ vòng Claude + quyết policy P1/P2.
