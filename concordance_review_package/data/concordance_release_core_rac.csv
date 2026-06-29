@@ -37,7 +37,7 @@ eu_code,eu_desc,hs6,annex1_legal_ref,release_variant
 232030,Courgettes,070993,0232030 Courgettes | Cucurbita pepo Zucchini Group,CORE_RAC_ONLY
 220040,Spring onions/green onions and Welsh onions,070310,0220040 Spring onions/green onions and Welsh onions | Allium cepa Common Onion Group; Allium fistulosum,CORE_RAC_ONLY
 213080,Radishes,070690,0213080 Radishes | Raphanus sativus Radish Group,CORE_RAC_ONLY
-401090,Cotton seeds,120721,0401090 Cotton seeds | Gossypium barbadense; Gossypium herbaceum,CORE_RAC_ONLY
+401090,Cotton seeds,120729,0401090 Cotton seeds | Gossypium barbadense; Gossypium herbaceum,CORE_RAC_ONLY
 810060,Dill,091099,0810060 Dill | Anethum graveolens,CORE_RAC_ONLY
 154060,Mulberries (black and white),081020,0154060 Mulberries (black and white) | Morus alba; Morus nigra,CORE_RAC_ONLY
 402040,Kapok,120799,0402040 Kapok | Ceiba pentandra,CORE_RAC_ONLY
@@ -61,7 +61,7 @@ eu_code,eu_desc,hs6,annex1_legal_ref,release_variant
 401030,Poppy seeds,120791,0401030 Poppy seeds | Papaver somniferum subsp. somniferum,CORE_RAC_ONLY
 850010,Cloves,090710,0850010 Cloves | Syzygium aromaticum ; syn: Eugenia caryophyllata,CORE_RAC_ONLY
 256010,Chervil,070999,0256010 Chervil | Anthriscus cerefolium,CORE_RAC_ONLY
-500090,Wheat,100111,0500090 Wheat | Triticum aestivum,CORE_RAC_ONLY
+500090,Wheat,100199,0500090 Wheat | Triticum aestivum,CORE_RAC_ONLY
 402030,Oil palms fruits,120799,0402030 Oil palms fruits | Attalea maripa; Elaeis guineensis; Elaeis oleifera,CORE_RAC_ONLY
 163070,Guavas,080450,0163070 Guavas | Psidium guajava,CORE_RAC_ONLY
 153030,Raspberries (red and yellow),081020,0153030 Raspberries (red and yellow) | Rubus idaeus,CORE_RAC_ONLY

@@ -1,0 +1,18 @@
+name: concordance-ci
+on: [push, pull_request]
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+      - run: pip install pandas
+      - name: Build + validate release_long (coverage)
+        run: |
+          python concordance_review_package/scripts/build_release_long.py
+          python concordance_review_package/scripts/validate_release_long.py
+      - name: Build + validate CORE_RAC (robustness)
+        run: |
+          python concordance_review_package/scripts/build_release_core_rac.py
+          python concordance_review_package/scripts/validate_release_core_rac.py

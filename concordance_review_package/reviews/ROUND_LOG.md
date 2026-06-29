@@ -41,3 +41,9 @@
 - Date: 2026-06-30 | Actor: GPT round-007 → cowork
 - Sửa: allspice +090422 (whole+ground); reorder 9 mã RAC-first; **build CORE_RAC_ONLY release (220 dòng)**; validator dùng kiểm con-thật (bỏ suffix); cập nhật logs+adjudication statuses; dọn wording synthesis.
 - release_long coverage = 268 dòng; CORE_RAC = 220 dòng.
+
+## Round 008 — CORE_RAC fix + CI (GPT repo check @0d4ed0)
+- Date: 2026-06-30 | GPT round-008 → cowork
+- Verdict GPT: main coverage = ANALYSIS-READY ✓; CORE_RAC near-ready.
+- Sửa CORE_RAC first-token errors: Wheat 100111→100199 (commodity grain), Cotton 120721→120729 (oilseed). Rice 100610 = strict-raw (đã ghi định nghĩa Option A vào build script).
+- Thêm validate_release_core_rac.py + .github/workflows/concordance-ci.yml (build+validate cả 2 release). Provenance: 57f0722→0d4ed0.

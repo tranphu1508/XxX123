@@ -1,5 +1,10 @@
-#!/usr/bin/env python3
-"""build_release_core_rac.py — robustness release: chỉ dạng RAC/primary (token HS6 đầu mỗi EXPORT_PRODUCT)."""
+"""build_release_core_rac.py — ROBUSTNESS release CORE_RAC_ONLY.
+ĐỊNH NGHĨA (GPT r8): Option A — STRICT RAW/PRIMARY form, 1 HS6/commodity.
+= token HS6 ĐẦU của mỗi EXPORT_PRODUCT, với thứ tự hs6 đã curate RAC/commodity-first
+  (in-shell/whole/fresh/grain trước; seed-for-sowing & processed sau).
+Lưu ý: rice=100610 (paddy, thô nhất) theo định nghĩa strict-raw; nếu muốn binding-trade-RAC
+  (milled 100630 theo Nguyen 2026) thì build variant riêng. So main coverage = trade-coverage.
+"""
 import pandas as pd, re, sys
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
