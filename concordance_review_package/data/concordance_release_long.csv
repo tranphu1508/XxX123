@@ -3,8 +3,8 @@ eu_code,eu_desc,hs6,annex1_legal_ref,release_policy,release_reason
 252020,Purslanes,070999,0252020 Purslanes | Portulaca oleracea,EXPORT_PRODUCT,commodity (item hoặc group-terminal) có HS6 hợp lệ
 280020,Wild fungi,070959,0280020 Wild fungi,EXPORT_PRODUCT,commodity (item hoặc group-terminal) có HS6 hợp lệ
 213060,Parsnips,070690,0213060 Parsnips | Pastinaca sativa,EXPORT_PRODUCT,commodity (item hoặc group-terminal) có HS6 hợp lệ
-211000,(a) potatoes,070110,0211000  | Solanum tuberosum subsp. tuberosum,EXPORT_PRODUCT,commodity (item hoặc group-terminal) có HS6 hợp lệ
 211000,(a) potatoes,070190,0211000  | Solanum tuberosum subsp. tuberosum,EXPORT_PRODUCT,commodity (item hoặc group-terminal) có HS6 hợp lệ
+211000,(a) potatoes,070110,0211000  | Solanum tuberosum subsp. tuberosum,EXPORT_PRODUCT,commodity (item hoặc group-terminal) có HS6 hợp lệ
 256050,Sage,070999,0256050 Sage | Salvia officinalis,EXPORT_PRODUCT,commodity (item hoặc group-terminal) có HS6 hợp lệ
 213030,Celeriacs/turnip rooted celeries,070690,0213030 Celeriacs/turnip rooted celeries | Apium graveolens var. rapaceum,EXPORT_PRODUCT,commodity (item hoặc group-terminal) có HS6 hợp lệ
 244000,(d) kohlrabies,070490,"0244000 Whole product after removal of roots, tops and soil | Brassica oleracea var. gongylodes",EXPORT_PRODUCT,commodity (item hoặc group-terminal) có HS6 hợp lệ
@@ -18,8 +18,8 @@ eu_code,eu_desc,hs6,annex1_legal_ref,release_policy,release_reason
 260010,Beans (with pods),070820,0260010 Beans (with pods) | Phaseolus vulgaris,EXPORT_PRODUCT,commodity (item hoặc group-terminal) có HS6 hợp lệ
 632010,Strawberry,121190,0632010 Strawberry | Fragaria x ananassa,EXPORT_PRODUCT,commodity (item hoặc group-terminal) có HS6 hợp lệ
 810030,Celery,091099,0810030 Celery | Apium graveolens,EXPORT_PRODUCT,commodity (item hoặc group-terminal) có HS6 hợp lệ
-401070,Soyabeans,120110,0401070 Soyabeans | Glycine max,EXPORT_PRODUCT,commodity (item hoặc group-terminal) có HS6 hợp lệ
 401070,Soyabeans,120190,0401070 Soyabeans | Glycine max,EXPORT_PRODUCT,commodity (item hoặc group-terminal) có HS6 hợp lệ
+401070,Soyabeans,120110,0401070 Soyabeans | Glycine max,EXPORT_PRODUCT,commodity (item hoặc group-terminal) có HS6 hợp lệ
 300010,Beans,071333,0300010 Beans | Phaseolus vulgaris,EXPORT_PRODUCT,commodity (item hoặc group-terminal) có HS6 hợp lệ
 401080,Mustard seeds,120750,0401080 Mustard seeds | Brassica juncea; Brassica nigra; Sinapis alba,EXPORT_PRODUCT,commodity (item hoặc group-terminal) có HS6 hợp lệ
 254000,(d) watercresses,070999,0254000  | Nasturtium officinale,EXPORT_PRODUCT,commodity (item hoặc group-terminal) có HS6 hợp lệ
@@ -56,8 +56,8 @@ eu_code,eu_desc,hs6,annex1_legal_ref,release_policy,release_reason
 220010,Garlic,070320,0220010 Garlic | Allium sativum,EXPORT_PRODUCT,commodity (item hoặc group-terminal) có HS6 hợp lệ
 640000,Cocoa beans,180100,0640000 Cocoa beans | Theobroma cacao,EXPORT_PRODUCT,commodity (item hoặc group-terminal) có HS6 hợp lệ
 253000,(c) grape leaves and similar species,070999,0253000  | Vitis vinifera,EXPORT_PRODUCT,commodity (item hoặc group-terminal) có HS6 hợp lệ
-401060,Rapeseeds/canola seeds,120510,0401060 Rapeseeds/canola seeds | Brassica napus subsp. napus,EXPORT_PRODUCT,commodity (item hoặc group-terminal) có HS6 hợp lệ
 401060,Rapeseeds/canola seeds,120590,0401060 Rapeseeds/canola seeds | Brassica napus subsp. napus,EXPORT_PRODUCT,commodity (item hoặc group-terminal) có HS6 hợp lệ
+401060,Rapeseeds/canola seeds,120510,0401060 Rapeseeds/canola seeds | Brassica napus subsp. napus,EXPORT_PRODUCT,commodity (item hoặc group-terminal) có HS6 hợp lệ
 154010,Blueberries,081040,0154010 Blueberries | Vaccinium angustifolium; Vaccinium corymbosum; Vaccinium formosum; Vaccinium virgatum,EXPORT_PRODUCT,commodity (item hoặc group-terminal) có HS6 hợp lệ
 401130,Gold of pleasure seeds,120799,0401130 Gold of pleasure seeds | Camelina sativa,EXPORT_PRODUCT,commodity (item hoặc group-terminal) có HS6 hợp lệ
 151010,Table grapes,080610,0151010 Table grapes | Vitis vinifera,EXPORT_PRODUCT,commodity (item hoặc group-terminal) có HS6 hợp lệ
@@ -68,8 +68,8 @@ eu_code,eu_desc,hs6,annex1_legal_ref,release_policy,release_reason
 610000,Teas,090240,0610000 Teas | Camellia sinensis,EXPORT_PRODUCT,commodity (item hoặc group-terminal) có HS6 hợp lệ
 161040,Kumquats,080590,0161040 Kumquats | Fortunella japonica; Fortunella margarita,EXPORT_PRODUCT,commodity (item hoặc group-terminal) có HS6 hợp lệ
 140040,Plums,080940,0140040 Plums | Prunus domestica,EXPORT_PRODUCT,commodity (item hoặc group-terminal) có HS6 hợp lệ
-500040,Common milletproso millet,100821,0500040 Common millet/proso millet | Panicum miliaceum,EXPORT_PRODUCT,commodity (item hoặc group-terminal) có HS6 hợp lệ
 500040,Common milletproso millet,100829,0500040 Common millet/proso millet | Panicum miliaceum,EXPORT_PRODUCT,commodity (item hoặc group-terminal) có HS6 hợp lệ
+500040,Common milletproso millet,100821,0500040 Common millet/proso millet | Panicum miliaceum,EXPORT_PRODUCT,commodity (item hoặc group-terminal) có HS6 hợp lệ
 401030,Poppy seeds,120791,0401030 Poppy seeds | Papaver somniferum subsp. somniferum,EXPORT_PRODUCT,commodity (item hoặc group-terminal) có HS6 hợp lệ
 850010,Cloves,090710,0850010 Cloves | Syzygium aromaticum ; syn: Eugenia caryophyllata,EXPORT_PRODUCT,commodity (item hoặc group-terminal) có HS6 hợp lệ
 850010,Cloves,090720,0850010 Cloves | Syzygium aromaticum ; syn: Eugenia caryophyllata,EXPORT_PRODUCT,commodity (item hoặc group-terminal) có HS6 hợp lệ
@@ -96,6 +96,7 @@ eu_code,eu_desc,hs6,annex1_legal_ref,release_policy,release_reason
 870010,Mace,090821,0870010 Mace | Myristica fragrans,EXPORT_PRODUCT,commodity (item hoặc group-terminal) có HS6 hợp lệ
 870010,Mace,090822,0870010 Mace | Myristica fragrans,EXPORT_PRODUCT,commodity (item hoặc group-terminal) có HS6 hợp lệ
 820010,Allspicepimento,090421,0820010 Allspice/pimento | Pimenta dioica ; syn: Pimenta officinalis,EXPORT_PRODUCT,commodity (item hoặc group-terminal) có HS6 hợp lệ
+820010,Allspicepimento,090422,0820010 Allspice/pimento | Pimenta dioica ; syn: Pimenta officinalis,EXPORT_PRODUCT,commodity (item hoặc group-terminal) có HS6 hợp lệ
 260050,Lentils,070890,0260050 Lentils | Lens culinaris ; syn: Lens esculenta,EXPORT_PRODUCT,commodity (item hoặc group-terminal) có HS6 hợp lệ
 243010,Chinese cabbagespe-tsai,070490,0243010 Chinese cabbages/pe-tsai | Brassica rapa subsp. pekinensis,EXPORT_PRODUCT,commodity (item hoặc group-terminal) có HS6 hợp lệ
 231010,Tomatoes,070200,0231010 Tomatoes | Lycopersicon esculentum,EXPORT_PRODUCT,commodity (item hoặc group-terminal) có HS6 hợp lệ
@@ -111,8 +112,8 @@ eu_code,eu_desc,hs6,annex1_legal_ref,release_policy,release_reason
 401140,Hemp seeds,120799,0401140 Hemp seeds | Cannabis sativa subsp. sativa; Cannabis sativa subsp. spontanea,EXPORT_PRODUCT,commodity (item hoặc group-terminal) có HS6 hợp lệ
 154030,"Currants (black, red and white)",081030,"0154030 Currants (black, red and white) | Ribes nigrum; Ribes rubrum",EXPORT_PRODUCT,commodity (item hoặc group-terminal) có HS6 hợp lệ
 251010,Lamb's lettucescorn salads,070999,0251010 Lamb's lettuces/corn salads | Valerianella locusta,EXPORT_PRODUCT,commodity (item hoặc group-terminal) có HS6 hợp lệ
-500070,Rye,100210,0500070 Rye | Secale cereale,EXPORT_PRODUCT,commodity (item hoặc group-terminal) có HS6 hợp lệ
 500070,Rye,100290,0500070 Rye | Secale cereale,EXPORT_PRODUCT,commodity (item hoặc group-terminal) có HS6 hợp lệ
+500070,Rye,100210,0500070 Rye | Secale cereale,EXPORT_PRODUCT,commodity (item hoặc group-terminal) có HS6 hợp lệ
 213100,Swedesrutabagas,070690,0213100 Swedes/rutabagas | Brassica napus subsp. napobrassica,EXPORT_PRODUCT,commodity (item hoặc group-terminal) có HS6 hợp lệ
 251080,Baby leaf crops (including brassica species),070519,0251080 Baby leaf crops (including brassica species),EXPORT_PRODUCT,commodity (item hoặc group-terminal) có HS6 hợp lệ
 252010,Spinaches,070970,0252010 Spinaches | Spinacia oleracea,EXPORT_PRODUCT,commodity (item hoặc group-terminal) có HS6 hợp lệ
@@ -128,8 +129,8 @@ eu_code,eu_desc,hs6,annex1_legal_ref,release_policy,release_reason
 163040,Papayas,080720,0163040 Papayas | Carica papaya,EXPORT_PRODUCT,commodity (item hoặc group-terminal) có HS6 hợp lệ
 163010,Avocados,080440,0163010 Avocados | Persea americana,EXPORT_PRODUCT,commodity (item hoặc group-terminal) có HS6 hợp lệ
 270050,Globe artichokes,070991,0270050 Globe artichokes | Cynara cardunculus Globe artichoke group,EXPORT_PRODUCT,commodity (item hoặc group-terminal) có HS6 hợp lệ
-500050,Oat,100410,0500050 Oat | Avena sativa,EXPORT_PRODUCT,commodity (item hoặc group-terminal) có HS6 hợp lệ
 500050,Oat,100490,0500050 Oat | Avena sativa,EXPORT_PRODUCT,commodity (item hoặc group-terminal) có HS6 hợp lệ
+500050,Oat,100410,0500050 Oat | Avena sativa,EXPORT_PRODUCT,commodity (item hoặc group-terminal) có HS6 hợp lệ
 810040,Coriander,090921,0810040 Coriander | Coriandrum sativum,EXPORT_PRODUCT,commodity (item hoặc group-terminal) có HS6 hợp lệ
 810040,Coriander,090922,0810040 Coriander | Coriandrum sativum,EXPORT_PRODUCT,commodity (item hoặc group-terminal) có HS6 hợp lệ
 231020,Sweet peppersbell peppers,070960,0231020 Sweet peppers/bell peppers | Capsicum annuum,EXPORT_PRODUCT,commodity (item hoặc group-terminal) có HS6 hợp lệ
@@ -153,8 +154,8 @@ eu_code,eu_desc,hs6,annex1_legal_ref,release_policy,release_reason
 810090,Nutmeg,090812,0810090 Nutmeg | Myristica fragrans,EXPORT_PRODUCT,commodity (item hoặc group-terminal) có HS6 hợp lệ
 120020,Brazil nuts,080121,0120020 Brazil nuts | Bertholletia excelsa,EXPORT_PRODUCT,commodity (item hoặc group-terminal) có HS6 hợp lệ
 120020,Brazil nuts,080122,0120020 Brazil nuts | Bertholletia excelsa,EXPORT_PRODUCT,commodity (item hoặc group-terminal) có HS6 hợp lệ
-500030,Maize/corn,100510,0500030 Maize/corn | Zea mays,EXPORT_PRODUCT,commodity (item hoặc group-terminal) có HS6 hợp lệ
 500030,Maize/corn,100590,0500030 Maize/corn | Zea mays,EXPORT_PRODUCT,commodity (item hoặc group-terminal) có HS6 hợp lệ
+500030,Maize/corn,100510,0500030 Maize/corn | Zea mays,EXPORT_PRODUCT,commodity (item hoặc group-terminal) có HS6 hợp lệ
 810050,Cumin,090931,0810050 Cumin | Cuminum cyminum,EXPORT_PRODUCT,commodity (item hoặc group-terminal) có HS6 hợp lệ
 810050,Cumin,090932,0810050 Cumin | Cuminum cyminum,EXPORT_PRODUCT,commodity (item hoặc group-terminal) có HS6 hợp lệ
 213010,Beetroots,070690,0213010 Beetroots | Beta vulgaris var. vulgaris,EXPORT_PRODUCT,commodity (item hoặc group-terminal) có HS6 hợp lệ
@@ -162,8 +163,8 @@ eu_code,eu_desc,hs6,annex1_legal_ref,release_policy,release_reason
 270060,Leeks,070390,0270060 Leeks | Allium ampeloprasumampeloprasum Pearl-Onion Group; syn: Allium porrum var. sectivum,EXPORT_PRODUCT,commodity (item hoặc group-terminal) có HS6 hợp lệ
 161030,Table olives,070992,0161030 Table olives | Olea europaea,EXPORT_PRODUCT,commodity (item hoặc group-terminal) có HS6 hợp lệ
 162040,Prickly pears/cactus fruits,081090,0162040 Prickly pears/cactus fruits | Opuntia ficus-indica,EXPORT_PRODUCT,commodity (item hoặc group-terminal) có HS6 hợp lệ
-500010,Barley,100310,0500010 Barley | Hordeum vulgare,EXPORT_PRODUCT,commodity (item hoặc group-terminal) có HS6 hợp lệ
 500010,Barley,100390,0500010 Barley | Hordeum vulgare,EXPORT_PRODUCT,commodity (item hoặc group-terminal) có HS6 hợp lệ
+500010,Barley,100310,0500010 Barley | Hordeum vulgare,EXPORT_PRODUCT,commodity (item hoặc group-terminal) có HS6 hợp lệ
 631050,Lime/linden,121190,0631050 Lime/linden | Tilia cordata; Tilia platyphyllos; Tilia tomentosa ; syn: Tilia argentea,EXPORT_PRODUCT,commodity (item hoặc group-terminal) có HS6 hợp lệ
 650000,Carobs/Saint John's breads,121292,0650000 Carobs/Saint John's breads | Ceratonia siliqua,EXPORT_PRODUCT,commodity (item hoặc group-terminal) có HS6 hợp lệ
 810080,Fenugreek,091099,0810080 Fenugreek | Trigonella foenum-graecum,EXPORT_PRODUCT,commodity (item hoặc group-terminal) có HS6 hợp lệ
@@ -212,8 +213,8 @@ eu_code,eu_desc,hs6,annex1_legal_ref,release_policy,release_reason
 241010,Broccoli,070410,0241010 Broccoli | Brassica oleracea var. italica,EXPORT_PRODUCT,commodity (item hoặc group-terminal) có HS6 hợp lệ
 820040,Cardamom,090831,0820040 Cardamom | Elettaria cardamomum,EXPORT_PRODUCT,commodity (item hoặc group-terminal) có HS6 hợp lệ
 820040,Cardamom,090832,0820040 Cardamom | Elettaria cardamomum,EXPORT_PRODUCT,commodity (item hoặc group-terminal) có HS6 hợp lệ
-500080,Sorghum,100710,0500080 Sorghum | Sorghum bicolor,EXPORT_PRODUCT,commodity (item hoặc group-terminal) có HS6 hợp lệ
 500080,Sorghum,100790,0500080 Sorghum | Sorghum bicolor,EXPORT_PRODUCT,commodity (item hoặc group-terminal) có HS6 hợp lệ
+500080,Sorghum,100710,0500080 Sorghum | Sorghum bicolor,EXPORT_PRODUCT,commodity (item hoặc group-terminal) có HS6 hợp lệ
 213110,Turnips,070610,0213110 Turnips | Brassica rapa subsp. rapa,EXPORT_PRODUCT,commodity (item hoặc group-terminal) có HS6 hợp lệ
 120100,Pistachios,080251,0120100 Pistachios | Pistacia vera,EXPORT_PRODUCT,commodity (item hoặc group-terminal) có HS6 hợp lệ
 120100,Pistachios,080252,0120100 Pistachios | Pistacia vera,EXPORT_PRODUCT,commodity (item hoặc group-terminal) có HS6 hợp lệ

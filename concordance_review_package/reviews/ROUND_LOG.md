@@ -31,3 +31,13 @@
 - Áp thêm theo Opus: cinnamon RAC=cassia 090619 lên đầu; coconut RAC=080119 lên đầu. Policy: Opus đồng thuận GPT (trade-coverage với RAC làm sàn; cashew=080132 bắt buộc).
 - Adjudication Opus (18 dòng) merge vào adjudication_decisions.csv.
 - CÒN (P1 nhỏ): sweet-pepper 231020 (070960 + Capsicum khô — nhất quán theo policy spice-coverage, hoặc trim); bay-leaf 256090 note; đổi nhãn EXCLUDED_nonfood(animal)→EXCLUDE_ANIMAL (mật/trứng là food).
+
+## Round 006 — Terminal-commodity bug fix + literature synthesis
+- Date: 2026-06-30 | Actor: GPT round-006 memo → cowork
+- Bug (GPT r6): luật group nhầm anh-em-thành-con (rstrip) → durian/pumpkin/swede/pistachio bị loại oan. Sửa: chỉ mã kết-thúc-"000" mới group-suspect → 4 commodity vào lại. release_long 262→267.
+- Literature (yêu cầu GPT): đọc 11 bài + EU Reg 396/2005 Art.20 + Nguyen2026 (đối thủ) + Hejazi2022. Kết: TRADE_COVERAGE_PRIMARY+CORE_RAC_ONLY có cơ sở pháp lý+học thuật. Nguyen xác nhận green-coffee 97.6% + milled-rice 97.9%. Artifacts: literature_inventory/policy_matrix/synthesis.
+
+## Round 007 — Governance/housekeeping (GPT repo check @57f0722)
+- Date: 2026-06-30 | Actor: GPT round-007 → cowork
+- Sửa: allspice +090422 (whole+ground); reorder 9 mã RAC-first; **build CORE_RAC_ONLY release (220 dòng)**; validator dùng kiểm con-thật (bỏ suffix); cập nhật logs+adjudication statuses; dọn wording synthesis.
+- release_long coverage = 268 dòng; CORE_RAC = 220 dòng.

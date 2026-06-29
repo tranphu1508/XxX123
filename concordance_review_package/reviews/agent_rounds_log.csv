@@ -3,3 +3,6 @@ round_id,date,actor,source_commit,output_file,main_change,status
 002,2026-06-29,GPT-5.5 Pro→cowork,256e572,concordance_final_asean.csv,sweet-cherry+8 seed/grain split+hygiene; PASS validator,accepted
 003,2026-06-29,cowork,256e572,concordance_release_long.csv,release_policy tường minh; khôi phục tea/coffee/cocoa/hops/carob/algae; build+validate scripts,accepted; policy pending
 004,2026-06-29,GPT eval→cowork,256e572→(next push),concordance_release_long.csv,fix script paths+source-sync; cứu strawberries (luật có-con-thật); apply TRADE_COVERAGE nuts+spices; presence-check validator,accepted; CORE_RAC robustness pending
+005,2026-06-29,Opus→cowork,256e572,concordance_final_asean.csv,"Opus độc lập: hội tụ round-4, +17 adjudication, reorder cinnamon/coconut RAC",accepted_applied
+006,2026-06-30,GPT→cowork,8031e3f..57f0722,concordance_release_long.csv,terminal-commodity bug fix (durian/pumpkin) + literature synthesis (TRADE_COVERAGE grounded),accepted_applied
+007,2026-06-30,GPT→cowork,57f0722→(next),release_long + core_rac,"housekeeping: allspice+090422, CORE_RAC release, validator con-thật, logs/adjudication/synthesis",accepted_applied

@@ -25,10 +25,8 @@
 ## KẾT LUẬN (có cơ sở pháp lý + học thuật)
 **Chốt TRADE_COVERAGE_PRIMARY (main) + CORE_RAC_ONLY (robustness)** — không còn là suy luận mà **được Reg 396/2005 (Art 20 processing factor) + Drogue/Otsuki ủng hộ trực tiếp**. Cụ thể: gồm HS6 mà luồng XK ASEAN đi qua (cashew bóc vỏ 080132, tiêu xay, gạo xát), RAC làm sàn, **chỉ loại dạng đổi-cơ-sở-MRL** (dầu ép, chiết xuất — vốn có MRL riêng hoặc rơi ngoài Annex). Default 0,01 cho missing.
 
-## ĐỀ XUẤT BỔ SUNG FULLTEXT (nhờ user tải về)
-1. **Nguyen (2026, Agribusiness) — "Pesticide MRLs as Trade Barriers: Vietnam's Coffee and Rice Exporters"** — ĐỐI THỦ trực tiếp; cho thấy chính xác cách một bài VN-MRL chọn HS6 + dạng sản phẩm (coffee green? rice milled?). **Ưu tiên cao nhất.**
-2. **"Trade impact of MRL in fresh fruits and vegetables" (Food Policy 2021, ScienceDirect S0306919221001822)** — methodology fresh-FFV MRL HS6.
-3. (tùy) Shingal & Ehrich (2024) bản web fulltext nếu khác bản có sẵn.
+## (Ghi chu) Nguyen 2026 + Hejazi 2022 DA DOC — xem phan BO SUNG ben duoi (bang chung quyet dinh).
+
 
 ## Hạn chế
 - 9 bài đọc methodology (có quote); 4 bài inventory còn lại (Li/Santeramo/Disdier/Crivelli) ảnh hưởng thấp tới câu hỏi product-form. Bằng chứng pháp lý Art 20 đã đủ để chốt.
