@@ -23,3 +23,11 @@
 - POLICY (GPT chốt): **hai tầng** — main=TRADE_COVERAGE_PRIMARY, robustness=CORE_RAC_ONLY. Đã áp coverage: nuts in-shell+shelled (cashew 080131;080132...), spices whole+crushed (pepper 090411;090412...), coffee green-only baseline, hops 121010 baseline, cherry 080929 parent-only.
 - Output: concordance_final_asean.csv (release_policy luật mới: EXPORT_PRODUCT 216/CHILDREN_ONLY 56/NEC 31/NONFOOD 77/ADJ 1); build+validate self-contained; **release_long 262 dòng, validator PASS (gồm presence check)**.
 - CÒN: build CORE_RAC_ONLY robustness release (cần tag dạng-RAC từng category; cereal RAC=grain không phải seed). Chờ user duyệt hướng coverage trước khi coi final.
+
+## Round 005 — Opus independent third review → cowork
+- Date: 2026-06-29 | Actor: Opus (reviewer độc lập #3) | Input: commit round-3 (234 dòng release_long)
+- Phương pháp: kiểm 234/234 dòng release_long + dựng lại 168/168 mã loại; check "orphan heading".
+- HỘI TỤ với round-4 (cowork làm độc lập): 7 commodity Opus báo bị loại (khoai tây/dâu tây/ngô ngọt/su hào/cải xoong/lá nho/witloof) ĐÃ được round-4 cứu qua **cùng luật có-con-thật** Opus đề xuất; coconut/cinnamon đã có mã RAC. Opus xác nhận ~80 fix trước ĐÚNG.
+- Áp thêm theo Opus: cinnamon RAC=cassia 090619 lên đầu; coconut RAC=080119 lên đầu. Policy: Opus đồng thuận GPT (trade-coverage với RAC làm sàn; cashew=080132 bắt buộc).
+- Adjudication Opus (18 dòng) merge vào adjudication_decisions.csv.
+- CÒN (P1 nhỏ): sweet-pepper 231020 (070960 + Capsicum khô — nhất quán theo policy spice-coverage, hoặc trim); bay-leaf 256090 note; đổi nhãn EXCLUDED_nonfood(animal)→EXCLUDE_ANIMAL (mật/trứng là food).
