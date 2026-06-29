@@ -16,8 +16,8 @@
 | concordance_final_asean.csv | master | EU→HS6 + release_policy | cowork (vá tay + script) | derived | 381 | — | ✓ |
 | concordance_release_long.csv | output (main) | coverage, 1 HS6/dòng | build_release_long.py | derived | 268 | — | ✓ validated |
 | concordance_release_core_rac.csv | output (robustness) | strict-RAC, 1 HS6/commodity | build_release_core_rac.py | derived | 220 | — | ✓ validated |
-| asean_mrl_panel.csv | intermediate | stringency weakest-link/HS6×năm | (script KHÔNG lưu) | derived | 1,781 (137 HS6) | — | ⚠ script missing |
-| asean_baci_panel.csv | estimation input | panel 5×125×52×9 balanced | (script KHÔNG lưu) | derived | 292,500 | — | ⚠ script missing |
+| asean_mrl_panel.csv | intermediate | stringency weakest-link/HS6×năm | build_asean_mrl_panel.py (R010) | derived | 1,781 (137 HS6) | — | ✓ REPRODUCIBLE (R010) |
+| asean_baci_panel.csv | estimation input | panel 5×125×52×9 balanced | build_asean_baci_panel.py (R010) | derived | 292,500 | — | ✓ REPRODUCIBLE — exact 0-diff (R010) |
 | scripts/*.py | scripts | build/validate/diagnostics | cowork | repo | 9 file | — | ✓ |
 | reviews/*, ROUND_LOG, agent_rounds_log, adjudication | logs | provenance review 8 vòng | cowork+GPT+Opus | repo | — | — | ✓ |
 
@@ -71,9 +71,11 @@ python concordance_review_package/scripts/validate_release_long.py
 python concordance_review_package/scripts/build_release_core_rac.py
 python concordance_review_package/scripts/validate_release_core_rac.py
 # Diagnostics (trong scripts/): samesample_diag.py, measure_distortion.py
-# Panel (CHƯA có script trong repo — xem §I):
-#   [MISSING] build_asean_mrl_panel.py  (weakest-link stringency HS6×năm)
-#   [MISSING] build_asean_baci_panel.py (filter BACI ASEAN-5×52đích×125HS6×9năm, balance)
+# Panel (R010 — script ĐÃ có trong repo, đã test compare):
+python concordance_review_package/scripts/build_asean_mrl_panel.py  --mode current
+python concordance_review_package/scripts/build_asean_baci_panel.py            # legacy = exact 0-diff vs frozen
+python concordance_review_package/scripts/compare_rebuilt_panel.py --old <frozen> --new <rebuilt> --keys exp hs6 dest year
+# Diagnoses: rebuild_check/diagnose_baci_panel_mismatch.md, diagnose_mrl_panel_mismatch.md, diagnose_beta_robustness_concordance.md
 ```
 
 ## I. REPRODUCIBILITY STATUS (trung thực)
@@ -83,13 +85,13 @@ python concordance_review_package/scripts/validate_release_core_rac.py
 | Trade download/freeze (BACI) | **MANUAL** | frozen+checksum ✓; re-download 1.27GB tay từ CEPII; filter_baci.py ở Version 2 (chưa đưa repo) |
 | MRL download/freeze (EU API) | **MANUAL** | frozen+checksum ✓; download_eu_mrl.py ở Version 2 |
 | Data cleaning (concordance) | **REPRODUCIBLE** | 03_/scripts + vá tay log đầy đủ |
-| MRL imputation + asean_mrl_panel | **PARTIAL — script missing** | quy tắc documented (§D) NHƯNG build script weakest-link KHÔNG lưu → cần re-implement |
-| Merge panel asean_baci_panel | **PARTIAL — script missing** | panel frozen + merge-key 100% documented NHƯNG build script (52-đích/balance) KHÔNG lưu → cần re-implement |
-| Estimation input | **EXISTS, partial** | asean_baci_panel.csv có; build script missing |
+| MRL imputation + asean_mrl_panel | **REPRODUCIBLE (R010)** | build_asean_mrl_panel.py trong repo; current rebuild = 1,404/156 HS6; diff vs frozen = intentional (year-window + concordance fixes), diagnose_mrl_panel_mismatch.md |
+| Merge panel asean_baci_panel | **REPRODUCIBLE — exact (R010)** | build_asean_baci_panel.py: legacy mode tái lập frozen **bit-for-bit** (292,500 dòng, max\|diff\|=0.0, Σvalue khớp); diagnose_baci_panel_mismatch.md |
+| Estimation input | **REPRODUCIBLE (R010)** | asean_baci_panel.csv tái dựng được; β replicates exactly (S1=−1.4685 vs công bố −1.47) |
 | Estimation scripts | **REPRODUCIBLE** | pyfixest (samesample_diag/measure_distortion) trong repo; ppmlhdfe `.do` (estimation/) cho SE trọng tài |
 
-### LỖ HỔNG CHÍNH (cần đóng trước khi gọi "fully reproducible")
-1. **Re-implement + lưu** `build_asean_mrl_panel.py` (weakest-link stringency) và `build_asean_baci_panel.py` (filter+balance BACI). Hiện 2 panel này frozen-as-output nhưng KHÔNG có script tái dựng (phiên Cowork trước không lưu). Khi rebuild panel với concordance đã sửa, viết + lưu 2 script này → block 5-6-7 thành REPRODUCIBLE.
-2. Đưa filter_baci.py + download_eu_mrl.py từ Version 2 vào repo (đang ngoài repo handoff).
+### LỖ HỔNG CHÍNH — cập nhật Round 010
+1. ~~Re-implement + lưu 2 script build panel~~ → **ĐÓNG (R010)**: `build_asean_mrl_panel.py` + `build_asean_baci_panel.py` + `compare_rebuilt_panel.py` đã trong repo, đã chạy compare vs frozen + log diagnosis. BACI legacy = **exact 0-diff**; β công bố **replicates exactly** (−1.4685).
+2. (CÒN) Đưa filter_baci.py + download_eu_mrl.py từ Version 2 vào repo (đang ngoài repo handoff).
 
-**Tóm tắt:** concordance + releases = fully reproducible + CI; raw = frozen+checksum (re-download manual); **2 script build panel còn thiếu** = lỗ hổng đã ghi rõ, sẽ đóng khi rebuild panel.
+**Tóm tắt (R010):** concordance + releases + **cả 2 panel build** = reproducible (BACI exact, MRL intentional-diff documented) + CI; raw = frozen+checksum (re-download manual). **Bonus R010:** robustness của β với concordance đã sửa — trên mẫu common-107-HS6, stringency cũ vs mới cho β **GIỐNG HỆT (−1.52*** = −1.52***)** → concordance fixes KHÔNG lật kết quả lõi; magnitude nhạy với mức gộp HS6 (xem diagnose_beta_robustness_concordance.md).

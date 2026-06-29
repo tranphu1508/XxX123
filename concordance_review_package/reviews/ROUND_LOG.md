@@ -53,3 +53,16 @@
 - GPT verdict: concordance main + CORE_RAC = ACCEPT; yêu cầu báo cáo reproducibility end-to-end.
 - Tạo `reviews/reproducibility_package_report.md` (9 mục A–I): inventory+checksum, data freeze, cleaning, MRL imputation, merge keys (stringency↔BACI 100%), policy, literature/legal, rebuild commands, status matrix.
 - TRUNG THỰC: concordance+releases REPRODUCIBLE+CI; raw frozen+checksum (re-download manual); **2 script build panel (asean_mrl_panel, asean_baci_panel) CÒN THIẾU** → ghi rõ là lỗ hổng, sẽ đóng khi rebuild panel.
+
+## Round 010 — Panel rebuild test + β robustness (GPT request @70f6ff4 → tiếp)
+- Date: 2026-06-30 | Actor: GPT round-010 memo → cowork
+- GPT yêu cầu: viết + CHẠY 2 script build panel, COMPARE vs frozen, DIAGNOSE nếu lệch ("Không được ghi REPRODUCIBLE nếu chưa compare/diagnose").
+- **Đóng lỗ hổng:** build_asean_mrl_panel.py + build_asean_baci_panel.py + compare_rebuilt_panel.py (trong scripts/).
+- **BACI legacy = KHỚP TUYỆT ĐỐI:** 292,500 dòng, only-old=only-new=0, value 100% khớp, max|diff|=0.0, Σvalue 204,947,397 trùng. → asean_baci_panel REPRODUCIBLE exact.
+- **MRL current rebuild:** 1,404 dòng/156 HS6/2015-2023; lệch frozen (1,781/137/2011-2023) = intentional (year-window back-fill + concordance fixes 19 drop/38 add). diagnose_mrl_panel_mismatch.md.
+- **β robustness (bonus, quan trọng):** giữ nguyên BACI+treatment+FE+mẫu, chỉ đổi nguồn stringency.
+  - A frozen125+old = S1 −1.4685*** (replicate công bố −1.47 CHÍNH XÁC).
+  - C/D common-107-HS6: old −1.5232*** vs new −1.5219*** → **GIỐNG HỆT** (corr stringency 0.962, 990/1062 identical). → concordance VALUE-fixes immaterial to β.
+  - B/E/F (≈0, NS) = artifact do lệch tập HS6 / mức gộp, KHÔNG do giá trị: 18 HS6 (12.4% value, chủ yếu 081090 "other fruit" $17M) bị orphan→treat=0 khi split catch-all thành mã chuyên biệt.
+  - KẾT LUẬN TRUNG THỰC: concordance đã sửa KHÔNG lật kết quả lõi; magnitude nhạy với aggregation level (Xiong-consistent) → đề xuất bảng aggregation-robustness trong manuscript. KHÔNG over-claim "effect vanished".
+- Artifacts: rebuild_check/{asean_mrl_panel_rebuilt_current, asean_baci_panel_rebuilt_legacy/current, beta_robustness_summary, beta_common_hs6}.csv + diagnose_{mrl_panel_mismatch, baci_panel_mismatch, beta_robustness_concordance}.md. Cập nhật reproducibility_package_report.md §A/§H/§I.

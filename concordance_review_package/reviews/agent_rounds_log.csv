@@ -8,3 +8,4 @@ round_id,date,actor,source_commit,output_file,main_change,status
 007,2026-06-30,GPT→cowork,57f0722→0d4ed0,release_long + core_rac,"housekeeping: allspice+090422, CORE_RAC release, validator con-thật, logs/adjudication/synthesis",accepted_applied
 008,2026-06-30,GPT→cowork,0d4ed0→(next),release_core_rac.csv,CORE_RAC fix wheat 100199 + cotton 120729 (commodity-first); CORE_RAC validator + CI workflow; provenance commit,accepted_applied
 009,2026-06-30,GPT→cowork,70f6ff4→(next),reproducibility_package_report.md,end-to-end repro report (inventory/freeze/cleaning/imputation/merge-keys/rebuild/status); flag 2 missing panel-build scripts,accepted_applied
+010,2026-06-30,GPT→cowork,70f6ff4→(next),"build_asean_{mrl,baci}_panel.py + compare + diagnoses","panel rebuild test: BACI legacy exact 0-diff; MRL intentional-diff; β robustness: common-107-HS6 old=new=−1.52*** (concordance immaterial to β), ≈0 specs = aggregation artifact (081090)",accepted_applied

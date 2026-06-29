@@ -1,0 +1,7 @@
+spec_id,sample,n_hs6,stringency_source,merge_cov_pct,S1_beta,S1_se,S1_p,S1_sig,S2_beta,S2_se,S2_p,S2_sig,note
+A,frozen_panel,125,old_frozen_MRL,100.0,-1.4685,0.3898,0.0002,***,0.1488,0.0760,0.0502,*,reproduces published old result
+B,frozen_panel,125,new_rebuilt_MRL,85.6,-0.0160,0.0483,0.7404,,0.1369,0.0760,0.0715,*,18 frozen HS6 orphaned->treat=0 (mechanical)
+C,common_hs6,107,old_frozen_MRL,100.0,-1.5232,0.3722,0.0000,***,0.1629,0.0807,0.0435,**,comparable-sample baseline
+D,common_hs6,107,new_rebuilt_MRL,100.0,-1.5219,0.3763,0.0001,***,0.1624,0.0804,0.0432,**,IDENTICAL to C -> values immaterial
+E,new_coverage,169,new_rebuilt_MRL,92.3,-0.0606,0.0556,0.2755,,0.1286,0.0772,0.0956,*,full corrected coverage panel
+F,new_core_rac,126,new_rebuilt_MRL,90.5,-0.0107,0.0701,0.8789,,-0.1770,0.1269,0.1631,,strict-raw robustness panel
