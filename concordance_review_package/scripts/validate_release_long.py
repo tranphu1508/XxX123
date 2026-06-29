@@ -24,6 +24,13 @@ def main():
             if c and c.lower()!='nan' and re.fullmatch(r'\d{6}',pad6(c)) and pad6(c) in valid:
                 if (r['eu_code'],pad6(c)) not in relset:
                     e.append(f"MISSING: {r['eu_code']} {r['eu_desc'][:20]} hs6 {pad6(c)} không có trong release_long")
+    # GPT r6: bắt terminal-commodity bị gán nhầm EXPORT_CHILDREN_ONLY
+    import re as _re
+    for _,r in cc.iterrows():
+        if r.get('release_policy','')=='EXPORT_CHILDREN_ONLY' and _re.search(r'\\d{6}',str(r['hs6'])):
+            eu7=str(r['eu_code']).replace('.0','').zfill(7)
+            if not eu7.endswith('000'):
+                e.append(f"MISFIRE: {r['eu_code']} {r['eu_desc'][:24]} là ITEM (không kết-000) nhưng CHILDREN_ONLY + có hs6 {r['hs6']}")
     if e:
         print(f"FAIL ({len(e)}):"); [print("  -",x) for x in e[:25]]; return 1
     print(f"OK: release_long PASS ({len(rel)} dòng; cấu trúc + known-commodity-presence đều đạt).")
