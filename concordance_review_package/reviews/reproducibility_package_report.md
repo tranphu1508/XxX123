@@ -16,7 +16,8 @@
 | concordance_final_asean.csv | master | EU→HS6 + release_policy | cowork (vá tay + script) | derived | 381 | — | ✓ |
 | concordance_release_long.csv | output (main) | coverage, 1 HS6/dòng | build_release_long.py | derived | 268 | — | ✓ validated |
 | concordance_release_core_rac.csv | output (robustness) | strict-RAC, 1 HS6/commodity | build_release_core_rac.py | derived | 220 | — | ✓ validated |
-| asean_mrl_panel.csv | intermediate | stringency weakest-link/HS6×năm | build_asean_mrl_panel.py (R010) | derived | 1,781 (137 HS6) | — | ✓ REPRODUCIBLE (R010) |
+| asean_mrl_panel.csv (legacy frozen) | intermediate | stringency weakest-link/HS6×năm | frozen; rebuild=build_asean_mrl_panel.py | derived | 1,781 (137 HS6) | — | SUPERSEDED / NOT exact-reproduced (§I) |
+| asean_mrl_panel_rebuilt_current.csv | intermediate (R010) | stringency weakest-link/HS6×năm | build_asean_mrl_panel.py --mode current | derived | 1,404 (156 HS6) | manifest | ✓ REPRODUCIBLE — current build |
 | asean_baci_panel.csv | estimation input | panel 5×125×52×9 balanced | build_asean_baci_panel.py (R010) | derived | 292,500 | — | ✓ REPRODUCIBLE — exact 0-diff (R010) |
 | scripts/*.py | scripts | build/validate/diagnostics | cowork | repo | 9 file | — | ✓ |
 | reviews/*, ROUND_LOG, agent_rounds_log, adjudication | logs | provenance review 8 vòng | cowork+GPT+Opus | repo | — | — | ✓ |
@@ -70,28 +71,54 @@ python concordance_review_package/scripts/build_release_long.py
 python concordance_review_package/scripts/validate_release_long.py
 python concordance_review_package/scripts/build_release_core_rac.py
 python concordance_review_package/scripts/validate_release_core_rac.py
-# Diagnostics (trong scripts/): samesample_diag.py, measure_distortion.py
-# Panel (R010 — script ĐÃ có trong repo, đã test compare):
-python concordance_review_package/scripts/build_asean_mrl_panel.py  --mode current
-python concordance_review_package/scripts/build_asean_baci_panel.py            # legacy = exact 0-diff vs frozen
-python concordance_review_package/scripts/compare_rebuilt_panel.py --old <frozen> --new <rebuilt> --keys exp hs6 dest year
-# Diagnoses: rebuild_check/diagnose_baci_panel_mismatch.md, diagnose_mrl_panel_mismatch.md, diagnose_beta_robustness_concordance.md
+# Diagnostics (portable R011 — resolve tu __file__, env STUDY_ROOT): samesample_diag.py, measure_distortion.py
+# Raw download (R011): scripts/raw_data_collection/{download_baci.py, download_eu_mrl_api.py, filter_baci.py} + reviews/raw_download_manual_steps.md
+# Panel build (R011 — CLI args + in resolved paths):
+python concordance_review_package/scripts/build_asean_mrl_panel.py --mode current \
+    --concordance concordance_review_package/data/concordance_final_asean.csv \
+    --binding-panel 04_maximum_residue_level_panel/outputs/eu_mrl_binding_panel_reference_jan01_2026-06-26.csv \
+    --year-min 2015 --year-max 2023 --out concordance_review_package/rebuild_check/asean_mrl_panel_rebuilt_current.csv
+python concordance_review_package/scripts/build_asean_baci_panel.py --mode legacy \
+    --baci-dir 01_raw_data_frozen/trade_data_baci/BACI_HS12_V202601 \
+    --frozen-panel 07_main_estimation_stata/asean_baci_panel.csv \
+    --year-min 2015 --year-max 2023 --out concordance_review_package/rebuild_check/asean_baci_panel_rebuilt_legacy.csv
+python concordance_review_package/scripts/compare_rebuilt_panel.py \
+    --old 07_main_estimation_stata/asean_baci_panel.csv \
+    --new concordance_review_package/rebuild_check/asean_baci_panel_rebuilt_legacy.csv \
+    --keys exp hs6 dest year --numeric-tol 1e-6 --value-col value \
+    --out-md compare.md --out-diff diff.csv --out-json compare.json
+# Generated-output checksums: rebuild_check/generated_outputs_manifest.csv
+# Diagnoses: rebuild_check/diagnose_{baci_panel_mismatch, mrl_panel_mismatch, beta_robustness_concordance}.md
 ```
 
-## I. REPRODUCIBILITY STATUS (trung thực)
-| block | status | lý do / next action |
+## I. REPRODUCIBILITY STATUS (trung thực — cap nhat Round 011)
+
+### Ba loai panel (tach ro, khong gop)
+| panel | status | evidence |
 |---|---|---|
-| Concordance master + 2 release | **REPRODUCIBLE** | build+validate script trong repo; CI chạy |
-| Trade download/freeze (BACI) | **MANUAL** | frozen+checksum ✓; re-download 1.27GB tay từ CEPII; filter_baci.py ở Version 2 (chưa đưa repo) |
-| MRL download/freeze (EU API) | **MANUAL** | frozen+checksum ✓; download_eu_mrl.py ở Version 2 |
-| Data cleaning (concordance) | **REPRODUCIBLE** | 03_/scripts + vá tay log đầy đủ |
-| MRL imputation + asean_mrl_panel | **REPRODUCIBLE (R010)** | build_asean_mrl_panel.py trong repo; current rebuild = 1,404/156 HS6; diff vs frozen = intentional (year-window + concordance fixes), diagnose_mrl_panel_mismatch.md |
-| Merge panel asean_baci_panel | **REPRODUCIBLE — exact (R010)** | build_asean_baci_panel.py: legacy mode tái lập frozen **bit-for-bit** (292,500 dòng, max\|diff\|=0.0, Σvalue khớp); diagnose_baci_panel_mismatch.md |
-| Estimation input | **REPRODUCIBLE (R010)** | asean_baci_panel.csv tái dựng được; β replicates exactly (S1=−1.4685 vs công bố −1.47) |
-| Estimation scripts | **REPRODUCIBLE** | pyfixest (samesample_diag/measure_distortion) trong repo; ppmlhdfe `.do` (estimation/) cho SE trọng tài |
+| asean_baci_panel.csv (legacy frozen) | **REPRODUCIBLE — EXACT** | build_asean_baci_panel.py --mode legacy tai lap bit-for-bit: 292,500 dong, only_old=only_new=0, value max\|diff\|=0, Sigma value=204,947,397 khop. (schema khac frozen 5 cot DiD downstream: cohort/treated/post/etime/did). diagnose_baci_panel_mismatch.md + compare_asean_baci_panel_legacy.{md,json} |
+| asean_mrl_panel.csv (legacy frozen) | **SUPERSEDED / NOT EXACT-REPRODUCED** | old=1,781 / 137 HS6 / 2011-2023; KHONG tai tao exact (co y). Ly do: (1) old co backfill 2011-2014; (2) concordance fixes doi HS6 universe; (3) 72/1,062 common keys khac do EU->HS6 basket doi. compare_asean_mrl_panel.{md,json} + diagnose_mrl_panel_mismatch.md |
+| asean_mrl_panel_rebuilt_current.csv | **REPRODUCIBLE — CURRENT BUILD** | build_asean_mrl_panel.py --mode current = 1,404 / 156 HS6 / 2015-2023. Khac frozen = intentional (da diagnose). |
 
-### LỖ HỔNG CHÍNH — cập nhật Round 010
-1. ~~Re-implement + lưu 2 script build panel~~ → **ĐÓNG (R010)**: `build_asean_mrl_panel.py` + `build_asean_baci_panel.py` + `compare_rebuilt_panel.py` đã trong repo, đã chạy compare vs frozen + log diagnosis. BACI legacy = **exact 0-diff**; β công bố **replicates exactly** (−1.4685).
-2. (CÒN) Đưa filter_baci.py + download_eu_mrl.py từ Version 2 vào repo (đang ngoài repo handoff).
+### Pipeline blocks
+| block | status | ly do / next action |
+|---|---|---|
+| Concordance master + 2 release | **REPRODUCIBLE** | build+validate script trong repo; **CI workflow added; run status unverified** (chua co run ID/URL) |
+| Trade download/freeze (BACI) | **MANUAL + scripted** | frozen+checksum OK; script tai scripts/raw_data_collection/download_baci.py + filter_baci.py trong repo; huong dan tay + sha256 day du: reviews/raw_download_manual_steps.md |
+| MRL download/freeze (EU API) | **MANUAL + scripted** | frozen+checksum OK; scripts/raw_data_collection/download_eu_mrl_api.py trong repo; snapshot 2026-05-27 = phien ban (khong fetch lai y het); raw_download_manual_steps.md |
+| Data cleaning (concordance) | **REPRODUCIBLE** | 03_/scripts + va tay log day du |
+| Panel build (MRL + BACI) | **REPRODUCIBLE** | build_asean_{mrl,baci}_panel.py portable (CLI args + in resolved paths); compare_rebuilt_panel.py (10 checks, md+csv+json). Output lon khong commit -> checksum o rebuild_check/generated_outputs_manifest.csv |
+| Estimation input | **REPRODUCIBLE** | BACI panel tai dung exact; beta replicates exactly (S1=-1.4685 vs cong bo -1.47) |
+| Estimation/diagnostic scripts | **PORTABLE (study-layout)** | samesample_diag/measure_distortion: da bo absolute path -> resolve tu __file__ + env STUDY_ROOT. Van can full study layout (Version 2 / 12_audit) -> portable-to-layout, chua standalone-from-clone. ppmlhdfe .do cho SE trong tai. |
 
-**Tóm tắt (R010):** concordance + releases + **cả 2 panel build** = reproducible (BACI exact, MRL intentional-diff documented) + CI; raw = frozen+checksum (re-download manual). **Bonus R010:** robustness của β với concordance đã sửa — trên mẫu common-107-HS6, stringency cũ vs mới cho β **GIỐNG HỆT (−1.52*** = −1.52***)** → concordance fixes KHÔNG lật kết quả lõi; magnitude nhạy với mức gộp HS6 (xem diagnose_beta_robustness_concordance.md).
+### Acceptance criteria GPT round-011
+- [x] report tach legacy MRL frozen vs current MRL rebuild
+- [x] generated_outputs_manifest.csv + full sha256
+- [x] build_asean_mrl_panel.py / build_asean_baci_panel.py nhan CLI paths + in "USING ..."
+- [x] compare_rebuilt_panel.py xuat md+csv+json (schema/dup/key/numeric/categorical/NA/checksum)
+- [x] CI wording trung thuc: "added; run status unverified"
+- [x] download/filter scripts da copy vao repo + manual steps
+- [x] estimation diagnostics: bo absolute path (portable-to-layout)
+- [x] ROUND_LOG + agent_rounds_log cap nhat
+
+**Tom tat (R011):** package portable hon — panel scripts co CLI + in resolved paths; compare audit-grade (md+csv+json+checksum); manifest checksum cho output lon; raw-download scripts + huong dan tay trong repo; CI wording trung thuc (unverified); diagnostics bo absolute path. beta-robustness (R010): tren common-107-HS6, doi stringency cu->moi de beta **gan nhu khong doi** (-1.52***); spec coverage/CORE_RAC attenuate ve ~0 phan anh **do nhay aggregation/coverage, KHONG phai loi coding**.

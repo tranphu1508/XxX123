@@ -1,8 +1,11 @@
 #!/usr/bin/env python3
 import pandas as pd, numpy as np, time
 import pyfixest as pf
-BASE="/sessions/modest-dazzling-tesla/mnt/EU standards Effects on ASEAN Agri-food Exports"
-STUDY=BASE+"/eu_maximum_residue_level_asean_export_study"
+import os
+from pathlib import Path
+# portable (R011): resolve roots from file location; env override STUDY_ROOT/BASE_ROOT
+STUDY=os.environ.get("STUDY_ROOT") or str(Path(__file__).resolve().parents[3])
+BASE=os.environ.get("BASE_ROOT") or str(Path(STUDY).parent)
 def pad6(series):
     s=pd.Series(series).astype(str).str.replace(r'\.0$','',regex=True).str.strip()
     return s.str.zfill(6)
@@ -38,5 +41,5 @@ for sname,sdf in samples.items():
             print(f"  [{spname:22}] ERROR: {repr(e)[:140]}",flush=True)
             rows.append(dict(sample=sname,spec=spname,beta=None,se=None,z=None,p=None,N=None,nHS6=sdf['k6'].nunique()))
 res=pd.DataFrame(rows)
-res.to_csv("/sessions/modest-dazzling-tesla/mnt/outputs/samesample_results.csv",index=False)
+res.to_csv(str(Path(__file__).resolve().parents[1]/"rebuild_check"/"samesample_results.csv"),index=False)
 print("\n==== SUMMARY ===="); print(res.to_string(index=False)); print("\nDONE",flush=True)

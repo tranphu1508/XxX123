@@ -66,3 +66,15 @@
   - B/E/F (≈0, NS) = artifact do lệch tập HS6 / mức gộp, KHÔNG do giá trị: 18 HS6 (12.4% value, chủ yếu 081090 "other fruit" $17M) bị orphan→treat=0 khi split catch-all thành mã chuyên biệt.
   - KẾT LUẬN TRUNG THỰC: concordance đã sửa KHÔNG lật kết quả lõi; magnitude nhạy với aggregation level (Xiong-consistent) → đề xuất bảng aggregation-robustness trong manuscript. KHÔNG over-claim "effect vanished".
 - Artifacts: rebuild_check/{asean_mrl_panel_rebuilt_current, asean_baci_panel_rebuilt_legacy/current, beta_robustness_summary, beta_common_hs6}.csv + diagnose_{mrl_panel_mismatch, baci_panel_mismatch, beta_robustness_concordance}.md. Cập nhật reproducibility_package_report.md §A/§H/§I.
+
+## Round 011 — Reproducibility hardening (GPT @35dd44f)
+- Date: 2026-06-30 | Actor: GPT round-011 memo → cowork
+- P0 wording: tách rõ 3 panel — asean_baci_panel(legacy)=REPRODUCIBLE EXACT; asean_mrl_panel(legacy frozen)=SUPERSEDED/NOT exact-reproduced; asean_mrl_panel_rebuilt_current=REPRODUCIBLE current build. Sửa §A + §I reproducibility_package_report.
+- P0 manifest: rebuild_check/generated_outputs_manifest.csv (sha256 đầy đủ cho 3 output: BACI legacy 292500/sha ddbaa6e3, BACI current 395460/sha 11f0f1e0, MRL current 1404/sha be1106ab). 2 BACI lớn committed=false (.gitignore), MRL current committed=true.
+- P0 portable: build_asean_mrl_panel.py + build_asean_baci_panel.py nhận CLI args (--mode/--concordance/--binding-panel/--baci-dir/--frozen-panel/--release-long/--year-min/--year-max/--out) + in "USING ...". ĐÃ TEST: MRL current=1404; BACI legacy=292500 (compare vs frozen: value max|diff|=0, Σvalue khớp, only_old=only_new=0).
+- P1 compare nâng cấp: compare_rebuilt_panel.py 10 checks (schema/rowcount/key-uniqueness/dup-sample/coverage/numeric max-abs+rel+mean+count-tol/categorical/NA/sorted-norm sha256/value-sum) + xuất md+csv+json.
+- P1 CI wording: "CI workflow added; run status unverified" (bỏ "CI chạy" — chưa có run ID).
+- P1 raw scripts: copy download_baci.py + download_eu_mrl_api.py + filter_baci.py → scripts/raw_data_collection/; + reviews/raw_download_manual_steps.md (source/URL/version/sha256/size/placement/verify cho BACI zip 2dd0dd61 1.27GB + MRL snapshot bc3643ec 367MB).
+- P1 estimation diagnostics: bỏ absolute /sessions/ path khỏi samesample_diag*.py + measure_distortion*.py → resolve từ __file__ + env STUDY_ROOT (portable-to-layout). Verify: 0 absolute path còn lại, all parse OK.
+- Housekeeping: round_011 + dọn 4 round md trùng ngoài study root → reviews/.
+- Acceptance criteria GPT §11: 8/8 done.

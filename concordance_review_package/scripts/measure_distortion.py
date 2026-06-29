@@ -1,6 +1,8 @@
 import pandas as pd, numpy as np, time
 import pyfixest as pf
-STUDY="/sessions/modest-dazzling-tesla/mnt/EU standards Effects on ASEAN Agri-food Exports/eu_maximum_residue_level_asean_export_study"
+import os
+from pathlib import Path
+STUDY=os.environ.get("STUDY_ROOT") or str(Path(__file__).resolve().parents[3])
 def pad6(s): return pd.Series(s).astype(str).str.replace(r'\.0$','',regex=True).str.strip().str.zfill(6)
 print("LOAD",flush=True)
 nb=pd.read_csv(STUDY+"/07_main_estimation_stata/asean_baci_panel.csv",low_memory=False)

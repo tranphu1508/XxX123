@@ -1,0 +1,93 @@
+{
+  "old_file": "/sessions/modest-dazzling-tesla/mnt/EU standards Effects on ASEAN Agri-food Exports/eu_maximum_residue_level_asean_export_study/04_maximum_residue_level_panel/outputs/asean_mrl_panel.csv",
+  "new_file": "/sessions/modest-dazzling-tesla/mnt/EU standards Effects on ASEAN Agri-food Exports/eu_maximum_residue_level_asean_export_study/internal_handoff_log_for_claude/concordance_review_package/rebuild_check/asean_mrl_panel_rebuilt_current.csv",
+  "keys": [
+    "hs6",
+    "year"
+  ],
+  "numeric_tol": 1e-06,
+  "schema_old": [
+    "hs6",
+    "year",
+    "n_eu_codes",
+    "lumped",
+    "min_mrl_weakest",
+    "stringency",
+    "lump_divergent"
+  ],
+  "schema_new": [
+    "hs6",
+    "year",
+    "n_eu_codes",
+    "min_mrl_weakest",
+    "lumped",
+    "stringency"
+  ],
+  "schema_equal": false,
+  "cols_only_old": [
+    "lump_divergent"
+  ],
+  "cols_only_new": [],
+  "rows_old": 1781,
+  "rows_new": 1404,
+  "dup_keys_old": 0,
+  "dup_keys_new": 0,
+  "key_unique_old": true,
+  "key_unique_new": true,
+  "keys_old": 1781,
+  "keys_new": 1404,
+  "only_old": 719,
+  "only_new": 342,
+  "common": 1062,
+  "numeric_cols": [
+    "n_eu_codes",
+    "lumped",
+    "min_mrl_weakest",
+    "stringency"
+  ],
+  "categorical_cols": [],
+  "numeric": {
+    "n_eu_codes": {
+      "max_abs_diff": 10.0,
+      "max_rel_diff": 0.9090909090909091,
+      "mean_abs_diff": 1.1440677966101696,
+      "count_over_tol": 477
+    },
+    "lumped": {
+      "max_abs_diff": 1.0,
+      "max_rel_diff": 1.0,
+      "mean_abs_diff": 0.4406779661016949,
+      "count_over_tol": 468
+    },
+    "min_mrl_weakest": {
+      "max_abs_diff": 0.007,
+      "max_rel_diff": 4.0,
+      "mean_abs_diff": 0.0002448210922787194,
+      "count_over_tol": 72
+    },
+    "stringency": {
+      "max_abs_diff": 1.6094999999999997,
+      "max_rel_diff": 0.2614218709285156,
+      "mean_abs_diff": 0.06097721280602634,
+      "count_over_tol": 72
+    }
+  },
+  "categorical": {},
+  "na": {
+    "n_eu_codes": {
+      "na_mismatch": 0
+    },
+    "lumped": {
+      "na_mismatch": 0
+    },
+    "min_mrl_weakest": {
+      "na_mismatch": 0
+    },
+    "stringency": {
+      "na_mismatch": 0
+    }
+  },
+  "old_sha256": "1e12e3632b8711f1b6a614cf8baf489021f0a128917d9cdbcaf757ec88aa9395",
+  "new_sha256": "dacae9b9fb36ff80cfbd14bc223658079c92e266adce267d7f6ff3b15e4cf2cf",
+  "checksum_equal": false
+}

@@ -1,0 +1,86 @@
+{
+  "old_file": "/sessions/modest-dazzling-tesla/mnt/EU standards Effects on ASEAN Agri-food Exports/eu_maximum_residue_level_asean_export_study/07_main_estimation_stata/asean_baci_panel.csv",
+  "new_file": "/sessions/modest-dazzling-tesla/mnt/EU standards Effects on ASEAN Agri-food Exports/eu_maximum_residue_level_asean_export_study/internal_handoff_log_for_claude/concordance_review_package/rebuild_check/asean_baci_panel_rebuilt_legacy.csv",
+  "keys": [
+    "exp",
+    "hs6",
+    "dest",
+    "year"
+  ],
+  "numeric_tol": 1e-06,
+  "schema_old": [
+    "exp",
+    "hs6",
+    "dest",
+    "year",
+    "eu",
+    "value",
+    "cohort",
+    "treated",
+    "post",
+    "etime",
+    "did"
+  ],
+  "schema_new": [
+    "exp",
+    "hs6",
+    "dest",
+    "year",
+    "value",
+    "eu"
+  ],
+  "schema_equal": false,
+  "cols_only_old": [
+    "cohort",
+    "treated",
+    "post",
+    "etime",
+    "did"
+  ],
+  "cols_only_new": [],
+  "rows_old": 292500,
+  "rows_new": 292500,
+  "dup_keys_old": 0,
+  "dup_keys_new": 0,
+  "key_unique_old": true,
+  "key_unique_new": true,
+  "keys_old": 292500,
+  "keys_new": 292500,
+  "only_old": 0,
+  "only_new": 0,
+  "common": 292500,
+  "numeric_cols": [
+    "eu",
+    "value"
+  ],
+  "categorical_cols": [],
+  "numeric": {
+    "eu": {
+      "max_abs_diff": 0.0,
+      "max_rel_diff": 0.0,
+      "mean_abs_diff": 0.0,
+      "count_over_tol": 0
+    },
+    "value": {
+      "max_abs_diff": 0.0,
+      "max_rel_diff": 0.0,
+      "mean_abs_diff": 0.0,
+      "count_over_tol": 0
+    }
+  },
+  "categorical": {},
+  "na": {
+    "eu": {
+      "na_mismatch": 0
+    },
+    "value": {
+      "na_mismatch": 0
+    }
+  },
+  "old_sha256": "3a6063a215f9d8b43e659f8acbba683b7a97842fb023dfdc5acf3e40f3307f25",
+  "new_sha256": "45c7ea8d4976bb9cf08d27abe2996fe30a590f4f19a6601e61ee57c615b50c66",
+  "checksum_equal": false,
+  "value_sum_old": 204947396.666,
+  "value_sum_new": 204947396.66599998,
+  "value_sum_diff": -2.9802322387695312e-08
+}
